@@ -2,16 +2,6 @@ title: CRG
 
 tabs:
 
-  dashboard:
-    label: Dashboard
-    icon: circle-filled
-    sections:
-      featured_readings:
-        extends: sections/readings
-        headline: Recent Readings
-        limit: 10
-        status: listed
-
   home:
     label: Home
     icon: home
@@ -46,7 +36,7 @@ tabs:
         parent: site
         status: all
         templates:
-          - info
+          - doings
         create: false
 
   readings:
@@ -80,22 +70,27 @@ tabs:
       workshops_list:
         type: pages
         headline: Workshops
-        query: site.find('readings').children.filterBy('session_type', 'workshop')
+        parent: kirby.page('readings')
         status: all
+        templates:
+          - workshop
         create: false
 
   semantic_network:
-    label: Words
+    label: Map
     icon: text
     sections:
-      words_page:
+      terms_list:
         type: pages
-        headline: Words
-        parent: site
+        headline: Terms
+        parent: kirby.page('words')
         status: all
         templates:
-          - words
-        create: false
+          - term
+        create: true
+        layout: list
+        info: "{{ page.category }} · {{ page.temporal }}"
+        sortBy: title asc
 
   gleanings:
     label: Gleanings

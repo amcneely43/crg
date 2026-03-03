@@ -1,0 +1,29 @@
+Title: Tribe
+
+----
+
+Category: social
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.8
+
+----
+
+Cohesion: 0.8
+
+----
+
+Temporal: centrifugal
+
+----
+
+Etymology: From Old English <em>belang</em>. Combines possession and relation: to belong is both to be owned and to be part of something.

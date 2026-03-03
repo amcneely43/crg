@@ -1,0 +1,29 @@
+Title: People
+
+----
+
+Category: social
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.2
+
+----
+
+Cohesion: 0.6
+
+----
+
+Temporal: neutral
+
+----
+
+Etymology: From Old French <em>peuple</em>, from Latin <em>populus</em> (people, nation, crowd). The people is the political subject that names itself — the demos before it delegates, the multitude before it is organized. Its ambiguity is constitutive: it can name a sovereign, a class, or a mass, and the contest over which it means is politics itself.

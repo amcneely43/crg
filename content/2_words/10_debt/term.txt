@@ -1,0 +1,29 @@
+Title: Debt
+
+----
+
+Category: social
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: -0.5
+
+----
+
+Cohesion: 0.4
+
+----
+
+Temporal: neutral
+
+----
+
+Etymology: From Middle French <em>dette</em>, from Latin <em>debitum</em> (that which is owed), from <em>debere</em> (to owe). Debt is the original social bond — the obligation between persons that precedes money and law. Every relation of mutual aid and solidarity creates debt, and debt, rightly understood, is what binds us to one another across time.

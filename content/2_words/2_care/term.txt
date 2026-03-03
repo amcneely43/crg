@@ -1,0 +1,29 @@
+Title: Care
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.9
+
+----
+
+Cohesion: 0.9
+
+----
+
+Temporal: centrifugal
+
+----
+
+Etymology: 

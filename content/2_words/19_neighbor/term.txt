@@ -1,0 +1,29 @@
+Title: Neighbor
+
+----
+
+Category: social
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.4
+
+----
+
+Cohesion: 0.7
+
+----
+
+Temporal: centrifugal
+
+----
+
+Etymology: Old English <em>neahgebur</em>: <em>neah</em> (near) + <em>gebur</em> (dweller). Proximity as the original basis of obligation.

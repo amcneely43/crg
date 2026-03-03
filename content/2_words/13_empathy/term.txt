@@ -1,0 +1,29 @@
+Title: Empathy
+
+----
+
+Category: instinctual
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.7
+
+----
+
+Cohesion: 0.6
+
+----
+
+Temporal: neutral
+
+----
+
+Etymology: 

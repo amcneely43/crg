@@ -1,0 +1,29 @@
+Title: Tradition
+
+----
+
+Category: social
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.0
+
+----
+
+Cohesion: 0.5
+
+----
+
+Temporal: centrifugal
+
+----
+
+Etymology: Latin <em>traditio</em> (a handing over), from <em>tradere</em> (to deliver, to betray). Tradition and treason share a root — both involve a handing over across time.

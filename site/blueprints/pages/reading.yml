@@ -27,15 +27,6 @@ columns:
         default: today
         display: MM-DD-YYYY
 
-      session_type:
-        label: Session Type
-        type: select
-        width: 1/3
-        options:
-          regular: Regular
-          guest_scholar: Guest Scholar
-          workshop: Workshop
-
       author:
         type: text
         width: 1/2
@@ -54,20 +45,26 @@ columns:
         type: textarea
 
       blurb:
-        label: Blurb
+        label: Opening Remarks
         type: textarea
 
-      contributor:
-        label: Contributor
+      nominatedBy:
+        label: Nominated By
+        type: text
+
+      flyerBy:
+        label: Flyer By
         type: text
 
       line-b:
         type: line
 
       # ── Terms & Links ─────────────────────────────────────────────────
-      keywords:
-        label: Keywords
-        type: tags
+      terms:
+        label: Semantic Terms
+        type: pages
+        query: kirby.page('words').children
+        multiple: true
 
       bookstackUrl:
         label: BookStack URL
@@ -77,16 +74,7 @@ columns:
       download_reading:
         label: Link to Reading
         type: url
-        width: 2/3
         help: Hosted at Critical Inquiry Theory
-
-      hosted_elsewhere:
-        label: Hosted elsewhere?
-        type: toggle
-        width: 1/3
-        text:
-          - "no"
-          - "yes"
 
       line-c:
         type: line
@@ -113,10 +101,6 @@ columns:
             label: Link
             type: url
 
-      attachments:
-        label: Attachments
-        type: files
-
   sidebar:
     width: 1/3
     sections:
@@ -132,23 +116,12 @@ columns:
         back: white
         info: "{{ file.dimensions }}"
 
-      meme:
+      flyer:
         type: files
         multiple: false
-        headline: Memes
-        template: meme
-
-      meta:
-        type: fields
-        fields:
-          location:
-            label: Location
-            type: text
-          custom_time:
-            label: Custom Day & Time
-            type: text
-          show_date:
-            label: Show Date in Header
-            type: toggle
-            default: false
-            help: Displays date in the top-left header
+        headline: Event Flyer
+        layout: cards
+        cover: true
+        ratio: 5/2
+        back: white
+        info: "{{ file.dimensions }}"

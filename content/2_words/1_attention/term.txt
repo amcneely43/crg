@@ -1,0 +1,29 @@
+Title: Attention
+
+----
+
+Category: instinctual
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.3
+
+----
+
+Cohesion: 0.3
+
+----
+
+Temporal: neutral
+
+----
+
+Etymology: From Latin <em>attentio</em>, from <em>attendere</em> (to stretch toward). Proto-political in its normative valence: to attend to something is already to make a claim about what matters.

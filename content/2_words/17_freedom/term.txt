@@ -1,0 +1,29 @@
+Title: Freedom
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.7
+
+----
+
+Cohesion: -0.5
+
+----
+
+Temporal: neutral
+
+----
+
+Etymology: Old English <em>freodom</em>, from <em>freo</em> (free) — originally, not in bondage. Its collective form — freedom to participate in self-governance — is the condition of communal life.

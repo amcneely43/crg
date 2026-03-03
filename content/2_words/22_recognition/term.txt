@@ -1,0 +1,29 @@
+Title: Recognition
+
+----
+
+Category: social
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.4
+
+----
+
+Cohesion: 0.2
+
+----
+
+Temporal: neutral
+
+----
+
+Etymology: Latin <em>recognoscere</em> (to know again), from <em>re-</em> + <em>cognoscere</em>. Hegel made recognition the engine of history — the struggle of each consciousness to be seen by another.

@@ -1,0 +1,29 @@
+Title: Equality
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.6
+
+----
+
+Cohesion: 0.3
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: Latin <em>aequalitas</em>, from <em>aequus</em> (even, level). Formal equality levels the plane; substantive equality asks whether the plane was ever level to begin with.

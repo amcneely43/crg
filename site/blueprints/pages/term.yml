@@ -1,0 +1,70 @@
+title: Term
+icon: circle
+
+fields:
+
+  category:
+    label: Category
+    type: select
+    width: 1/2
+    options:
+      primary: Primary
+      social: Social
+      structural: Structural
+      instinctual: Instinctual
+
+  temporal:
+    label: Temporal Force
+    type: select
+    width: 1/2
+    options:
+      centripetal: Centripetal
+      centrifugal: Centrifugal
+      neutral: Neutral
+
+  center:
+    label: Center Node
+    type: toggle
+    width: 1/3
+    help: Is this the central "Common" node?
+    text:
+      - "no"
+      - "yes"
+
+  derived:
+    label: Triangle Vertex
+    type: toggle
+    width: 1/3
+    help: One of the three limit-case positions (Community / Commons / Communal)
+    text:
+      - "no"
+      - "yes"
+
+  line-a:
+    type: line
+
+  valence:
+    label: Valence
+    type: number
+    width: 1/2
+    min: -1
+    max: 1
+    step: 0.05
+    help: "+1 = commonness as substance / −1 = commonness as lack"
+
+  cohesion:
+    label: Cohesion
+    type: number
+    width: 1/2
+    min: -1
+    max: 1
+    step: 0.05
+    help: "+1 = integration (pulls toward collective) / −1 = alienation (pulls away)"
+
+  line-b:
+    type: line
+
+  etymology:
+    label: Etymology
+    type: writer
+    help: Etymology and conceptual note

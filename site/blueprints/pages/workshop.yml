@@ -1,0 +1,85 @@
+title: Workshop
+icon: 🎙️
+
+status:
+  draft: Draft
+  unlisted: Hidden
+  listed: Live
+
+columns:
+  main:
+    width: 2/3
+    fields:
+
+      # ── Identity ────────────────────────────────────────────────────────
+      presenter:
+        label: Presenter
+        type: text
+        required: true
+        help: Person or organization leading the workshop
+
+      date:
+        label: Date
+        type: date
+        width: 1/2
+        default: today
+        display: MM-DD-YYYY
+
+      custom_time:
+        label: Time
+        type: text
+        width: 1/2
+
+      location:
+        label: Location
+        type: text
+
+      line-a:
+        type: line
+
+      # ── Content ───────────────────────────────────────────────────────
+      note:
+        label: Description
+        type: textarea
+
+      blurb:
+        label: Blurb
+        type: textarea
+
+      line-b:
+        type: line
+
+      download_reading:
+        label: Link to Reading
+        type: url
+        help: Link to the workshop text or materials
+
+      links:
+        label: Supplementary Resources
+        type: structure
+        help: Limit to 4 per workshop
+        fields:
+          description:
+            type: text
+          url:
+            label: URL
+            type: url
+
+      attachments:
+        label: Attachments
+        type: files
+
+  sidebar:
+    width: 1/3
+    sections:
+
+      cover:
+        type: files
+        multiple: false
+        headline: Image
+        template: cover
+        layout: cards
+        cover: true
+        ratio: 5/2
+        back: white
+        info: "{{ file.dimensions }}"

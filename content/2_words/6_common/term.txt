@@ -1,0 +1,29 @@
+Title: Common
+
+----
+
+Category: primary
+
+----
+
+Center: true
+
+----
+
+Derived: false
+
+----
+
+Valence: 
+
+----
+
+Cohesion: 
+
+----
+
+Temporal: 
+
+----
+
+Etymology: From Latin <em>communis</em> (common, public, shared), from <em>com-</em> (together) + <em>munis</em> (under obligation). The root shared with <em>community</em> itself: what is common is what is held under mutual obligation. The common names the prior condition — the shared without ownership — from which community is made and unmade.

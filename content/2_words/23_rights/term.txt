@@ -1,0 +1,29 @@
+Title: Rights
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.5
+
+----
+
+Cohesion: -0.4
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: Old English <em>riht</em> (just, good, fitting). Rights discourse transforms moral claims into legal entitlements — a translation with costs and gains.

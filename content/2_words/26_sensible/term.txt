@@ -1,0 +1,29 @@
+Title: Sensible
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.3
+
+----
+
+Cohesion: 0.0
+
+----
+
+Temporal: centrifugal
+
+----
+
+Etymology: 

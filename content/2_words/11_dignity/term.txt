@@ -1,0 +1,29 @@
+Title: Dignity
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.8
+
+----
+
+Cohesion: 0.1
+
+----
+
+Temporal: neutral
+
+----
+
+Etymology: Latin <em>dignitas</em> (worth, merit), from <em>dignus</em> (worthy). Dignity is conferred — it names the political claim to be treated as worthy of consideration by others.

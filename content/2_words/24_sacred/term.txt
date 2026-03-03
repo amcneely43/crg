@@ -1,0 +1,29 @@
+Title: Sacred
+
+----
+
+Category: social
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.6
+
+----
+
+Cohesion: 0.5
+
+----
+
+Temporal: centrifugal
+
+----
+
+Etymology: From Latin <em>sacer</em> (set apart, holy), the root shared with <em>sacrifice</em> and <em>sacrament</em>. The sacred names what a community places beyond ordinary exchange — what is held inviolable not because it is divine, but because the group has collectively agreed to treat it so.

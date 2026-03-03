@@ -1,0 +1,29 @@
+Title: Class
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: -0.5
+
+----
+
+Cohesion: -0.5
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: From Latin <em>classis</em> (a division of the Roman people, a fleet), from <em>calare</em> (to call, to summon). Class names the structural division of society defined by one's relation to labour and property — the summons that determines who produces and who possesses.

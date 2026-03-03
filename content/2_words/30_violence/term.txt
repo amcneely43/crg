@@ -1,0 +1,29 @@
+Title: Violence
+
+----
+
+Category: instinctual
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: -0.2
+
+----
+
+Cohesion: 0.2
+
+----
+
+Temporal: centrifugal
+
+----
+
+Etymology: 

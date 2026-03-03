@@ -1,0 +1,29 @@
+Title: Property
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: -0.4
+
+----
+
+Cohesion: -0.8
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: From Old French <em>propriété</em>, from Latin <em>proprietas</em> (ownership, peculiarity), from <em>proprius</em> (one's own). Property names the boundary between the self and the common — what is mine against what is ours. Its political career runs from natural right to enclosure to capital.

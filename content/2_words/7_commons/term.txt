@@ -1,0 +1,29 @@
+Title: Commons
+
+----
+
+Category: instinctual
+
+----
+
+Center: false
+
+----
+
+Derived: true
+
+----
+
+Valence: 0.5
+
+----
+
+Cohesion: 0.7
+
+----
+
+Temporal: neutral
+
+----
+
+Etymology: From Latin <em>communis</em>. Shared land, shared resources — the political contestation over enclosure made it explicitly a site of struggle.

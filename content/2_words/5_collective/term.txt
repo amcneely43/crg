@@ -1,0 +1,29 @@
+Title: Collective
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.4
+
+----
+
+Cohesion: 0.7
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: From Latin <em>collectivus</em>, from <em>colligere</em> (to gather together), from <em>com-</em> (together) + <em>legere</em> (to pick up). A collective is a gathering held as a unit — the political form of assembly that stops short of fusion and insists on internal difference.

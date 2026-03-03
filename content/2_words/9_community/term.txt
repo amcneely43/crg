@@ -1,0 +1,29 @@
+Title: Community
+
+----
+
+Category: social
+
+----
+
+Center: false
+
+----
+
+Derived: true
+
+----
+
+Valence: -0.2
+
+----
+
+Cohesion: 0.9
+
+----
+
+Temporal: centrifugal
+
+----
+
+Etymology: From Latin <em>communitas</em> (fellowship, community), from <em>communis</em> (common, public, shared). Related to <em>munus</em> (gift, duty, obligation) — suggesting community as a shared burden or obligation, not merely a warm feeling of togetherness.

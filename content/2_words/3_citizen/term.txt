@@ -1,0 +1,29 @@
+Title: Citizen
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.2
+
+----
+
+Cohesion: -0.2
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: From Old French <em>citeain</em>, from Latin <em>civitas</em> (city-state, citizenship), from <em>civis</em> (citizen). The citizen is the political animal domesticated — the member of a polity who bears rights and duties within a defined legal order. Where the neighbor is proximate, the citizen is juridical.

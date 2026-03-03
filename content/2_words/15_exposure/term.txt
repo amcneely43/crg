@@ -1,0 +1,29 @@
+Title: Exposure
+
+----
+
+Category: instinctual
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: -0.8
+
+----
+
+Cohesion: -0.8
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: 

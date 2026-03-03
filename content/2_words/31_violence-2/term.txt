@@ -1,0 +1,29 @@
+Title: Violence
+
+----
+
+Category: social
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.5
+
+----
+
+Cohesion: 0.3
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: 

@@ -1,0 +1,29 @@
+Title: Family
+
+----
+
+Category: instinctual
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Valence: 0.5
+
+----
+
+Cohesion: 0.3
+
+----
+
+Temporal: neutral
+
+----
+
+Etymology: 

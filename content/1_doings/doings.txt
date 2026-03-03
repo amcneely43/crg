@@ -1,12 +1,14 @@
-Title: Info
+Title: Doings
 
 ----
 
 Mission:
 
-Convening every Sunday, the Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth. As readers, we come from a wide spectrum of professions and interests; however, most *commonly*, many of us are involved in three—arguably interlocking—movements: the fight to defend housing as a right, to protect education from labor exploitation, and to overturn inequitable structures in arts institutions.
+Convening every Sunday, the Community Reading Group is a gathering committed to studying the rhetorical construction of *community* and its associated terms, such as the individual, the family, the neighborhood, the people, or simply <u>commonness</u> as such. 
 
-Whether by chance or by correlation, the fact that so many of our members, who work for “the public good,” claim the above struggles as their own suggests a far-reaching urgency to confront anew community and its associations: the individual, the family, the neighbor, the public, the political, and, most importantly, commonness as such. Taking our cue from the spirit of the *tertulia*—literary, social gatherings that were a critical locus for anticolonial thought in South America—we aim to foster a supportive space for anyone to challenge their inherited ideas about common being. If you love the exercise of close reading a text, then you will be in good company here.
+Our platform serves as a bridge between the knowledge production advanced by researchers within the academy and practitioners outside of it. We aim to apply the insights gained by our efforts to the space of organizing, broadly defined.
+
+If you’re a political and/or spiritual organizer who struggles with a disconnect between the transformations you hope to realize and the language at your disposal, or you simply just love the exercise of close reading an intellectually challenging text, then you will be in good company here.
 
 ----
 
@@ -27,39 +29,19 @@ Partners:
 - 
   name: Los Angeles Contemporary Archive
   description: >
-    LACA is an art archive, library, and
-    exhibition platform that collects
-    underexposed artistic modes of
-    expression happening in our current
-    moment. Challenging established concepts
-    of the archive and art space, LACA
-    sustains a unique experimental
-    environment for critical inquiry,
-    artistic research, and public dialogue.
-    The collection at LACA is artist–run,
-    meaning that living artists are donating
-    and deciding what is valuable and
-    generating language for inventorying
-    their work on their own terms. LACA is
-    not affiliated with a larger institution
-    and, as such, it maintains an archive
-    free from limitations associated with
-    prevailing, traditional structures.
+    LACA is a public archive and library
+    dedicated to contemporary art-making.
+    LACA collaborates with artists to build
+    archival collections, which include
+    studio leases, contracts, paystubs,
+    performance apparel, set pieces, police
+    reports, text messages, class syllabi,
+    and materials from formally running art
+    spaces. These collections enable us to
+    learn from each other’s experiences
+    and create new works that privilege the
+    desires and needs of our communities.
   url: https://lacarchive.com/
-- 
-  name: Critical Theory Index
-  description: >
-    CTI catalogues texts fundamental to the
-    framework of the art world. A collection
-    ever-expanding with current dialogues
-    around contemporary art, culture, and
-    society, the index allows for the public
-    to engage with critical research and
-    inquiry outside of formal academic
-    institutions through its presentation as
-    an online library and open forum
-    inviting submissions.
-  url: http://criticaltheoryindex.org/
 
 ----
 
@@ -87,30 +69,21 @@ Donate: https://lacarchive.com/section/donate
 
 Faq:
 
-*When does the Community Reading Group (CRG) meet? *
+*When does CRG meet? *
 
-We meet every Sunday from 7 p.m. to 9 p.m. either online or in person or both. Instructions for upcoming meetings will be sent out by email on Tuesdays with a reminder sent Sunday mornings.  
+Our primary group meets every Sunday from 7pm to 9pm, Pacific Time. We also have a rotation of morning groups to accomodate Central and Eastern Time Zones. Instructions for upcoming meetings will be sent out by email on Tuesdays.  
 
 *Do I have to read the current book to participate in CRG? *
 
-CRG members are committed to joint study—genuine engagement with the interests of others is core to our mission. However, “engagement” may take other forms than reading, and we regularly share working notes so anyone can follow along. Please be mindful, however, to make space for those who have read. We encourage you to join us as you are; we are always thrilled for new faces and perspectives. 
+We’re committed to reciprocal teaching—genuine engagement with the research interests of others is core to our mission. However, “engagement” may take other forms than reading, and we regularly share working notes so anyone can follow along.
 
 *What does CRG do that other reading groups do not already provide? *
 
-CRG is a reading group in which we strive to enact the object of our inquiry through a model of reciprocity. Our study coheres around the following questions:
-
-How does community symbolize commonness?
-How does invoking community further democracy?
-How might we comprehend community more expansively?
-How might we commit our community activism to this expanse?
-
-*How is LACA different from CRG and vice versa? *
-
-LACA is an art archive and library that hosts CRG in person in its reading room and online. CRG is an experimental study group whose focus informs and enhances the social commitments of LACA. 
+You’ll just have to join to find out. 
 
 *I missed a few books but want to jump into the new reading. Is that okay? And is it okay to participate here and there? Sometimes I can be consistent. *
 
-CRG is open to join at any time. We do not have expectations regarding your bandwidth and are just happy when you can join us. 
+CRG is open to join at any time. We do not have expectations regarding your bandwidth, and we are just happy you showed up. 
 
 *How does the book selection process work? *
 
@@ -120,9 +93,9 @@ Our course of study is collective, which means that we vote on the books we read
 
 Participants who commit themselves to reading and discussing at least two books in succession are given priority for book selection. (Selections do not necessarily need to be a book; they may also take the form of an article, a film, an exhibition, or music [provided that all are accessible online].) 
 
-*I am interested in starting a CRG in my neck of the woods. Would this be supported by CRG?*
+*I am interested in starting a CRG around my interests. Would this be supported by CRG?*
 
-Absolutely! And, in fact, our ultimate goal is to help others build their own CRG gatherings. We are especially interested in supporting Mandarin and Spanish-language branches of this project. So, if our vision for the collective study of political language speaks to you, then please reach out to us. We will help you grow it.
+Absolutely! We regularly hold what we call "satellite studies," which pursue tangential lines of inquiry that interest our members. However, there is one caveat: Only stewards can organize a satellite study. A "steward" is essentially a volunteer who helps fellow stewards keep the ship sailing. For more details about stewardship, then "inquire within" as they say...
 
 ----
 
@@ -155,9 +128,6 @@ People:
 - 
   name: Evelena Ruether
   url: ""
-- 
-  name: and Zach Whitworth
-  url: https://zachwhitworth.com/
 
 ----
 
@@ -165,8 +135,12 @@ Steward:
 
 - 
   name: Andrew McNeely
-  group: Chinatown Group
+  group: '(attention group) &'
   url: https://andrew-mcneely.com/
+- 
+  name: Zach Whitworth
+  group: (progress group)
+  url: ""
 
 ----
 
