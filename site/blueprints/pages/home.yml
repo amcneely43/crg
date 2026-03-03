@@ -2,20 +2,31 @@ title: Home
 preset: page
 icon: 🗺️
 pages: false
-files: false
+files: true
 
-options: 
+options:
   status: false
   read: false
 
 fields:
-  intro: 
-    label: Part I
-    type: text
-  outro: 
-    label: Part II
-    type: text
-  extra: 
-    label: Part III
-    type: text
 
+  welcome:
+    label: Welcome Text
+    type: textarea
+    help: The introductory paragraph at the top of the home page
+
+  line-a:
+    type: line
+
+  meeting_info:
+    label: Meeting Info
+    type: textarea
+    help: Schedule, platform, timezone, and satellite group details
+
+  line-b:
+    type: line
+
+  newsletter_email:
+    label: Newsletter Email
+    type: email
+    help: Email address for the newsletter signup link

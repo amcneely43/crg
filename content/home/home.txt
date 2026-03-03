@@ -2,18 +2,12 @@ Title: Home
 
 ----
 
-Intro: 
-
-We’re currently reading
+Welcome: Welcome to CRG, a weekly gathering of committed people, who are dedicated to becoming more thoughtful about the vital terms that animate appeals to community.
 
 ----
 
-Outro:
-
-Usually, we meet at LACA. In the meantime, join us every Sunday, 7-9PM PST.
+Meeting_info: Our primary study group meets every Sunday over Zoom from 7pm to 9pm, Pacific Time. For folks in other time zones, we also hold a regular rotation of satellite groups at different times via our Discord channel.
 
 ----
 
-Extra: 
-
-A few things we’ve read in the past are
+Newsletter_email: communityreadinggroup@gmail.com

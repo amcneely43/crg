@@ -2,74 +2,125 @@ title: Reading
 icon: 📖
 
 status:
-      draft: Draft
-      unlisted: Hidden
-      listed: Live
+  draft: Draft
+  unlisted: Hidden
+  listed: Live
 
-columns: 
-  main: 
+columns:
+  main:
     width: 2/3
-    fields: 
+    fields:
+
+      # ── Status & Identity ──────────────────────────────────────────────
+      current:
+        label: Currently Reading?
+        type: toggle
+        width: 1/3
+        text:
+          - "no"
+          - "yes"
+
+      date:
+        label: Start Date
+        type: date
+        width: 1/3
+        default: today
+        display: MM-DD-YYYY
+
+      session_type:
+        label: Session Type
+        type: select
+        width: 1/3
+        options:
+          regular: Regular
+          guest_scholar: Guest Scholar
+          workshop: Workshop
+
       author:
         type: text
-        width: 1/3
+        width: 1/2
         required: true
+
       subtitle:
         type: text
-        width: 2/3
+        width: 1/2
+
+      line-a:
+        type: line
+
+      # ── Content ───────────────────────────────────────────────────────
       note:
         label: Intro
         type: textarea
-      blurb: 
+
+      blurb:
         label: Blurb
         type: textarea
+
       contributor:
         label: Contributor
         type: text
-      download_reading:
-        type: url
-        help: Hosted at Critical Index Theory 
-        label: Link to Reading
-        width: 2/3
-      hosted_elsewhere:
-          label: Not CTI?
-          type: toggle
-          width: 1/3
-          help: Hosted elsewhere
-          text: 
-            - "no"
-            - "yes"
-      line-a:
+
+      line-b:
         type: line
-      
+
+      # ── Terms & Links ─────────────────────────────────────────────────
       keywords:
+        label: Keywords
         type: tags
-      interlocutors:
+
+      bookstackUrl:
+        label: BookStack URL
+        type: url
+        help: Link to this reading's BookStack page
+
+      download_reading:
+        label: Link to Reading
+        type: url
+        width: 2/3
+        help: Hosted at Critical Inquiry Theory
+
+      hosted_elsewhere:
+        label: Hosted elsewhere?
+        type: toggle
+        width: 1/3
+        text:
+          - "no"
+          - "yes"
+
+      line-c:
+        type: line
+
+      links:
+        label: Supplementary Resources
         type: structure
-        help: Recommendation | Provide a link to the Stanford Encyclopedia of Philosophy
-        fields: 
-          name: 
+        help: Limit to 4 per reading
+        fields:
+          description:
+            type: text
+          url:
+            label: URL
+            type: url
+
+      interlocutors:
+        label: Interlocutors
+        type: structure
+        help: Recommendation — link to the Stanford Encyclopedia of Philosophy
+        fields:
+          name:
             type: text
           stanford_url:
             label: Link
-            type: url 
-      
-      links: 
-        type: structure
-        label: Supplementary Resources
-        help: Limit to 4 per reading
-        fields: 
-          description:
-            type: text
-          url: 
-            label: URL
             type: url
+
       attachments:
-        type: files
         label: Attachments
+        type: files
+
   sidebar:
     width: 1/3
-    sections: 
+    sections:
+
       cover:
         type: files
         multiple: false
@@ -80,47 +131,24 @@ columns:
         ratio: 5/2
         back: white
         info: "{{ file.dimensions }}"
-      meme: 
+
+      meme:
         type: files
         multiple: false
         headline: Memes
         template: meme
 
-        
-      meta: 
+      meta:
         type: fields
         fields:
-          date:
-            label: Start Date
-            type: date
-            default: today
-            display: MM-DD-YYYY
           location:
             label: Location
-            width: 1/3
             type: text
-
-          current:
-            label: Currently Reading?
-            type: toggle
-            text: 
-              - "no"
-              - "yes"
-          category:
-            label: Guest Scholar?
-            type: select
-            options:
-              guest scholar: Guest Scholar
-              workshop: Workshop
-
-
-          line-b:
-            type: line
           custom_time:
-            label: Custom Day and Time
+            label: Custom Day & Time
             type: text
           show_date:
-            label: Show Day Date
+            label: Show Date in Header
             type: toggle
             default: false
-            help: The top left header on every page
+            help: Displays date in the top-left header

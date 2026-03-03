@@ -1,30 +1,53 @@
 title: CRG
 
 tabs:
+
+  dashboard:
+    label: Dashboard
+    icon: circle-filled
+    sections:
+      featured_readings:
+        extends: sections/readings
+        headline: Recent Readings
+        limit: 10
+        status: listed
+
   home:
     label: Home
-    icon: circle-filled
-    columns: 
-      left: 
-        width: 1/2
-        sections: 
-          featured_readings:
-            extends: sections/readings 
-            headline: Recent Readings
-            limit: 5
-            status: listed
+    icon: home
+    sections:
+      home_fields:
+        type: fields
+        fields:
+          welcome:
+            label: Welcome Text
+            type: textarea
+            help: The introductory paragraph at the top of the home page
+          line-a:
+            type: line
+          meeting_info:
+            label: Meeting Info
+            type: textarea
+            help: Schedule, platform, timezone, and satellite group details
+          line-b:
+            type: line
+          newsletter_email:
+            label: Newsletter Email
+            type: email
+            help: Email address for the newsletter signup link
 
-      right: 
-        width: 1/2
-        sections: 
-          info: 
-            type: pages
-            templates: 
-              - info
-              - reviews
-              - bookmarks
-            headline: Info, Review, Bookmarks
-          
+  doings:
+    label: Doings
+    icon: info
+    sections:
+      doings_page:
+        type: pages
+        headline: Doings
+        parent: site
+        status: all
+        templates:
+          - info
+        create: false
 
   readings:
     label: Readings
@@ -32,72 +55,83 @@ tabs:
     columns:
       left:
         width: 2/3
-        sections: 
-          readings:
-            extends: sections/readings 
+        sections:
+          readings_live:
+            extends: sections/readings
             headline: Live
             limit: 15
             status: listed
-      right: 
+      right:
         width: 1/3
-        sections: 
+        sections:
           readings_drafts:
-            extends: sections/readings 
+            extends: sections/readings
             headline: Drafts
             status: draft
-
-          readings_unlisted:
-            extends: sections/readings 
+          readings_hidden:
+            extends: sections/readings
             headline: Hidden
             status: unlisted
 
-  annotations:
-    label: Annotations
+  workshops:
+    label: Workshops
+    icon: bolt
+    sections:
+      workshops_list:
+        type: pages
+        headline: Workshops
+        query: site.find('readings').children.filterBy('session_type', 'workshop')
+        status: all
+        create: false
+
+  semantic_network:
+    label: Words
+    icon: text
+    sections:
+      words_page:
+        type: pages
+        headline: Words
+        parent: site
+        status: all
+        templates:
+          - words
+        create: false
+
+  gleanings:
+    label: Gleanings
+    icon: article
+    sections:
+      gleanings_page:
+        type: pages
+        headline: Gleanings
+        parent: site
+        status: all
+        templates:
+          - gleaning
+        create: false
+
+  weavings:
+    label: Weavings
+    icon: tag
+    sections:
+      weavings_page:
+        type: pages
+        headline: Weavings
+        parent: site
+        status: all
+        templates:
+          - reviews
+        create: false
+
+  bookmarks:
+    label: Bookmarks
     icon: bookmark
-    columns:
-      left:
-        width: 2/3
-        sections:
-          annotations:
-            extends: sections/annotations 
-            empty: No annotations
-            flip: true
-            limit: 15
-            status: listed
-      right: 
-        width: 1/3
-        sections: 
-          annotations_drafts: 
-            extends: sections/annotations 
-            headline: Drafts
-            status: draft
-
-          annotations_unlisted: 
-            extends: sections/annotations 
-            headline: Bibliography
-            status: unlisted
-
-  # review: 
-  #   label: Review
-  #   icon: file-document
-  #   columns: 
-  #     left: 
-  #       width: 1/2
-  #       sections: 
-  #         pages: 
-  #           type: pages
-  #           headline: Review
-  #           parent: site.find("review")
-      
-
-  
-
-  
-
-      
-
-
-      
-
-    
-      
+    sections:
+      bookmarks_page:
+        type: pages
+        headline: Community Bookmarks
+        parent: site
+        status: all
+        templates:
+          - bookmarks
+        create: false
