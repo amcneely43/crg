@@ -10,6 +10,7 @@ body {
   --margin: 0.75rem;
   --content-padding: 1.5rem 3rem 1rem 1.75rem;
   --img-pdg: 0.25rem;
+  height: 100%;
 }
 
 *,
@@ -75,7 +76,8 @@ button {
 
 body {
 	-webkit-text-size-adjust: 100%;
-	overflow: hidden;
+	overflow-x: hidden;
+  overflow-y: hidden;
 	margin-left: var(--margin);
 }
 
@@ -103,9 +105,10 @@ main {
 	grid-column: 2;
 	grid-row: 1 / span 2;
 	height: 100vh;;
-	/* overflow-y: auto; */
+	overflow-y: auto; 
 	flex: 1;
 	position: relative;
+  -webkit-overflow-scrolling: touch;
 }
 
 body.overlay main, body.overlay aside, body.overlay nav {
@@ -163,6 +166,7 @@ aside .dotted {
 .m-show {
 	display: none;
 }
+
 /* STYLES */
 
 .flt {float: left}
@@ -290,14 +294,21 @@ nav .triptych.uppercase:hover, nav .active {
 	opacity: 0;
 }
 
+/* Replace your existing .thumb-image rule with: */
 .thumb-image {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	position: absolute;
-	width:100%;
-	height:100%;
+  position: absolute;   /* anchor to the aside column */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end; /* sit at the bottom */
+  justify-content: center;
+  pointer-events: none;
+  z-index: 5;
 }
+
+/* keep your existing .thumb-image img sizing */
+
 
 .thumb-image img {
 	width: auto;
@@ -418,6 +429,20 @@ img.slide-close {
 	height: min-content;
 }
 
+/* Home intro text */
+.home-intro h1 {
+  font-size: 1.6rem;      /* adjust to taste; 1.5–1.7rem works well */
+  line-height: 1.45;
+  font-weight: normal;
+}
+
+.home.triptych h1 {
+  font-size: 1.6rem;
+  line-height: 1.45;
+  margin-bottom: 2rem;
+}
+
+
 @media screen and (min-width: 440px) {
   .info {
     border-right: none;
@@ -430,37 +455,35 @@ img.slide-close {
   }
 }
 
-/*Email and Signup Form*/
+/* Email and Signup Form */
 
 form.subscribe-form {
-	display: flex;
-	width: 700px;
-	margin: 2rem 0;
+  display: flex;
+  width: 700px;
+  margin: 2rem 0;
 }
 
-.field {
-    margin-bottom: 0.8rem;
+form.subscribe-form .field {
+  display: flex;
+  flex-flow: row;
+  margin-right: 1.25rem;
+  margin-bottom: 0.8rem;
 }
 
-.field label {
-	font-size: var(--body-text);
-	margin-right: 0.85rem;
+form.subscribe-form .field label {
+  font-size: var(--body-text);
+  margin-right: 0.85rem;
 }
 
-input#name, input#email {
-	border: none;
-	border-bottom: var(--color-border);
-	flex: 1 1 auto;
+form.subscribe-form input#name,
+form.subscribe-form input#email {
+  border: none;
+  border-bottom: var(--color-border);
+  flex: 1 1 auto;
 }
 
-.field:nth-of-type(3) {
-	flex: 2;
-}
-
-.field {
-	display: flex;
-	flex-flow: row;
-	margin-right: 1.25rem;
+form.subscribe-form .field:nth-of-type(3) {
+  flex: 2;
 }
 
 .honeypot {
@@ -736,3 +759,547 @@ ul.gallery {
   100% { clip-path: inset(0 0 0 0) }
 }
 
+
+/* Submissions Page */
+
+.page.submissions {
+  padding: var(--content-padding);
+}
+
+.page.submissions .content-column {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.page.submissions h1 {
+  margin-bottom: 1.5rem;
+}
+
+.page.submissions .intro {
+  margin-bottom: 2rem;
+}
+
+/* Form frame */
+
+.page.submissions form {
+  border-top: var(--dotted-border);
+  padding-top: 1.5rem;
+}
+
+/* Fields stack nicely */
+
+.page.submissions .field {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.page.submissions .field label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.page.submissions .field input,
+.page.submissions .field textarea,
+.page.submissions .field input[type="file"] {
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  border: var(--dotted-border);
+  background: white;
+}
+
+/* Checkbox row */
+
+.page.submissions .field.checkbox {
+  margin-top: 1.5rem;
+}
+
+.page.submissions .field.checkbox label {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.page.submissions .field.checkbox input[type="checkbox"] {
+  margin-top: 0.2rem;
+  width: auto;
+  border: none;
+}
+
+/* Actions / button */
+
+.page.submissions .actions {
+  margin-top: 1.5rem;
+}
+
+.page.submissions .actions button {
+  padding: 0.4rem 1rem;
+  border: var(--color-border);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.page.submissions .actions button:hover {
+  box-shadow: 3px 3px black;
+  transform: translate(-3px, -3px);
+}
+
+/* Notices (success / error) */
+
+.page.submissions .notice {
+  display: block;
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 1.5rem;
+  border: var(--dotted-border);
+}
+
+.page.submissions .notice.success {
+  background: #e6ffea;
+}
+
+.page.submissions .notice.error {
+  background: #ffecec;
+}
+
+.page.submissions .error {
+  color: #b30000;
+  font-size: 0.9rem;
+  margin-top: 0.25rem;
+}
+
+/* ---------------------------------------
+   Readings page — semantic network
+---------------------------------------- */
+
+/* Book list panel: grid col 1 row 2 */
+#bookListPanel {
+  grid-column: 1;
+  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border-top: var(--dotted-border);
+}
+
+/* READINGS / WORKSHOPS tabs */
+.book-tabs {
+  display: flex;
+  border-bottom: var(--dotted-border);
+  flex-shrink: 0;
+}
+
+.book-tab-btn {
+  flex: 1;
+  padding: 0.65rem 0;
+  font-family: "triptych", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #aaa;
+  border-right: var(--dotted-border);
+  border-bottom: 2px solid transparent;
+  background: transparent;
+}
+
+.book-tab-btn:last-child {
+  border-right: none;
+}
+
+.book-tab-btn.active {
+  color: var(--main-color);
+  border-bottom-color: var(--main-color);
+}
+
+#bookList {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.book-item {
+  padding: 0.55rem 1.2rem;
+  cursor: pointer;
+  border-bottom: var(--dotted-border);
+  display: flex;
+  flex-direction: column;
+  gap: 0.08rem;
+}
+
+.book-item:hover {
+  background: rgba(214, 44, 255, 0.04);
+}
+
+.book-item--empty {
+  color: #999;
+  font-size: 0.75rem;
+  cursor: default;
+}
+
+.book-date {
+  font-size: 0.58rem;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  display: block;
+  margin-bottom: 0.1rem;
+}
+
+.book-title {
+  font-size: 0.88rem;
+  font-weight: normal;
+  display: block;
+  line-height: 1.3;
+}
+
+.book-author {
+  font-size: 0.72rem;
+  color: #666;
+  display: block;
+}
+
+/* Readings main area: dark map background */
+main.readings {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
+  background: #0d0018;
+}
+
+#mapView {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+.map-wrap {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.map-wrap svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+/* Book detail panel: white overlay */
+#bookDetail {
+  flex: 1;
+  overflow-y: auto;
+  padding: 2.25rem 3rem 3rem;
+  background: #fff;
+}
+
+#bookDetailContent {
+  max-width: 800px;
+}
+
+.back-link {
+  display: inline-block;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  color: var(--main-color);
+  margin-bottom: 1.75rem;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.detail-title {
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 1.15;
+  margin-bottom: 0.35rem;
+}
+
+.detail-author {
+  font-size: 0.95rem;
+  color: #444;
+  margin-bottom: 0.2rem;
+}
+
+.detail-meta {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  color: #888;
+}
+
+.dotted-divider {
+  border: none;
+  border-top: var(--dotted-border);
+  margin: 1.25rem 0;
+}
+
+.detail-top-cols {
+  display: grid;
+  grid-template-columns: 1fr 220px;
+  gap: 2rem;
+  margin: 0.5rem 0;
+}
+
+.detail-note {
+  font-size: var(--body-text);
+  line-height: 1.65;
+}
+
+.detail-flyer-placeholder {
+  border: 1px dashed #ccc;
+  min-height: 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #bbb;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.detail-section-label {
+  font-size: 0.68rem;
+  color: var(--main-color);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.85rem;
+}
+
+.detail-blurb {
+  font-size: var(--body-text);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+.detail-annotations {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.button-outline {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+  padding: 0.6rem 1.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.button-outline:hover {
+  background: var(--main-color);
+  color: #fff;
+}
+
+.detail-members-note {
+  font-size: 0.7rem;
+  color: #aaa;
+}
+
+/* Tooltip (hidden — labels rendered directly on SVG) */
+#mapTooltip {
+  display: none;
+}
+
+/* Prevent text selection while dragging map handles */
+#wordMap {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Grabbing cursor during active drag */
+#wordMap:active {
+  cursor: grabbing;
+}
+
+/* Book list: active item (current reading on reading.php) */
+.book-item--active {
+  background: rgba(214, 44, 255, 0.05);
+}
+
+.book-item--active .book-title {
+  color: var(--main-color);
+}
+
+/* Book item link wrapper (used in reading.php where items are <a> children) */
+.book-item a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.08rem;
+  color: inherit;
+}
+
+/* Book detail full-panel fix: cover entire main area */
+main.readings {
+  position: relative;
+}
+
+#bookDetail {
+  position: absolute;
+  inset: 0;
+  overflow-y: auto;
+  background: #fff;
+  padding: 2.25rem 3rem 3rem;
+  z-index: 1;
+}
+
+/* Individual reading page: main area */
+main.reading-detail {
+  overflow-y: auto;
+  padding: 2.25rem 3rem 3rem;
+  background: #fff;
+}
+
+#readingContent {
+  max-width: 800px;
+}
+
+/* ---------------------------------------
+   Weavings page
+---------------------------------------- */
+
+.weavings-page {
+  padding: var(--content-padding);
+  max-width: 900px;
+}
+
+.weavings-title-main {
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 1.15;
+  margin-bottom: 0.4rem;
+}
+
+.weavings-intro {
+  font-family: "triptych-italick", Georgia, serif;
+  font-size: var(--body-text);
+  line-height: 1.7;
+  margin: 0;
+}
+
+.weavings-list {
+  /* entries separated by dotted borders */
+}
+
+.weavings-entry {
+  padding: 1.25rem 0;
+  border-bottom: var(--dotted-border);
+}
+
+.weavings-entry:first-child {
+  border-top: var(--dotted-border);
+}
+
+.weavings-date {
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  color: var(--main-color);
+  margin-bottom: 0.35rem;
+}
+
+.weavings-entry-title {
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 0.25rem;
+}
+
+.weavings-entry-title a:hover {
+  text-decoration: underline;
+}
+
+.weavings-author {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 0.5rem;
+}
+
+.weavings-excerpt {
+  font-size: var(--body-text);
+  line-height: 1.65;
+  color: #333;
+}
+
+/* ---------------------------------------
+   Words page layout
+---------------------------------------- */
+
+.page.words-page {
+  max-width: 1000px;
+  padding: 2rem 2rem 3rem;
+  /* no width, no margin here */
+}
+
+/* Intro block */
+.words-intro {
+  max-width: 640px;
+  margin: 0 auto 3rem auto;
+  text-align: left;
+}
+
+.words-overline {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.75rem;
+  margin: 0 0 0.5rem;
+  opacity: 0.7;
+}
+
+.words-title {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin: 0 0 0.75rem;
+}
+
+.words-description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Two-column layout */
+.words-main {
+  margin-top: 1.5rem;
+}
+
+/* optional: some spacing between map + list */
+.words-main__map {
+  min-height: 380px;
+  margin-bottom: 2rem;
+}
+
+.words-main__list {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+/* Words mind map text */
+.page.words-page #wordsGraph text {
+  font-family: "Tryptych", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.9rem;
+  letter-spacing: 0.03em;
+  transform-origin: left center; /* safe to include here */
+}
+
+/* Nudge the center term ("community") upward */
+.page.words-page #wordsGraph text[x="10"][y="4"] {
+  transform: translate(2px, -3px); /* adjust to taste */
+}
+
+/* Responsive */
+@media (max-width: 800px) {
+  .words-page {
+    padding-top: 2.25rem;
+  }
+
+  .words-main {
+    grid-template-columns: 1fr;
+    row-gap: 2.5rem;
+  }
+}
