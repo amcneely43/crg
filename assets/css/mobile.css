@@ -194,6 +194,11 @@
     margin-right: 0;
   }
 
+  /* Home Page */
+  .home.triptych > div:first-of-type {
+    padding: var(--mobile-pdg);
+  }
+
   /* Readings, Review Posts */
   
   ul.calendar li, .reviews .post {

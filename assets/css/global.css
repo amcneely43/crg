@@ -294,14 +294,14 @@ nav .triptych.uppercase:hover, nav .active {
 	opacity: 0;
 }
 
-/* Replace your existing .thumb-image rule with: */
 .thumb-image {
-  position: absolute;   /* anchor to the aside column */
+  position: absolute;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   display: flex;
-  align-items: flex-end; /* sit at the bottom */
+  align-items: center;
   justify-content: center;
   pointer-events: none;
   z-index: 5;
@@ -461,17 +461,42 @@ img.slide-close {
   height: min-content;
 }
 
+/* HOME PAGE */
+
+/* Inner content wrapper — gives comfortable breathing room */
+.home.triptych > div:first-of-type {
+  padding: var(--content-padding);
+}
+
 /* Home intro text */
 .home-intro h1 {
-  font-size: 1.6rem;      /* adjust to taste; 1.5–1.7rem works well */
+  font-size: 1.6rem;
   line-height: 1.45;
   font-weight: normal;
+  margin-bottom: 2.5rem;
 }
 
 .home.triptych h1 {
   font-size: 1.6rem;
   line-height: 1.45;
   margin-bottom: 2rem;
+  font-weight: normal;
+}
+
+/* Book titles are inline within the home-page h1 sentence flow */
+.home.triptych h1 .book-title,
+.home.triptych h1 .book-author {
+  display: inline;
+  font-size: inherit;
+  font-style: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+/* Text-only highlight on hover — no background bar */
+.home.triptych h1 .highlight:hover {
+  background-color: transparent;
+  color: var(--main-color);
 }
 
 

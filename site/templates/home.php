@@ -1,72 +1,93 @@
 <?php snippet('nav') ?>
 
-<?php 
-  $reading_list = page('readings'); 
-  if ($readings = page('readings')->children()->listed()): 
+<?php
+// Gather data once
+$reading_list       = page('readings');
+$readings           = $reading_list ? $reading_list->children()->listed() : null;
+$currently_readings = $reading_list ? $reading_list->currentlyReading() : null;
 ?>
 
-<main class="<?= $page ?> triptych">
+<?php if ($readings && $readings->count()): ?>
+<main class="<?= $page->template() ?> triptych">
   <div>
-    <h1>    
-      <?php if ($currently_readings = $reading_list->currentlyReading()): ?>  
-        We’re currently reading 
-        <?php foreach($currently_readings as $currently_reading): ?>
-          <?php if($currently_readings->count() > 1 && $currently_reading == $currently_readings->last()): ?>
-            and <?= snippet('book_title', ['rdg'=> $currently_reading])?>. 
-          <?php elseif($currently_readings->count() > 1 && $currently_reading != $currently_readings->last()): ?>
-            <?= snippet('book_title', ['rdg'=> $currently_reading])?>
-          <?php else: ?>
-            <?= snippet('book_title', ['rdg'=> $currently_reading])?>.
-          <?php endif ?>
-        <?php endforeach ?>
-      <?php else: ?>
-        We’re about to read <?= snippet('book_title', ['rdg'=> $reading_list->children()->listed()->last()])?>.
-      <?php endif ?>
-        Usually, we meet at LACA. 
-        In the meantime, 
-        <span  class="tooltip">
-          join us
-          <span class="tooltip-text">
-            Email communityreadinggroup@gmail.com to receive instructions for our upcoming meeting
-          </span>
-        </span> 
-        every <span class="underline">Sunday, 7-9PM PST.</span>
-    </h1>
-    <br/><br/>
+    <?php snippet('home_intro', [
+      'reading_list'       => $reading_list,
+      'currently_readings' => $currently_readings
+    ]) ?>
 
     <h1>
-      A few things we’ve read in the past are 
-      <?php 
-        $selected_readings = $readings-> not($currently_readings)-> shuffle()-> limit(3);
-        $last = $selected_readings-> last();
-        foreach($selected_readings as $reading): 
-      ?>
-        <?php if ($reading == $last): ?>
-          <span class="triptych"> and </span> 
-        <?php endif ?>
-        <span class="triptych-italick book-title highlight" 
-          data-src="<?= $reading-> cover() ? $reading-> cover()-> url() : '' ?>">
+      <?php if ($currently_readings && $currently_readings->count()): ?>
+        We’re currently discussing
+        <?php
+          $cCount = $currently_readings->count();
+          $cLast  = $currently_readings->last();
 
-          <?php if ($reading !== $last): ?>
-            <?= $reading-> title() -> link()?>,</span>	
-          <?php else: ?>
-            <?= $reading-> title() -> link()?>.</span>
-          <?php endif ?>
-      <?php endforeach ?>	
+          foreach ($currently_readings as $i => $rdg) {
+            $frag = snippet('book_title', ['rdg' => $rdg, 'hover' => true], true);
+            $frag = preg_replace('/[.,:;]+\s*$/', '', rtrim($frag));
+            echo ' ' . $frag;
+
+            if ($rdg !== $cLast) {
+              echo ($i < $cCount - 2) ? ', ' : ' and';
+            } else {
+              echo '.';
+            }
+          }
+        ?>
+      <?php else: ?>
+        We’re about to read
+        <?php
+          $next = $reading_list->children()->listed()->last();
+          $frag = snippet('book_title', ['rdg' => $next, 'hover' => true], true);
+          $frag = preg_replace('/[.,:;]+\s*$/', '', rtrim($frag));
+          echo ' ' . $frag . '.';
+        ?>
+      <?php endif; ?>
+
+      A few things we’ve read in the past are
+      <?php
+        $selected = $currently_readings
+          ? $readings->not($currently_readings)->shuffle()->limit(3)
+          : $readings->shuffle()->limit(3);
+
+        $count = $selected->count();
+        $index = 0;
+
+        foreach ($selected as $reading) {
+          $index++;
+          $frag = snippet('book_title', ['rdg' => $reading, 'hover' => true], true);
+          $frag = preg_replace('/[.,:;]+\s*$/', '', rtrim($frag));
+
+          if ($index > 1 && $index < $count) {
+            echo ', ';
+          } elseif ($index === $count && $count > 1) {
+            echo ', and ';
+          }
+
+          echo $frag;
+        }
+      ?>.
+    </h1>
+
+    <h1>
+      Our primary study group meets every Sunday over Zoom from 7pm to 9pm, Pacific Time. For folks in other time zones, we also hold a regular rotation of satellite groups at different times via our Discord channel.
+      To learn more, sign up to our <u><a href="mailto:communityreadinggroup@gmail.com">newsletter</a></u>.
     </h1>
   </div>
+
   <div class="notice">
     <div>
-      <h3>Support CRG Programming with a <a href="<?= $site->find('bookmarks')->url()?>" class="triptych-italick highlight">Community Bookmark.</a></h3>
+      <h3>
+        Support CRG Programming with a
+        <a href="<?= $site->find('bookmarks')->url() ?>" class="triptych-italick highlight">Community Bookmark.</a>
+      </h3>
     </div>
     <div>
-      <h3>Or <a href="<?= page('info')->donate()->url()?>" target="_blank">donate now!</a></div></h3>
+      <h3>Or <a href="<?= page('doings')->donate()->url() ?>" target="_blank">donate now!</a></h3>
+    </div>
   </div>
 </main>
 <?php endif ?>
 
-<?php 
-  snippet('aside', ['class' => 'hidden', 'image' => $page->image()]); 
-?>
-
+<?php snippet('aside', ['class' => '', 'image' => $page->image()]) ?>
 <?php snippet('footer') ?>
