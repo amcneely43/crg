@@ -163,10 +163,6 @@
     transform: translateX(0);
   }
 
-  #seventh .table p:first-child {
-    margin-bottom: 0.25rem;
-  }
-
   footer section {
     width: 100%;
   }
@@ -176,22 +172,17 @@
     width: 100%;
   }
 
-  #slide_close {
-    top: 100px;
-    right: 5px;
-    width: 42px;
-    height: 42px;
-    position: fixed;  
+  /* Close button — fixed at bottom-right on mobile */
+  #slide_close,
+  .info-close {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
   }
 
   .info .table {
     display: flex;
     flex-direction: column;
-  }
-
-  .info .slide-close {
-    width: 35px;
-    height: 35px;
   }
 
   .subscribe-form .button {
