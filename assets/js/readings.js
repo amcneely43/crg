@@ -181,8 +181,8 @@
 
       /* ── Node initialisation ────────────────────────────────────────── */
       /* angle = atan2(cohesion, valence) maps axes onto compass:
-           East  (+valence) → Presence   North (–SVG y, +cohesion) → Integration
-           West  (–valence) → Absence    South (+SVG y, –cohesion) → Alienation  */
+           East  (+valence) → Rapture     North (–SVG y, +cohesion) → Harmony
+           West  (–valence) → Rupture     South (+SVG y, –cohesion) → Dissonance  */
       const nodes = TERMS.map(t => {
         const r     = t.center ? 0 : (categoryRadius[t.category] || categoryRadius['social']);
         const angle = (t.center || (t.valence == null && t.cohesion == null))
@@ -321,18 +321,18 @@
       const poleR      = 8;
       const poleFill   = 'rgba(255,255,255,0.85)';
 
-      /* ● Presence (East): solid filled circle */
+      /* ● Rapture (East): solid filled circle */
       dialGroup.append('circle')
         .attr('cx', W / 2 + dialR + poleOffset).attr('cy', H / 2)
         .attr('r', poleR).attr('fill', poleFill);
 
-      /* ○ Absence (West): open ring */
+      /* ○ Rupture (West): open ring */
       dialGroup.append('circle')
         .attr('cx', W / 2 - dialR - poleOffset).attr('cy', H / 2)
         .attr('r', poleR).attr('fill', 'none')
         .attr('stroke', poleFill).attr('stroke-width', 1.5);
 
-      /* ⊕ Integration (North) and ⊖ Alienation (South) — circle + cutout */
+      /* ⊕ Harmony (North) and ⊖ Dissonance (South) — circle + cutout */
       const circP       = `M ${poleR},0 A ${poleR},${poleR} 0 1,0 -${poleR},0 A ${poleR},${poleR} 0 1,0 ${poleR},0 Z`;
       const plusCutout  = `M -1,-6 L 1,-6 L 1,-1 L 6,-1 L 6,1 L 1,1 L 1,6 L -1,6 L -1,1 L -6,1 L -6,-1 L -1,-1 Z`;
       const minusCutout = `M -6,-1 L 6,-1 L 6,1 L -6,1 Z`;
@@ -443,15 +443,15 @@
         {
           x: W - 220,
           items: [
-            { draw: r => r.append('circle').attr('r', legR).attr('fill', legFill),                                                             label: 'Presence'    },
-            { draw: r => r.append('circle').attr('r', legR).attr('fill', 'none').attr('stroke', legFill).attr('stroke-width', 1.5),            label: 'Absence'     },
+            { draw: r => r.append('circle').attr('r', legR).attr('fill', legFill),                                                             label: 'Rapture'     },
+            { draw: r => r.append('circle').attr('r', legR).attr('fill', 'none').attr('stroke', legFill).attr('stroke-width', 1.5),            label: 'Rupture'     },
           ],
         },
         {
           x: W - 110,
           items: [
-            { draw: r => r.append('path').attr('d', `${legCircP} ${legPlusC}` ).attr('fill', legFill).attr('fill-rule', 'evenodd'),            label: 'Integration' },
-            { draw: r => r.append('path').attr('d', `${legCircP} ${legMinusC}`).attr('fill', legFill).attr('fill-rule', 'evenodd'),            label: 'Alienation'  },
+            { draw: r => r.append('path').attr('d', `${legCircP} ${legPlusC}` ).attr('fill', legFill).attr('fill-rule', 'evenodd'),            label: 'Harmony'     },
+            { draw: r => r.append('path').attr('d', `${legCircP} ${legMinusC}`).attr('fill', legFill).attr('fill-rule', 'evenodd'),            label: 'Dissonance'  },
           ],
         },
       ].forEach(col => {
