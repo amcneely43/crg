@@ -1,4 +1,8 @@
 /* GLOBAL */
+html {
+  height: 100%;
+}
+
 body {
   --main-color: #D62CFF;
   --secondary-color: #FFAF00;
@@ -241,6 +245,10 @@ h6 {
 .title.triptych-italick:hover {
 	cursor: pointer;
 }
+nav .m-nav .triptych {
+  font-size: 1.4rem;
+}
+
 nav .triptych.uppercase:hover, nav .active {
 	font-family: triptych-grotesque;
 	text-transform: uppercase;
