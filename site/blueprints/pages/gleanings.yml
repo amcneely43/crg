@@ -1,0 +1,30 @@
+title: Gleanings
+icon: ✦
+
+options:
+  changeTemplate: false
+  changeStatus: false
+
+columns:
+  top:
+    width: 3/3
+    fields:
+      intro:
+        type: textarea
+        label: Intro
+        help: Optional introductory paragraph shown on the landing page
+
+  main:
+    width: 3/3
+    sections:
+      gleanings_list:
+        type: pages
+        headline: Posts
+        parent: page
+        status: all
+        templates:
+          - gleaning
+        create: true
+        layout: list
+        info: "{{ page.byline }}"
+        sortBy: date desc

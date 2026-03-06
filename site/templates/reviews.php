@@ -1,40 +1,34 @@
 <?php snippet('nav') ?>
-<main class="<?= $page ?> triptych">
-  <?php snippet('review_header', ['review' => $page, 'mast' => true]) ?>
-  <div class="content">
-    <div class="post issue">
-      <div>
-        <h6>Issue #1</h6>
-        <h1 class="header"><?= $page->issue_title()?></h1>
-        <?= $page-> intro() -> kirbytext() ?>
-      </div>
-    </div>
-    <?php foreach($page->children()->listed() as $article):?>
-      <div class="post">
-        <div class="head-line">
-          <h3><?= $article->date()->toDate('F d, Y')?></h3>
-        </div>
-        <div class="image">
-          <?php if ($cover = $article->cover()): ?>
-            <figure>
-              <a href="<?=$article->url()?>">
-                <?= $article->cover()->toFile()?>
-              </a>
-            </figure>
+
+<main class="weavings triptych">
+  <div class="weavings-page">
+
+    <h1 class="weavings-title-main"><?= $page->title()->html() ?></h1>
+    <hr class="dotted-divider">
+
+    <?php if ($page->intro()->isNotEmpty()): ?>
+      <div class="weavings-intro"><?= $page->intro()->kirbytext() ?></div>
+      <hr class="dotted-divider">
+    <?php endif ?>
+
+    <div class="weavings-list">
+      <?php foreach ($page->children()->listed() as $article): ?>
+        <div class="weavings-entry">
+          <?php if ($article->date()->isNotEmpty()): ?>
+            <p class="weavings-date uppercase"><?= strtoupper($article->date()->toDate('F j, Y')) ?></p>
+          <?php endif ?>
+          <h2 class="weavings-entry-title">
+            <a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
+          </h2>
+          <p class="weavings-author"><?= $article->author()->html() ?></p>
+          <?php if ($article->subtitle()->isNotEmpty()): ?>
+            <p class="weavings-excerpt"><?= Str::excerpt($article->subtitle()->value(), 200) ?>…</p>
           <?php endif ?>
         </div>
-        <div class="event-line">
-          <div>
-            <!-- <span class="subheader">NEW</span> -->
-            <h2><a href="<?= $article-> url() ?>"><?= $article-> title() ?></a></h2>
-          </div>
-          <p class="location">
-            <span class="triptych-italick">By <?= $article->author()?></span>
-          </p>
-        </div>
-      </div>
-    <?php endforeach ?>
+      <?php endforeach ?>
+    </div>
 
   </div>
 </main>
-<?php snippet('aside', ['class' => '', 'image' => '']); snippet('footer'); ?>
+
+<?php snippet('footer') ?>

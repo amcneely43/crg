@@ -1,0 +1,62 @@
+title: Gleaning
+icon: ✦
+
+status:
+  draft: Draft
+  unlisted: Hidden
+  listed: Live
+
+columns:
+  main:
+    width: 2/3
+    fields:
+      byline:
+        label: Author
+        type: text
+        required: true
+        width: 1/2
+      date:
+        label: Date
+        type: date
+        required: true
+        width: 1/2
+      subtitle:
+        label: Subtitle
+        type: textarea
+        help: Optional intro text shown below the author
+        buttons: false
+      epigraph:
+        label: Epigraph
+        type: textarea
+        width: 2/3
+        help: Optional opening quote
+        buttons: false
+      epigraphSource:
+        label: Epigraph Source
+        type: text
+        width: 1/3
+        help: "e.g. — Simone Weil, The Need for Roots"
+      body:
+        label: Post
+        type: writer
+        help: 500 words maximum
+        marks:
+          - bold
+          - italic
+          - link
+      authorNote:
+        label: Author Note
+        type: textarea
+        buttons: false
+        help: Brief note about the author; supports kirbytext links
+
+  sidebar:
+    width: 1/3
+    sections:
+      images:
+        type: files
+        headline: Images
+        max: 2
+        layout: cards
+        cover: true
+        ratio: 3/2

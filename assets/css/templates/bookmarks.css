@@ -1,0 +1,24 @@
+/* Bookmarks listing page */
+
+.bookmarks h3.header {
+  font-size: 2rem;
+  font-weight: normal;
+  border-top: none;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.bookmarks .content {
+  padding-bottom: 1.5rem;
+}
+
+.bookmarks ul.gallery {
+  border-top: var(--dotted-border);
+}
+
+.bookmarks .content p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+}

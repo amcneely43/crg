@@ -1,0 +1,21 @@
+/* Weavings listing page */
+
+.weavings-page {
+  padding: var(--content-padding);
+  max-width: 780px;
+  overflow-y: auto;
+}
+
+.weavings-title-main {
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+/* Override global italic — only inline <em> tags should be italic */
+.weavings-intro {
+  font-family: "triptych-roman", Georgia, serif;
+  font-size: 1rem;
+  color: #444;
+}

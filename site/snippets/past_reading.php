@@ -16,5 +16,4 @@
         </figure>
       <?php endif ?>
     </div>
-  <div>
 </li>

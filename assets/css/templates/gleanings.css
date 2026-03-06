@@ -1,0 +1,64 @@
+/* Gleanings listing page */
+
+.gleanings-page {
+  padding: var(--content-padding);
+  max-width: 780px;
+  overflow-y: auto;
+}
+
+.gleanings-title-main {
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+  border-bottom: var(--dotted-border);
+}
+
+.gleanings-intro {
+  font-family: "triptych-roman", Georgia, serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin: 1.5rem 0 2.5rem;
+}
+
+.gleanings-index {
+  /* entries separated by dotted borders */
+}
+
+.gleanings-index-item {
+  padding: 1.25rem 0;
+  border-bottom: var(--dotted-border);
+}
+
+.gleanings-index-item:first-child {
+  border-top: var(--dotted-border);
+}
+
+.gleanings-item-meta {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--main-color);
+  margin-bottom: 0.35rem;
+}
+
+.gleanings-item-title {
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-bottom: 0.25rem;
+}
+
+.gleanings-item-title a {
+  text-decoration: none;
+}
+
+.gleanings-item-title a:hover {
+  text-decoration: underline;
+}
+
+.gleanings-item-author {
+  font-size: 0.85rem;
+  color: #555;
+}

@@ -6,19 +6,7 @@ Author: Roberto Esposito
 
 ----
 
-Published: 2009
-
-----
-
 Subtitle: The Origin and Destiny of Community
-
-----
-
-Translator: Timothy C. Campbell
-
-----
-
-Publisher: Stanford University Press
 
 ----
 
@@ -26,15 +14,52 @@ Note:
 
 ----
 
-Download-reading: http://criticaltheoryindex.org/assets/roberto-esposito-communitas-the-origin-and-destiny-of-community.pdf
+Blurb:
+
+This reading group will explore philosophical investigations of the concept of community by theorists working in the continental tradition. I will give preference to philosophers who complicate popular invocations of community-building and social inclusivity as a means to further democratic progress. I chose to begin with the English translation of Roberto Esposito’s *Communitas* (2009). For those interested in this group, I would recommend familiarizing yourself with the discourses of communitarianism and multiculturalism in Anglo-American political philosophy to add context to your reading of Esposito’s thought. I’ve provided links to both communitarianism and multiculturalism below. 
+
+While it is unavoidable that we'll discuss definitions of “community,” my hope is that our focus will narrowly contemplate the relationship between invocations of community – whether coupled with terms like “health” and/or “resilience” – and anti-capitalist struggle. After finishing this book, should there be an interest in pursuing this topic further, then I would be interested in organizing a group that examines the literature on this subject in greater detail. Last, to be clear, this is a discussion group for anyone interested in the topic no matter what their level of familiarity is with the names and titles I’ve listed.
 
 ----
 
-Links: 
+Contributor: Andrew McNeely
 
 ----
 
-Files: 
+Download-reading: https://bookshop.org/p/books/communitas-the-origin-and-destiny-of-community-roberto-esposito/c1c1e54d327a33b9?ean=9780804746472&next=t
+
+----
+
+Hosted-elsewhere: true
+
+----
+
+Keywords: 
+
+----
+
+Interlocutors: 
+
+----
+
+Links:
+
+- 
+  description: Multiculturalism
+  url: >
+    https://plato.stanford.edu/entries/multiculturalism/?fbclid=IwY2xjawOYcXhleHRuA2FlbQIxMQBicmlkETFLWE5OR3dvZlB5WmI4eEQyc3J0YwZhcHBfaWQBMAABHi7STSbZ66iYUu3YL8StXFLPjiAjIRREPIEYHEEFPi6ccLMwZk35ZyvXyjGt_aem_N_iBNJDgrgALmMIRHSXspg
+- 
+  description: Communitarianism
+  url: >
+    https://plato.stanford.edu/entries/communitarianism/?fbclid=IwY2xjawOYcVVleHRuA2FlbQIxMQBicmlkETFLWE5OR3dvZlB5WmI4eEQyc3J0YwZhcHBfaWQBMAABHpzAkBrfdrk8n4Him4i1TgglINpShfIdC4rQFoFnObhdDcR7oCswmTgaEd-7_aem_PPLlJYkNtEvNiAcUJvKAUA
+- 
+  description: Liberalism
+  url: >
+    https://plato.stanford.edu/entries/liberalism/?fbclid=IwY2xjawOYcZFleHRuA2FlbQIxMQBicmlkETFLWE5OR3dvZlB5WmI4eEQyc3J0YwZhcHBfaWQBMAABHueR0RWTLFMNbNH_gDGKKNPgIjfzW0dzoOhaFdxMrloWzUImItkIsZx0ku6-_aem_XJl1h6xKHRFGy1B4Dzu9Vg
+
+----
+
+Attachments: 
 
 ----
 
@@ -51,3 +76,27 @@ Current: false
 ----
 
 Category: 
+
+----
+
+Custom-time: 
+
+----
+
+Show-date: false
+
+----
+
+Published: 2009
+
+----
+
+Translator: Timothy C. Campbell
+
+----
+
+Publisher: Stanford University Press
+
+----
+
+Files: 

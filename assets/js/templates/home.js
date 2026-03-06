@@ -1,17 +1,13 @@
-document.addEventListener("DOMContentLoaded", function() { 
-	hoverReveal('.book-title');
-});
-
 function tooltip() {
-  let tooltip = document.querySelector('.tooltip');
-  let text = document.querySelector('.tooltip-text');
+  const tooltip = document.querySelector('.tooltip');
+  const text = document.querySelector('.tooltip-text');
+  if (!tooltip || !text) return;
 
   document.addEventListener('click', event => {
-    console.log(event.target)
-    if (event.target ==! tooltip) {
+    if (event.target !== tooltip) {
       text.classList.remove('show');
     } else {
       text.classList.toggle('show');
     }
-  }) 
+  });
 }

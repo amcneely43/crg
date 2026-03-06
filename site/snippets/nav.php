@@ -5,8 +5,8 @@
 	<title><?= $site->title()?> | <?= $page->title() ?></title>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="crg.ico" type="image/x-icon">
-	
+  <link rel="shortcut icon" href="<?= asset('crg.ico')->url() ?>" type="image/x-icon">
+
   <?= css(['assets/css/global.css', 'assets/type/typography.css', 'assets/css/mobile.css', '@auto',]) ?>
 </head>
 
@@ -18,15 +18,19 @@
 			</div>
 			<div class="m-nav">
 				<?php foreach ($site->children()->listed() as $item): ?>
-					<?php if($item == page('info')): ?>
-						<div class="triptych uppercase" id='info'><?=$item->title()?></div>
-					<?php else: ?>
-						<div class="triptych uppercase">
-              <a <?php e($item->isOpen(), 'class="active"') ?> href="<?= $item->url() ?>"><?= $item->title()->html() ?></a>
+                    <?php if($item == page('words')): ?>
+                        <?php /* Words/Map is embedded in Readings — skip from nav */ ?>
+                    <?php elseif($item == page('doings')): ?>
+                        <div class="triptych uppercase" id='info'><?=$item->title()?></div>
+                    <?php else: ?>
+                        <div class="triptych uppercase">
+              <?php $prefix = $item->slug() === 'reviews' ? '& ' : '' ?>
+              <a <?php e($item->isOpen(), 'class="active"') ?> href="<?= $item->url() ?>"><?= $prefix . $item->title()->html() ?></a>
             </div>
-					<?php endif ?>
-				<?php endforeach ?>
+                    <?php endif ?>
+                <?php endforeach ?>
 			</div>
+
       <div class="m-show">
         <a href="#" id="nav_arrow">
           <img src="<?= asset('assets/icons/arrow-down.svg')->url() ?>" class="slide-close">

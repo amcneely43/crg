@@ -1,0 +1,59 @@
+/* Words / semantic map page */
+
+/* Override main to suppress scroll and enable full-height flex layout */
+main.words {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 0;
+  background: #0d0d1a;
+}
+
+.words-map-wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: #0d0d1a;
+  overflow: hidden;
+}
+
+.words-map-label {
+  flex-shrink: 0;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: rgba(255, 255, 255, 0.45);
+  padding: 0.6rem 1.5rem 0.4rem;
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.12);
+  background: #0d0d1a;
+}
+
+.map-wrap {
+  flex: 1;
+  min-height: 0;
+  position: relative;
+  background: #0d0d1a;
+}
+
+#wordMap {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+/* Hover tooltip */
+#mapTooltip {
+  position: fixed;
+  pointer-events: none;
+  font-size: 0.75rem;
+  font-family: "triptych-roman", Georgia, serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: white;
+  background: rgba(13, 13, 26, 0.85);
+  padding: 4px 10px;
+  border: 1px solid rgba(214, 44, 255, 0.5);
+  opacity: 0;
+  transition: opacity 0.1s;
+  z-index: 100;
+}
