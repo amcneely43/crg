@@ -1,123 +1,103 @@
-<?php $date = $page->date(); ?>
 <?php snippet('nav') ?>
 
-<main class="reading triptych">
-  <div>
-    <div class="header">
-      <div class="w70">
-        <h4 class="uppercase">
-          <?php $page->show_date()->bool() ? $date = $date->toDate('F d, Y') : $date = $date ->toDate('F Y') ?>
-          <?= $date ?>
-        </h4>
-        <h2>
-          <a href="<?= $page-> url() ?>"><?= $page-> fullTitle() ?>,</a>
-          <span class="triptych-italick"><?= $page-> author()?></span>  
-        </h2>
-        <div class="reading-nav dotted triptych flex uppercase">
-          <div class="back-button">
-            <h6><a href="<?= $page->parent()->url() ?>">Back </a></h6>
-          </div>
-          <?php if ($page->hasPrevListed()): ?>
-            <div>
-              <a class="prev-button" href="<?= $page->prevListed()->url() ?>">
-                <div class="inner-arrow"></div>
-              </a>
-            </div>
+<?php /* ── Persistent book list sidebar (grid col 1, row 2) ─────────────────── */ ?>
+<div id="bookListPanel">
+  <div class="book-tabs">
+    <button class="book-tab-btn active" data-tab="readings">Readings</button>
+    <button class="book-tab-btn" data-tab="workshops">Workshops</button>
+  </div>
+  <ul id="bookList">
+    <?php foreach ($allSiblings as $sibling): ?>
+      <?php $isWorkshop = $sibling->intendedTemplate()->name() === 'workshop' ?>
+      <li class="book-item<?= $sibling->is($page) ? ' book-item--active' : '' ?>"
+          data-type="<?= $isWorkshop ? 'workshop' : 'reading' ?>">
+        <a href="<?= $sibling->url() ?>">
+          <?php if ($sibling->date()->isNotEmpty()): ?>
+            <span class="book-date"><?= strtoupper($sibling->date()->toDate('F Y')) ?></span>
           <?php endif ?>
-          <?php if ($page->hasNextListed()): ?>
-            <div>
-              <a class="next-button" href="<?= $page->nextListed()->url() ?>">
-                <div class="inner-arrow"></div>
-              </a>
-            </div>
-          <?php endif ?>
-        </div>
-       
+          <span class="book-title"><?= $sibling->title()->html() ?></span>
+          <span class="book-author"><?= $sibling->author()->html() ?></span>
+        </a>
+      </li>
+    <?php endforeach ?>
+  </ul>
+</div>
+
+<?php /* ── Reading detail (grid col 2, rows 1–2) ───────────────────────────── */ ?>
+<main class="reading-detail triptych">
+  <div id="readingContent">
+
+    <a href="<?= $page->parent()->url() ?>" class="back-link uppercase">← Back to Readings</a>
+
+    <h2 class="detail-title"><?= $page->title()->html() ?></h2>
+    <p class="detail-author"><?= $page->author()->html() ?></p>
+
+    <?php if ($page->date()->isNotEmpty()): ?>
+      <p class="detail-meta">Reading began <?= $page->date()->toDate('F Y') ?></p>
+    <?php endif ?>
+
+    <hr class="dotted-divider">
+
+    <div class="detail-top-cols">
+      <div class="detail-note">
+        <?php if ($page->note()->isNotEmpty()): ?>
+          <?= $page->note()->kirbytext() ?>
+        <?php endif ?>
+      </div>
+      <div class="detail-flyer">
+        <?php $flyer = $page->flyer()->toFiles()->first() ?>
+        <?php if ($flyer): ?>
+          <img src="<?= $flyer->url() ?>" alt="<?= $page->title()->html() ?> flyer">
+        <?php else: ?>
+          <div class="detail-flyer-placeholder">Flyer Pending</div>
+        <?php endif ?>
       </div>
     </div>
-    <div class="content">
-      <div class="w70 thinpads">
-        <h4></h4>
-        <div>
-          <?= $page-> note()-> kirbytext() ?>
-        </div>
-        
-        <?php if($page->blurb()->isNotEmpty()) :?>
-          <div>
-            <p><em>Selection</em><p>
-            <?= $page-> blurb()-> kirbytext() ?>
-            <p class="right">– <?= $page-> contributor()?></p>
-          </div>
-        <?php endif ?>
-        
-        <?php if($page->links()->isNotEmpty()) :?>
-          <ul class="references">
-            <li class="heading"><i>Associations</i></li>
-            <?php foreach ($page->links()-> toStructure() as $link): ?>
-              <li><a class="highlight" href="<?= $link->url() ?>"><?= $link->description() ?></a></li>
-            <?php endforeach ?>
-          </ul>
-        <?php endif ?>
 
-        <?php foreach ($page->attachments() as $file): ?>
-          <p><?= $file ?></p>
-        <?php endforeach ?>
-        <div class="image">
-          <?php foreach ($page->memes() as $meme): ?>
-            <figure>
-              <?= $meme ?>
-            </figure>
-          <?php endforeach ?>
-        </div>
+    <?php if ($page->blurb()->isNotEmpty()): ?>
+      <hr class="dotted-divider">
+      <p class="detail-section-label">Opening Remarks</p>
+      <div class="detail-blurb"><?= $page->blurb()->kirbytext() ?></div>
+    <?php endif ?>
+
+    <?php if ($page->bookstackUrl()->isNotEmpty()): ?>
+      <div class="detail-annotations">
+        <a href="<?= $page->bookstackUrl() ?>" target="_blank" rel="noopener" class="button-outline">View Annotations →</a>
+        <span class="detail-members-note">Members only · login required</span>
       </div>
-      <div class="w30 thinpads">
-        <ul class="dotted details">
-          <?php if($page->current()->bool()) :?>
-            <li><span class="label">Currently Reading</span></li>
-          <?php endif ?>
-          <li>
-            <?php if($page->custom_time()->isNotEmpty()) :?> 
-              <span><?= $page->custom_time() ?></span>
-            <?php else :?>
-              <span>Sunday, 7-9PM</span>
-            <?php endif ?>
-          </li>
-          <?php if ($page->category()->isNotEmpty()) :?>
-            <li><span class="subheader"><?=$page->category()?><span></li>
-          <?php endif ?>
-          <?php if ($page->location()->isNotEmpty()): ?> 
-            <li><span>
-              <?= $page->location()->html()?><?php if($page->current()->bool()): ?>,<span class="tint"><?= Html::email(page('info')->email(), 'Email to Join') ?><span> 
-              <?php endif ?>
-            </span></li>   
-          <?php endif ?>
-          <?php if($page->download_reading()->isNotEmpty()) :?>
-            <li><a href="<?=$page->download_reading()->url()?>" target="_blank" class="oval">
-              Link to Reading<?= $page->hosted_elsewhere()->bool() ? '' : '*'?>
+    <?php endif ?>
 
-            </a></li>
-
-            <?php if(!$page->hosted_elsewhere()->bool()): ?>
-            <h6 class="cti">
-              *Hosted by <a href="http://criticaltheoryindex.org/" target="_blank">
-                Critical Theory Index
-              </a>
-            <h6>
-            <?php endif ?>
-          <?php endif?>
-
-        </ul>
-        
-      </div>
-    </div>
-    
   </div>
 </main>
 
-<?php 
-  snippet('aside', [
-    'class' => '', 
-    'image' => $page->cover() ? $page->cover() : ''
-    ]); 
-  snippet('footer'); 
-?>
+<?php /* ── Tab-switching JS (show readings by default, hide workshops) ─────── */ ?>
+<script>
+(function () {
+  var tabs    = document.querySelectorAll('.book-tab-btn');
+  var items   = document.querySelectorAll('#bookList .book-item');
+
+  function applyTab(tab) {
+    items.forEach(function (item) {
+      item.style.display = (tab === 'workshops')
+        ? (item.dataset.type === 'workshop' ? '' : 'none')
+        : (item.dataset.type === 'reading'  ? '' : 'none');
+    });
+  }
+
+  tabs.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      tabs.forEach(function (b) { b.classList.toggle('active', b === btn); });
+      applyTab(btn.dataset.tab);
+    });
+  });
+
+  /* Default: show readings only */
+  applyTab('readings');
+
+  /* Scroll active item into view */
+  var active = document.querySelector('.book-item--active');
+  if (active) active.scrollIntoView({ block: 'nearest' });
+})();
+</script>
+
+<?php snippet('footer') ?>
