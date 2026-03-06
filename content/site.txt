@@ -6,8 +6,18 @@ Welcome: Welcome to CRG, a weekly gathering of committed people, who are dedicat
 
 ----
 
-Meeting_info: Our primary study group meets every Sunday over Zoom from 7pm to 9pm, Pacific Time. For folks in other time zones, we also hold a regular rotation of satellite groups at different times via our Discord channel.
+Meeting-info: Our primary study group meets every Sunday over Zoom from 7pm to 9pm, Pacific Time. For folks in other time zones, we also hold a regular rotation of satellite groups at different times via our Discord channel.
 
 ----
 
-Newsletter_email: communityreadinggroup@gmail.com
+Newsletter-email: communityreadinggroup@gmail.com
+
+----
+
+Workshopintro:
+
+We invite scholars who are interested in spaces that bridge the work of researchers within the university and the efforts of organizers outside of it to consider submitting original, unpublished work to our Workshop Series. These conference-style events can either be public or small-group discussions depending on the wishes of the contributing author(s).
+
+Researchers who are working on topics that seem to intersect with either our group's primary focus—the rhetorical construction of community—or our peripheral lines of inquiry—enumerated on our concept map—are encouraged to reach out. We are particularly interested in giving feedback for in-progress dissertation chapters and/or journal articles.
+
+To submit, write to the following email: communityreadinggroup@gmail.com. Use the subject line Workshop Submission and please include your name, a brief bio, the title of your piece, and a short description.

@@ -70,8 +70,8 @@ $currently_readings = $reading_list ? $reading_list->currentlyReading() : null;
     </h1>
 
     <h1>
-      Our primary study group meets every Sunday over Zoom from 7pm to 9pm, Pacific Time. For folks in other time zones, we also hold a regular rotation of satellite groups at different times via our Discord channel.
-      To learn more, sign up to our <u><a href="mailto:communityreadinggroup@gmail.com">newsletter</a></u>.
+      <?= $site->meetingInfo()->value() ?>
+      To learn more, sign up to our <u><a href="mailto:<?= $site->newsletterEmail()->value() ?>">newsletter</a></u>.
     </h1>
   </div>
 
