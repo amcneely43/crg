@@ -974,10 +974,28 @@ ul.gallery {
   border-bottom-color: var(--main-color);
 }
 
-#workshopIntro {
-  flex-shrink: 0;
+#bookScroll {
+  flex: 1;
   overflow-y: auto;
-  max-height: 40%;
+  -webkit-overflow-scrolling: touch;
+}
+
+#bookListSubhead {
+  font-size: 0.7rem;
+  font-weight: normal;
+  font-family: "triptych", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  padding: 0.6rem 1.25rem 0.5rem;
+  border-bottom: var(--dotted-border);
+  color: var(--main-color);
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 1;
+}
+
+#workshopIntro {
   padding: 1rem 1.25rem 0.75rem;
   border-bottom: var(--dotted-border);
   font-size: 0.78rem;
@@ -994,9 +1012,9 @@ ul.gallery {
 }
 
 #bookList {
-  flex: 1;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .book-item {
@@ -1037,6 +1055,13 @@ ul.gallery {
 .book-author {
   font-size: 0.75rem;
   color: #666;
+  display: block;
+}
+
+.book-contributor {
+  font-size: 0.75rem;
+  color: #999;
+  font-style: italic;
   display: block;
 }
 

@@ -2,11 +2,19 @@ Title: Poetry Is Not a Luxury
 
 ----
 
-Author: A Workshop with Practices of Study
+Presenter: Practices of Study
 
 ----
 
-Subtitle: Audre Lorde
+Date: 2023-05-10
+
+----
+
+Custom-time: 7 PM
+
+----
+
+Location: Los Angeles Contemporary Archive
 
 ----
 
@@ -32,11 +40,27 @@ Community Reading Group will lead a conversation of Audre Lorde's "Poetry Is Not
 
 ----
 
-Contributor: 
+Download-reading: https://makinglearning.files.wordpress.com/2014/01/poetry-is-not-a-luxury-audre-lorde.pdf
 
 ----
 
-Download-reading: https://makinglearning.files.wordpress.com/2014/01/poetry-is-not-a-luxury-audre-lorde.pdf
+Links: 
+
+----
+
+Attachments: 
+
+----
+
+Author: A Workshop with Practices of Study
+
+----
+
+Subtitle: Audre Lorde
+
+----
+
+Contributor: 
 
 ----
 
@@ -57,31 +81,11 @@ Interlocutors:
 
 ----
 
-Links: 
-
-----
-
-Attachments: 
-
-----
-
-Date: 2023-05-10
-
-----
-
-Location: Los Angeles Contemporary Archive
-
-----
-
 Current: false
 
 ----
 
 Category: workshop
-
-----
-
-Custom-time: 7 PM
 
 ----
 

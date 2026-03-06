@@ -6,8 +6,11 @@
     <button class="book-tab-btn active" data-tab="readings">Readings</button>
     <button class="book-tab-btn" data-tab="workshops">Workshops</button>
   </div>
-  <div id="workshopIntro" hidden></div>
-  <ul id="bookList"></ul>
+  <div id="bookScroll">
+    <div id="workshopIntro" hidden></div>
+    <h2 id="bookListSubhead" hidden></h2>
+    <ul id="bookList"></ul>
+  </div>
 </div>
 
 <?php /* ── Main area: semantic map + book detail ──────────────────────────── */ ?>

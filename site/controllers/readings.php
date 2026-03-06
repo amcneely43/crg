@@ -53,9 +53,8 @@ return function ($page, $site) {
       'year'         => $rdg->date()->isNotEmpty() ? $rdg->date()->toDate('Y') : '',
       'dateLabel'    => $rdg->date()->isNotEmpty() ? strtoupper($rdg->date()->toDate('F Y')) : '',
       'title'        => $rdg->title()->value(),
-      'author'       => $isWorkshop
-                          ? $rdg->presenter()->value()
-                          : $rdg->author()->value(),
+      'author'       => $rdg->author()->value(),
+      'contributor'  => $isWorkshop ? $rdg->contributor()->value() : '',
       'terms'        => $termSlugs,
       'note'         => $rdg->note()->value(),
       'blurb'        => $rdg->blurb()->value(),

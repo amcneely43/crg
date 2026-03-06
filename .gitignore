@@ -2,7 +2,8 @@
 # ------------
 
 /site/config/config.php
-/site/config/config.c_r_g.test.php
+/site/config/config.*.php
+/.claude/
 
 Icon
 .DS_Store

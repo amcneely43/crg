@@ -57,7 +57,8 @@
   });
 
   /* ── Book list ───────────────────────────────────────────────────────────── */
-  const workshopIntroEl = document.getElementById('workshopIntro');
+  const workshopIntroEl  = document.getElementById('workshopIntro');
+  const bookListSubheadEl = document.getElementById('bookListSubhead');
 
   function renderBookList(termId) {
     activeTermId = termId;
@@ -74,6 +75,14 @@
       workshopIntroEl.hidden = true;
     }
 
+    // "Past Workshops" subheader — show on workshops tab only
+    if (activeTab === 'workshops') {
+      bookListSubheadEl.textContent = 'Past Workshops';
+      bookListSubheadEl.hidden = false;
+    } else {
+      bookListSubheadEl.hidden = true;
+    }
+
     if (!filtered.length) {
       bookListEl.innerHTML = '<li class="book-item book-item--empty">No entries found.</li>';
       return;
@@ -83,7 +92,8 @@
       <li class="book-item" data-id="${book.id}">
         ${book.dateLabel ? `<span class="book-date">${book.dateLabel}</span>` : ''}
         <span class="book-title">${book.title}</span>
-        <span class="book-author">${book.author || ''}</span>
+        ${book.author     ? `<span class="book-author">${book.author}</span>`      : ''}
+        ${book.contributor ? `<span class="book-contributor">${book.contributor}</span>` : ''}
       </li>
     `).join('');
 
