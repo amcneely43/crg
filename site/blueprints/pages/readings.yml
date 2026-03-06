@@ -2,15 +2,15 @@ title: Readings
 icon: 📖
 type: pages
 
-options: 
+options:
   status: false
 
 columns:
   left:
     width: 2/3
-    sections: 
+    sections:
       listed:
-        extends: sections/readings 
+        extends: sections/readings
         layout: card
         headline: Live
         status: listed
@@ -19,11 +19,11 @@ columns:
     width: 1/3
     sections:
       drafts:
-        extends: sections/readings 
+        extends: sections/readings
         headline: Drafts
         status: draft
 
       unlisted:
-        extends: sections/readings 
+        extends: sections/readings
         headline: Hidden
         status: unlisted

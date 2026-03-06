@@ -253,6 +253,7 @@ nav .triptych.uppercase:hover, nav .active {
 	font-family: triptych-grotesque;
 	text-transform: uppercase;
 	cursor: pointer;
+	color: var(--main-color);
 }
 
 .grotesque {
@@ -952,10 +953,10 @@ ul.gallery {
 
 .book-tab-btn {
   flex: 1;
-  padding: 0.65rem 0;
+  padding: 0.6rem 0 0.5rem;
   font-family: "triptych", sans-serif;
   font-size: 0.7rem;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   cursor: pointer;
   color: #aaa;
@@ -973,6 +974,25 @@ ul.gallery {
   border-bottom-color: var(--main-color);
 }
 
+#workshopIntro {
+  flex-shrink: 0;
+  overflow-y: auto;
+  max-height: 40%;
+  padding: 1rem 1.25rem 0.75rem;
+  border-bottom: var(--dotted-border);
+  font-size: 0.78rem;
+  line-height: 1.55;
+  color: #444;
+}
+
+#workshopIntro p {
+  margin: 0 0 0.6em;
+}
+
+#workshopIntro p:last-child {
+  margin-bottom: 0;
+}
+
 #bookList {
   flex: 1;
   overflow-y: auto;
@@ -980,16 +1000,17 @@ ul.gallery {
 }
 
 .book-item {
-  padding: 0.55rem 1.2rem;
+  padding: 0.65rem 1.25rem;
   cursor: pointer;
   border-bottom: var(--dotted-border);
   display: flex;
   flex-direction: column;
   gap: 0.08rem;
+  transition: background 0.15s;
 }
 
 .book-item:hover {
-  background: rgba(214, 44, 255, 0.04);
+  background: #fdf3ff;
 }
 
 .book-item--empty {
@@ -999,12 +1020,11 @@ ul.gallery {
 }
 
 .book-date {
-  font-size: 0.58rem;
-  color: #999;
+  font-size: 0.65rem;
+  color: #aaa;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   display: block;
-  margin-bottom: 0.1rem;
 }
 
 .book-title {
@@ -1015,7 +1035,7 @@ ul.gallery {
 }
 
 .book-author {
-  font-size: 0.72rem;
+  font-size: 0.75rem;
   color: #666;
   display: block;
 }

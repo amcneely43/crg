@@ -1,41 +1,40 @@
 <?php snippet('nav') ?>
 
-<main class="<?= $page ?> triptych">
-  <div class='upcoming-events'>
-    <h3 class="header triptych uppercase">Upcoming</h3> 
-    <ul class="upcoming calendar">
-      <?php if ($upcoming_readings) :  
-          foreach ($upcoming_readings as $upcoming):
-            snippet('featured_reading', ['reading' => $upcoming]);
-          endforeach;		
-        else :?>
-        <li class="none">
-          <h2>
-            We are likely meeting next Sunday. Hang tight for an update.
-          </h2>
-        </li>
-      <?php endif ?>
-    </ul>
+<?php /* ── Book list panel (grid col 1, row 2) ──────────────────────────────── */ ?>
+<div id="bookListPanel">
+  <div class="book-tabs">
+    <button class="book-tab-btn active" data-tab="readings">Readings</button>
+    <button class="book-tab-btn" data-tab="workshops">Workshops</button>
   </div>
-    
-  <div class='past-events'>
-    <h3 class="header triptych uppercase">Past</h3>
-    <ul class="calendar past-readings" data-page="<?= $pagination->nextPage() ?>">
-      <?php 
-        foreach ($past_readings as $past):
-          snippet('past_reading', ['reading' => $past]);
-        endforeach;
-      ?>		   
-    </ul>
-    <button class="load-more" accesskey="m">
-      <h6>Load more<span class="ellipses-loader">…</span></h6>
-    </button>
-  </div>	
-    
+  <div id="workshopIntro" hidden></div>
+  <ul id="bookList"></ul>
+</div>
+
+<?php /* ── Main area: semantic map + book detail ──────────────────────────── */ ?>
+<main class="readings triptych">
+
+  <div id="mapView">
+    <div class="map-wrap">
+      <svg id="wordMap" role="img" aria-label="CRG semantic network"></svg>
+    </div>
+  </div>
+
+  <div id="bookDetail" hidden>
+    <div id="bookDetailContent"></div>
+  </div>
+
 </main>
-  
-</section>
-<?php 
-  snippet('aside', ['class' => 'hidden', 'image' => $page->image()]); 
-  snippet('footer'); 
-?>
+
+<div id="mapTooltip"></div>
+
+<?php /* ── Inject Kirby data for JS ──────────────────────────────────────────── */ ?>
+<script>
+window.CRG_TERMS         = <?= json_encode($termsData,     JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
+window.CRG_BOOKS         = <?= json_encode($booksData,     JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
+window.CRG_WORKSHOP_INTRO = <?= json_encode((string) $workshopIntro, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="<?= url('assets/js/readings.js') ?>"></script>
+
+<?php snippet('footer') ?>

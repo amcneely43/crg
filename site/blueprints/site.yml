@@ -66,15 +66,28 @@ tabs:
   workshops:
     label: Workshops
     icon: bolt
-    sections:
-      workshops_list:
-        type: pages
-        headline: Workshops
-        parent: kirby.page('readings')
-        status: all
-        templates:
-          - workshop
-        create: false
+    columns:
+      intro:
+        width: 1/3
+        sections:
+          workshop_intro_fields:
+            type: fields
+            fields:
+              workshopIntro:
+                label: Workshop Submission Instructions
+                type: textarea
+                help: Shown at the top of the Workshops tab on the public site
+      list:
+        width: 2/3
+        sections:
+          workshops_list:
+            type: pages
+            headline: Workshops
+            parent: kirby.page('readings')
+            status: all
+            templates:
+              - workshop
+            create: false
 
   semantic_network:
     label: Map
@@ -96,14 +109,17 @@ tabs:
     label: Gleanings
     icon: article
     sections:
-      gleanings_page:
+      gleanings_list:
         type: pages
         headline: Gleanings
-        parent: site
+        parent: site.find('gleanings')
         status: all
         templates:
           - gleaning
-        create: false
+        create: true
+        layout: list
+        info: "{{ page.byline }}"
+        sortBy: date desc
 
   weavings:
     label: Weavings

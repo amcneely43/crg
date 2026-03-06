@@ -57,11 +57,22 @@
   });
 
   /* ── Book list ───────────────────────────────────────────────────────────── */
+  const workshopIntroEl = document.getElementById('workshopIntro');
+
   function renderBookList(termId) {
     activeTermId = termId;
     const typeFilter = activeTab === 'workshops' ? 'workshop' : 'reading';
     let filtered = BOOKS.filter(b => b.type === typeFilter);
     if (termId) filtered = filtered.filter(b => b.terms && b.terms.includes(termId));
+
+    // Workshop intro — show only on workshops tab with no term filter
+    const intro = window.CRG_WORKSHOP_INTRO || '';
+    if (activeTab === 'workshops' && !termId && intro) {
+      workshopIntroEl.innerHTML = intro;
+      workshopIntroEl.hidden = false;
+    } else {
+      workshopIntroEl.hidden = true;
+    }
 
     if (!filtered.length) {
       bookListEl.innerHTML = '<li class="book-item book-item--empty">No entries found.</li>';
