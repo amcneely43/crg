@@ -59,8 +59,8 @@ return function ($page, $site) {
       'location'     => $isWorkshop ? $rdg->location()->value() : '',
       'customTime'   => $isWorkshop ? $rdg->customTime()->value() : '',
       'terms'        => $termSlugs,
-      'note'         => $rdg->note()->kirbytext(),
-      'blurb'        => $rdg->blurb()->kirbytext(),
+      'note'         => (string) $rdg->note()->kirbytext(),
+      'blurb'        => (string) $rdg->blurb()->kirbytext(),
       'bookstackUrl' => $rdg->bookstackUrl()->value(),
       'type'         => $isWorkshop ? 'workshop' : 'reading',
       'link'         => $rdg->download_reading()->isNotEmpty()
