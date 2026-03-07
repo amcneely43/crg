@@ -66,6 +66,18 @@
       </div>
     <?php endif ?>
 
+    <?php if ($page->links()->isNotEmpty()): ?>
+      <div class="detail-links">
+        <hr class="dotted-divider">
+        <p class="detail-section-label">Supplementary Resources</p>
+        <ul>
+          <?php foreach ($page->links()->toStructure() as $link): ?>
+            <li><a href="<?= $link->url() ?>" target="_blank" rel="noopener"><?= $link->description()->html() ?></a></li>
+          <?php endforeach ?>
+        </ul>
+      </div>
+    <?php endif ?>
+
   </div>
 </main>
 

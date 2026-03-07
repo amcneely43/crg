@@ -822,114 +822,6 @@ ul.gallery {
   100% { clip-path: inset(0 0 0 0) }
 }
 
-
-/* Submissions Page */
-
-.page.submissions {
-  padding: var(--content-padding);
-}
-
-.page.submissions .content-column {
-  max-width: 720px;
-  margin: 0 auto;
-}
-
-.page.submissions h1 {
-  margin-bottom: 1.5rem;
-}
-
-.page.submissions .intro {
-  margin-bottom: 2rem;
-}
-
-/* Form frame */
-
-.page.submissions form {
-  border-top: var(--dotted-border);
-  padding-top: 1.5rem;
-}
-
-/* Fields stack nicely */
-
-.page.submissions .field {
-  display: block;
-  margin-bottom: 1rem;
-}
-
-.page.submissions .field label {
-  display: block;
-  margin-bottom: 0.25rem;
-}
-
-.page.submissions .field input,
-.page.submissions .field textarea,
-.page.submissions .field input[type="file"] {
-  width: 100%;
-  padding: 0.4rem 0.6rem;
-  border: var(--dotted-border);
-  background: white;
-}
-
-/* Checkbox row */
-
-.page.submissions .field.checkbox {
-  margin-top: 1.5rem;
-}
-
-.page.submissions .field.checkbox label {
-  display: flex;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
-
-.page.submissions .field.checkbox input[type="checkbox"] {
-  margin-top: 0.2rem;
-  width: auto;
-  border: none;
-}
-
-/* Actions / button */
-
-.page.submissions .actions {
-  margin-top: 1.5rem;
-}
-
-.page.submissions .actions button {
-  padding: 0.4rem 1rem;
-  border: var(--color-border);
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
-
-.page.submissions .actions button:hover {
-  box-shadow: 3px 3px black;
-  transform: translate(-3px, -3px);
-}
-
-/* Notices (success / error) */
-
-.page.submissions .notice {
-  display: block;
-  padding: 0.9rem 1.2rem;
-  margin-bottom: 1.5rem;
-  border: var(--dotted-border);
-}
-
-.page.submissions .notice.success {
-  background: #e6ffea;
-}
-
-.page.submissions .notice.error {
-  background: #ffecec;
-}
-
-.page.submissions .error {
-  color: #b30000;
-  font-size: 0.9rem;
-  margin-top: 0.25rem;
-}
-
 /* ---------------------------------------
    Readings page — semantic network
 ---------------------------------------- */
@@ -1207,6 +1099,21 @@ main.readings {
 .detail-members-note {
   font-size: 0.7rem;
   color: #aaa;
+}
+
+.detail-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-links li {
+  margin-bottom: 0.4rem;
+}
+
+.detail-links a {
+  font-size: var(--body-text);
+  text-decoration: underline;
 }
 
 /* Tooltip (hidden — labels rendered directly on SVG) */
