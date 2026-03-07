@@ -26,4 +26,5 @@
 
   </div>
 </main>
+<?php snippet('aside', ['image' => null]) ?>
 <?php snippet('footer') ?>

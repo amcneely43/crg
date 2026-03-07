@@ -96,13 +96,14 @@ nav {
 	grid-column: 1;
 	grid-row: 1;
 	font-size: 1.8rem;
-	display: inline-block;
-	width: auto;	
-  height: auto;	
+	display: block;
+	width: auto;
+	height: 100%;
 }
 
 nav .dotted {
 	padding: 10px 20px 16px;
+	height: 100%;
 }
 
 main {
