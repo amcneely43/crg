@@ -105,6 +105,16 @@
     });
   }
 
+  /* ── Book detail close button ────────────────────────────────────────────── */
+  const closeBtn = document.getElementById('bookDetailClose');
+  if (closeBtn) {
+    closeBtn.addEventListener('click', () => {
+      detailEl.classList.remove('slid-open');
+      document.body.classList.remove('overlay');
+      setTimeout(() => { detailEl.scrollTop = 0; }, 820);
+    });
+  }
+
   /* ── Book detail ─────────────────────────────────────────────────────────── */
   function showDetail(book) {
     const isWorkshop = book.type === 'workshop';
@@ -150,7 +160,6 @@
           </div>` : '');
 
     detailContentEl.innerHTML = `
-      <a href="#" id="backToMap" class="back-link uppercase">← Back to Readings</a>
       <h2 class="detail-title">${book.title}</h2>
       <p class="detail-author">${book.author || ''}</p>
       ${book.contributor ? `<p class="detail-author">${book.contributor}</p>` : ''}
@@ -161,16 +170,9 @@
       ${bottomBlock}
     `;
 
-    detailContentEl.querySelector('#backToMap').addEventListener('click', e => {
-      e.preventDefault();
-      detailEl.hidden  = true;
-      mapViewEl.hidden = false;
-      detailEl.scrollTop = 0;
-    });
-
-    mapViewEl.hidden = true;
-    detailEl.hidden  = false;
     detailEl.scrollTop = 0;
+    detailEl.classList.add('slid-open');
+    document.body.classList.add('overlay');
   }
 
   /* ══════════════════════════════════════════════════════════════════════════

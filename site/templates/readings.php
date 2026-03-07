@@ -13,7 +13,7 @@
   </div>
 </div>
 
-<?php /* ── Main area: semantic map + book detail ──────────────────────────── */ ?>
+<?php /* ── Main area: semantic map ─────────────────────────────────────────── */ ?>
 <main class="readings triptych">
 
   <div id="mapView">
@@ -22,13 +22,15 @@
     </div>
   </div>
 
-  <div id="bookDetail" hidden>
-    <div id="bookDetailContent"></div>
-  </div>
-
 </main>
 
 <div id="mapTooltip"></div>
+
+<?php /* ── Book detail slide-up overlay (mirrors Doings/.info) ──────────────── */ ?>
+<div id="bookDetail">
+  <button id="bookDetailClose" class="info-close">Close ↓</button>
+  <div id="bookDetailContent"></div>
+</div>
 
 <?php /* ── Inject Kirby data for JS ──────────────────────────────────────────── */ ?>
 <script>
