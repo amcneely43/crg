@@ -40,6 +40,15 @@ fields:
       - "no"
       - "yes"
 
+  doxa:
+    label: Doxa Term
+    type: toggle
+    width: 1/3
+    help: "Type 1: surfaces ConceptNet commonsense associations in the Doxa panel"
+    text:
+      - "no"
+      - "yes"
+
   line-a:
     type: line
 

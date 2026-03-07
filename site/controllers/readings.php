@@ -26,6 +26,7 @@ return function ($page, $site) {
         'label'     => $term->title()->value(),
         'center'    => $term->center()->toBool(),
         'derived'   => $term->derived()->toBool(),
+        'doxa'      => $term->doxa()->toBool(),
         'category'  => $term->category()->value(),
         'temporal'  => $term->temporal()->value(),
         'valence'   => (float) ($term->valence()->or(0)->value()),

@@ -14,6 +14,9 @@ Derived: false
 
 ----
 
+Doxa: true
+----
+
 Valence: -0.8
 
 ----

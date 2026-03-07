@@ -428,6 +428,15 @@
         .attr('stroke-dasharray', '2,2')
         .attr('opacity', 0.5);
 
+      /* Outer ring — doxa (Type 1) nodes */
+      node.filter(d => d.doxa && !d.center)
+        .append('circle')
+        .attr('r', 9)
+        .attr('fill', 'none')
+        .attr('stroke', MAGENTA)
+        .attr('stroke-width', 1.5)
+        .attr('opacity', 0.45);
+
       /* Labels */
       node.append('text')
         .text(d => d.label)
