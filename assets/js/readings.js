@@ -435,7 +435,7 @@
         .attr('fill', 'none')
         .attr('stroke', YELLOW)
         .attr('stroke-width', 1.5)
-        .attr('opacity', 0.75);
+        .attr('opacity', 0.5);
 
       /* Labels */
       node.append('text')
