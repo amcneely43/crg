@@ -986,9 +986,9 @@ main.readings {
   height: 100%;
 }
 
-/* Book detail slide-up overlay — same mechanism as Doings (.info) */
+/* Book detail slide-up overlay — covers main column only (grid-col 2) */
 #bookDetail {
-  grid-column: 1 / span 2;
+  grid-column: 2;
   grid-row: 1 / span 2;
   z-index: 9;
   background: white;
@@ -996,8 +996,7 @@ main.readings {
   transition: transform 800ms ease;
   overflow-y: auto;
   position: relative;
-  max-height: calc(100vh - var(--margin) * 2);
-  margin-top: var(--margin);
+  height: 100vh;
 }
 
 #bookDetail.slid-open {

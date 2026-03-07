@@ -110,7 +110,6 @@
   if (closeBtn) {
     closeBtn.addEventListener('click', () => {
       detailEl.classList.remove('slid-open');
-      document.body.classList.remove('overlay');
       setTimeout(() => { detailEl.scrollTop = 0; }, 820);
     });
   }
@@ -172,7 +171,6 @@
 
     detailEl.scrollTop = 0;
     detailEl.classList.add('slid-open');
-    document.body.classList.add('overlay');
   }
 
   /* ══════════════════════════════════════════════════════════════════════════
