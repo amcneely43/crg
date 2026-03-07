@@ -3,8 +3,8 @@
 <?php /* ── Persistent book list sidebar (grid col 1, row 2) ─────────────────── */ ?>
 <div id="bookListPanel">
   <div class="book-tabs">
-    <button class="book-tab-btn active" data-tab="readings">Readings</button>
-    <button class="book-tab-btn" data-tab="workshops">Workshops</button>
+    <button class="book-tab-btn" data-tab="readings">Readings</button>
+    <button class="book-tab-btn active" data-tab="workshops">Workshops</button>
   </div>
   <ul id="bookList">
     <?php foreach ($allSiblings as $sibling): ?>
@@ -26,7 +26,7 @@
   </ul>
 </div>
 
-<?php /* ── Reading detail (grid col 2, rows 1–2) ───────────────────────────── */ ?>
+<?php /* ── Workshop detail (grid col 2, rows 1–2) ──────────────────────────── */ ?>
 <main class="reading-detail triptych">
   <div id="readingContent">
 
@@ -35,27 +35,24 @@
     <h2 class="detail-title"><?= $page->title()->html() ?></h2>
     <p class="detail-author"><?= $page->author()->html() ?></p>
 
+    <?php if ($page->contributor()->isNotEmpty()): ?>
+      <p class="detail-author"><?= $page->contributor()->html() ?></p>
+    <?php endif ?>
+
     <?php if ($page->date()->isNotEmpty()): ?>
-      <p class="detail-meta">Reading began <?= $page->date()->toDate('F Y') ?></p>
+      <?php
+        $meta = $page->date()->toDate('F j, Y');
+        if ($page->customTime()->isNotEmpty()) $meta .= ' · ' . $page->customTime()->html();
+        if ($page->location()->isNotEmpty())   $meta .= ' · ' . $page->location()->html();
+      ?>
+      <p class="detail-meta"><?= $meta ?></p>
     <?php endif ?>
 
     <hr class="dotted-divider">
 
-    <div class="detail-top-cols">
-      <div class="detail-note">
-        <?php if ($page->note()->isNotEmpty()): ?>
-          <?= $page->note()->kirbytext() ?>
-        <?php endif ?>
-      </div>
-      <div class="detail-flyer">
-        <?php $flyer = $page->flyer()->toFiles()->first() ?>
-        <?php if ($flyer): ?>
-          <img src="<?= $flyer->url() ?>" alt="<?= $page->title()->html() ?> flyer">
-        <?php else: ?>
-          <div class="detail-flyer-placeholder">Flyer Pending</div>
-        <?php endif ?>
-      </div>
-    </div>
+    <?php if ($page->note()->isNotEmpty()): ?>
+      <div class="detail-note"><?= $page->note()->kirbytext() ?></div>
+    <?php endif ?>
 
     <?php if ($page->blurb()->isNotEmpty()): ?>
       <hr class="dotted-divider">
@@ -63,17 +60,16 @@
       <div class="detail-blurb"><?= $page->blurb()->kirbytext() ?></div>
     <?php endif ?>
 
-    <?php if ($page->bookstackUrl()->isNotEmpty()): ?>
+    <?php if ($page->download_reading()->isNotEmpty()): ?>
       <div class="detail-annotations">
-        <a href="<?= $page->bookstackUrl() ?>" target="_blank" rel="noopener" class="button-outline">View Annotations →</a>
-        <span class="detail-members-note">Members only · login required</span>
+        <a href="<?= $page->download_reading() ?>" target="_blank" rel="noopener" class="button-outline">Workshop Materials →</a>
       </div>
     <?php endif ?>
 
   </div>
 </main>
 
-<?php /* ── Tab-switching JS (show readings by default, hide workshops) ─────── */ ?>
+<?php /* ── Tab-switching JS (show workshops by default) ──────────────────────── */ ?>
 <script>
 (function () {
   var tabs    = document.querySelectorAll('.book-tab-btn');
@@ -94,8 +90,8 @@
     });
   });
 
-  /* Default: show readings only */
-  applyTab('readings');
+  /* Default: show workshops only */
+  applyTab('workshops');
 
   /* Scroll active item into view */
   var active = document.querySelector('.book-item--active');

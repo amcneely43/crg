@@ -12,11 +12,16 @@ columns:
     fields:
 
       # ── Identity ────────────────────────────────────────────────────────
-      presenter:
+      author:
         label: Presenter
         type: text
         required: true
         help: Person or organization leading the workshop
+
+      contributor:
+        label: Contributor
+        type: text
+        help: Second participant, if applicable
 
       date:
         label: Date
