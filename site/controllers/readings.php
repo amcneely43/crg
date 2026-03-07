@@ -55,6 +55,8 @@ return function ($page, $site) {
       'title'        => $rdg->title()->value(),
       'author'       => $rdg->author()->value(),
       'contributor'  => $isWorkshop ? $rdg->contributor()->value() : '',
+      'location'     => $isWorkshop ? $rdg->location()->value() : '',
+      'customTime'   => $isWorkshop ? $rdg->customTime()->value() : '',
       'terms'        => $termSlugs,
       'note'         => $rdg->note()->value(),
       'blurb'        => $rdg->blurb()->value(),

@@ -9,7 +9,7 @@
     --margin: 0;
     --mobile-pdg: 0.75rem;
   }
-      
+
   .grid, footer {
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@
   .m-show img.slide-close {
     top: 1px;
     right: 1px;
-    transition: transform 500ms ease; 
+    transition: transform 500ms ease;
   }
 
   #nav_arrow {
@@ -106,7 +106,7 @@
   .rotate {
     transform-origin: center;
     transform: rotate(180deg);
-    transition: transform 500ms ease; 
+    transition: transform 500ms ease;
   }
 
   /* FOOTER */
@@ -135,7 +135,7 @@
   }
 
   .info .menu .menu-item:not(:nth-of-type(3n)) {
-      border-right: 1px dashed black; 
+      border-right: 1px dashed black;
   }
 
   .info .menu .menu-item.last {
@@ -199,59 +199,24 @@
     padding: var(--mobile-pdg);
   }
 
-  /* Readings, Review Posts */
-  
-  ul.calendar li, .reviews .post {
-    display: flex;
-    flex-direction: column;
-    padding: 0.75rem;
-  }
-  .readings .past-events .header {
-    border-top: var(--dotted-border);
-    margin-top: 4rem;
+  /* Reading / Workshop detail page */
+  main.reading-detail {
+    padding: var(--mobile-pdg) 1rem 2rem;
   }
 
-  .past-events time {
-    padding-bottom: 1rem;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-  }
-  
-  .head-line h3 {
-    justify-content: space-between;
+  .detail-top-cols {
+    grid-template-columns: 1fr;
+    gap: 1rem;
   }
 
-  .upcoming .image img, .reviews .post .image img {
-    margin: 15px 0;
-    max-width: 100%;
-    max-height: 100vh;
+  /* Gleanings */
+  .gleaning-article {
+    padding: var(--mobile-pdg) 1rem 2rem;
   }
 
-  .upcoming .image, .reviews .post .image {
-    width: 80%;
-    align-self: flex-start;
-  }
-
-  .readings button.load-more {
-    padding: 1.5rem 1rem;
-  }
-
-  /* Annotations */
-
-  .annotations, .annotation {
-    font-size: 1.2rem;
-  }
-  .annotations li, .annotation .heading, .annotation .details {
-    padding: 0.75rem 0.5rem;
-  }
-
-  .annotations .notice {
-    border-top: none;
-  }
-
-  .annotations .notice > div:first-of-type {
-    padding-left: 0.75rem;
+  /* Weavings */
+  .weavings-page {
+    padding: var(--mobile-pdg) 1rem 2rem;
   }
 
   /* Bookmark */
@@ -274,59 +239,6 @@
 
   .gallery li:nth-of-type(2n) {
     border-right: none;
-  }
-
-  /* Reviews */
-  .reviews .notice, .article .notice {
-    border-top: none;
-    padding: 0;
-  }
-
-  .reviews .notice > div, .article .notice > div {
-    padding: var(--mobile-pdg);
-  }
-
-  .article .article-header, .article .article-body {
-    padding: var(--mobile-pdg);
-    display: flex;
-    flex-flow: column;
-  }
-
-  .article .article-header > div:first-of-type {
-    margin-right: 0;
-  }
-
-  .article .article-header h1 {
-    font-size: 3rem;
-    line-height: 1.2;
-  }
-
-  .article .article-body h4 {
-    font-size: 1.6rem;
-  }
-
-  .article .block-type-gallery .flex {
-    flex-flow: column;
-  }
-
-  .article .block-type-gallery .flex li:not(:last-of-type) {
-    margin-right: 0;
-  }
-  .article .block-type-gallery .flex li {
-    width: 100%;
-    margin-bottom: var(--mobile-pdg);
-  }
-
-  .article .block-type-gallery .caption-top-padding figcaption {
-    padding-top: 0;
-  }
-
-  .article .article-body .block-type-list .double {
-    columns: 1;
-  }
-
-  .article-body .endnotes ol li {
-    word-break: break-word;
   }
 }
 

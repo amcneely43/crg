@@ -107,38 +107,58 @@
 
   /* ── Book detail ─────────────────────────────────────────────────────────── */
   function showDetail(book) {
-    const dateStr = book.dateLabel
-      ? 'Reading began ' + book.dateLabel.charAt(0) + book.dateLabel.slice(1).toLowerCase()
-      : '';
+    const isWorkshop = book.type === 'workshop';
 
-    const flyerHtml = `<div class="detail-flyer-placeholder">Flyer Pending</div>`;
+    // Date meta line
+    let dateStr;
+    if (isWorkshop) {
+      const dateParts = [
+        book.dateLabel ? book.dateLabel.charAt(0) + book.dateLabel.slice(1).toLowerCase() : '',
+        book.customTime || '',
+        book.location   || '',
+      ].filter(Boolean);
+      dateStr = dateParts.join(' · ');
+    } else {
+      dateStr = book.dateLabel
+        ? 'Reading began ' + book.dateLabel.charAt(0) + book.dateLabel.slice(1).toLowerCase()
+        : '';
+    }
 
-    const topCols = `
-      <div class="detail-top-cols">
-        <div class="detail-note">${book.note || ''}</div>
-        ${flyerHtml}
-      </div>`;
+    // Note block — readings get two-col layout with flyer; workshops get note only
+    const topCols = isWorkshop
+      ? `<div class="detail-note">${book.note || ''}</div>`
+      : `<div class="detail-top-cols">
+          <div class="detail-note">${book.note || ''}</div>
+          <div class="detail-flyer-placeholder">Flyer Pending</div>
+        </div>`;
 
     const openingBlock = book.blurb ? `
       <hr class="dotted-divider">
       <p class="detail-section-label">Opening Remarks</p>
       <div class="detail-blurb">${book.blurb}</div>` : '';
 
-    const annotationsBtn = book.bookstackUrl ? `
-      <div class="detail-annotations">
-        <a href="${book.bookstackUrl}" target="_blank" rel="noopener" class="button-outline">View Annotations →</a>
-        <span class="detail-members-note">Members only · login required</span>
-      </div>` : '';
+    // Bottom action button
+    const bottomBlock = isWorkshop
+      ? (book.link ? `
+          <div class="detail-annotations">
+            <a href="${book.link}" target="_blank" rel="noopener" class="button-outline">Workshop Materials →</a>
+          </div>` : '')
+      : (book.bookstackUrl ? `
+          <div class="detail-annotations">
+            <a href="${book.bookstackUrl}" target="_blank" rel="noopener" class="button-outline">View Annotations →</a>
+            <span class="detail-members-note">Members only · login required</span>
+          </div>` : '');
 
     detailContentEl.innerHTML = `
       <a href="#" id="backToMap" class="back-link uppercase">← Back to Readings</a>
       <h2 class="detail-title">${book.title}</h2>
       <p class="detail-author">${book.author || ''}</p>
+      ${book.contributor ? `<p class="detail-author">${book.contributor}</p>` : ''}
       ${dateStr ? `<p class="detail-meta">${dateStr}</p>` : ''}
       <hr class="dotted-divider">
       ${topCols}
       ${openingBlock}
-      ${annotationsBtn}
+      ${bottomBlock}
     `;
 
     detailContentEl.querySelector('#backToMap').addEventListener('click', e => {
