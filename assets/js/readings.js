@@ -433,9 +433,9 @@
         .append('circle')
         .attr('r', 9)
         .attr('fill', 'none')
-        .attr('stroke', MAGENTA)
+        .attr('stroke', YELLOW)
         .attr('stroke-width', 1.5)
-        .attr('opacity', 0.45);
+        .attr('opacity', 0.75);
 
       /* Labels */
       node.append('text')
