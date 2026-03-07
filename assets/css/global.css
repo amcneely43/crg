@@ -834,7 +834,10 @@ ul.gallery {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border-top: var(--dotted-border);
+  border-top: 0;
+  border-right: var(--dotted-border);
+  border-bottom: var(--dotted-border);
+  border-left: var(--dotted-border);
 }
 
 /* READINGS / WORKSHOPS tabs */
