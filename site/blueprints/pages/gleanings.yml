@@ -28,3 +28,66 @@ columns:
         layout: list
         info: "{{ page.byline }}"
         sortBy: date desc
+
+  toolkit:
+    width: 3/3
+    fields:
+      toolkitHeading:
+        type: headline
+        label: "CRG Toolkit Sidebar"
+        numbered: false
+      toolkitEssential:
+        type: structure
+        label: Essential Resources
+        fields:
+          name:
+            type: text
+            label: Name
+            required: true
+          url:
+            type: url
+            label: URL
+      toolkitDatabases:
+        type: structure
+        label: Useful Databases & Ontologies
+        fields:
+          name:
+            type: text
+            label: Name
+            required: true
+          url:
+            type: url
+            label: URL
+      toolkitArchives:
+        type: structure
+        label: Archives & Libraries
+        fields:
+          name:
+            type: text
+            label: Name
+            required: true
+          url:
+            type: url
+            label: URL
+      toolkitIndexes:
+        type: structure
+        label: Indexes, Bibliographies & Textbooks
+        fields:
+          name:
+            type: text
+            label: Name
+            required: true
+          url:
+            type: url
+            label: URL
+      toolkitJournals:
+        type: structure
+        label: Salient Journals
+        fields:
+          name:
+            type: text
+            label: Name
+            required: true
+          url:
+            type: url
+            label: URL

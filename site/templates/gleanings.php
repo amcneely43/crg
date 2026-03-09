@@ -26,5 +26,38 @@
 
   </div>
 </main>
-<?php snippet('aside', ['image' => null]) ?>
+<aside class="toolkit-page">
+  <div class="dotted toolkit-aside">
+    <h6 class="toolkit-heading">CRG Toolkit</h6>
+    <div class="toolkit-scroll">
+      <?php
+      $sections = [
+        ['field' => 'toolkitEssential',  'label' => 'Essential Resources'],
+        ['field' => 'toolkitDatabases',  'label' => 'Useful Databases & Ontologies'],
+        ['field' => 'toolkitArchives',   'label' => 'Archives & Libraries'],
+        ['field' => 'toolkitIndexes',    'label' => 'Indexes, Bibliographies & Textbooks'],
+        ['field' => 'toolkitJournals',   'label' => 'Salient Journals'],
+      ];
+      foreach ($sections as $s):
+        $items = $page->{$s['field']}()->toStructure();
+        if (!$items->count()) continue;
+      ?>
+        <div class="toolkit-section">
+          <h6 class="toolkit-section-label"><?= $s['label'] ?></h6>
+          <ul class="toolkit-list">
+            <?php foreach ($items as $item): ?>
+              <li class="toolkit-item">
+                <?php if ($item->url()->isNotEmpty()): ?>
+                  <a href="<?= $item->url() ?>" target="_blank" rel="noopener"><?= $item->name()->html() ?></a>
+                <?php else: ?>
+                  <?= $item->name()->html() ?>
+                <?php endif ?>
+              </li>
+            <?php endforeach ?>
+          </ul>
+        </div>
+      <?php endforeach ?>
+    </div>
+  </div>
+</aside>
 <?php snippet('footer') ?>

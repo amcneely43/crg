@@ -1,1 +1,118 @@
 Title: Gleanings
+
+----
+
+Intro:
+
+----
+
+ToolkitEssential:
+-
+  name: Internet Archive
+  url: ""
+-
+  name: The Keywords Project
+  url: ""
+-
+  name: Open Humanities Press
+  url: ""
+-
+  name: Stanford Encyclopedia of Philosophy
+  url: ""
+-
+  name: "Silva Rhetoricae: The Forest of Rhetoric"
+  url: ""
+-
+  name: Encyclopedia of Concise Concepts by Women Philosophers
+  url: ""
+
+----
+
+ToolkitDatabases:
+-
+  name: African Journals Online
+  url: ""
+-
+  name: BabelNet
+  url: ""
+-
+  name: ConceptNet
+  url: ""
+-
+  name: Internet Philosophy Ontology
+  url: ""
+-
+  name: World Atlas of Language Structures
+  url: ""
+
+----
+
+ToolkitArchives:
+-
+  name: Knowledge Commons
+  url: ""
+-
+  name: Marxists Internet Archive
+  url: ""
+-
+  name: The Anarchist Library
+  url: ""
+-
+  name: Online Library of Liberty
+  url: ""
+-
+  name: Perseus Digital Library
+  url: ""
+-
+  name: Project Gutenberg
+  url: ""
+-
+  name: The Rebus Foundation
+  url: ""
+
+----
+
+ToolkitIndexes:
+-
+  name: CompPile
+  url: ""
+-
+  name: Internet Encyclopedia of Philosophy
+  url: ""
+-
+  name: Open Textbook Library
+  url: ""
+-
+  name: PhilArchive
+  url: ""
+-
+  name: The Rhetoric UnTextbook
+  url: ""
+
+----
+
+ToolkitJournals:
+-
+  name: CLR James Journal
+  url: ""
+-
+  name: Community Literacy Journal
+  url: ""
+-
+  name: Enculturation
+  url: ""
+-
+  name: Journal of World Philosophies
+  url: ""
+-
+  name: "Philosophy & Rhetoric"
+  url: ""
+-
+  name: Project on the Rhetoric of Inquiry
+  url: ""
+-
+  name: Radical Philosophy
+  url: ""
+-
+  name: "Rhetorica: A Journal of the History of Rhetoric"
+  url: ""
