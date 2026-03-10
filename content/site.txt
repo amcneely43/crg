@@ -23,3 +23,141 @@ Researchers who are working on topics that seem to intersect with either our gro
 To submit, write to the following email: **communityreadinggroup@gmail.com**
 
 Use the subject line Workshop Submission and please include your name, a brief bio, the title of your piece, and a short description.
+
+----
+
+Toolkitessential:
+
+- 
+  name: Internet Archive
+  url: https://archive.org/
+- 
+  name: The Keywords Project
+  url: https://keywords.pitt.edu/
+- 
+  name: Open Humanities Press
+  url: https://www.openhumanitiespress.org/
+- 
+  name: Stanford Encyclopedia of Philosophy
+  url: https://plato.stanford.edu/
+- 
+  name: St Andrews Encyclopaedia of Theology
+  url: https://www.saet.ac.uk/
+- 
+  name: 'Silva Rhetoricae: The Forest of Rhetoric'
+  url: https://rhetoric.byu.edu/
+- 
+  name: >
+    Encyclopedia of Concise Concepts by
+    Women Philosophers
+  url: >
+    https://ecc.historyofwomenphilosophers.org/
+
+----
+
+Toolkitdatabases:
+
+- 
+  name: African Journals Online
+  url: https://www.ajol.info/index.php/ajol
+- 
+  name: BabelNet
+  url: https://babelnet.org/
+- 
+  name: ConceptNet
+  url: https://conceptnet.io/
+- 
+  name: Internet Philosophy Ontology Project
+  url: https://www.inphoproject.org/
+- 
+  name: World Atlas of Language Structures
+  url: https://wals.info/
+
+----
+
+Toolkitarchives:
+
+- 
+  name: Globethics
+  url: https://globethics.net/
+- 
+  name: Knowledge Commons
+  url: https://hcommons.org/
+- 
+  name: Marxists Internet Archive
+  url: https://www.marxists.org/english.htm
+- 
+  name: The Anarchist Library
+  url: >
+    https://theanarchistlibrary.org/special/index
+- 
+  name: Online Library of Liberty
+  url: https://oll.libertyfund.org/
+- 
+  name: Perseus Digital Library
+  url: https://www.perseus.tufts.edu/hopper/
+- 
+  name: Project Gutenberg
+  url: https://www.gutenberg.org/
+- 
+  name: The Rebus Foundation
+  url: https://rebus.community/
+
+----
+
+Toolkitindexes:
+
+- 
+  name: CompPile
+  url: https://comppile.org/site/about.htm
+- 
+  name: Internet Encyclopedia of Philosophy
+  url: https://iep.utm.edu/
+- 
+  name: Open Textbook Library
+  url: https://open.umn.edu/opentextbooks/
+- 
+  name: PhilArchive
+  url: https://philarchive.org/
+- 
+  name: The Rhetoric UnTextbook
+  url: https://the-un-textbook.ghost.io/
+- 
+  name: Open Access Digital Theological Library
+  url: https://libguides.globaldtl.org/home
+
+----
+
+Toolkitjournals:
+
+- 
+  name: CLR James Journal
+  url: >
+    https://www.pdcnet.org/clrjames/The-CLR-James-Journal
+- 
+  name: Community Literacy Journal
+  url: >
+    https://digitalcommons.fiu.edu/pages/?page=CLJ
+- 
+  name: Enculturation
+  url: https://enculturation.net/
+- 
+  name: Journal of World Philosophies
+  url: https://iupress.org/journals/jwp/
+- 
+  name: 'Philosophy & Rhetoric'
+  url: >
+    https://www.psupress.org/Journals/jnls_pr.html
+- 
+  name: Political Theology Network
+  url: https://politicaltheology.com/
+- 
+  name: Project on the Rhetoric of Inquiry
+  url: https://pubs.lib.uiowa.edu/poroi/
+- 
+  name: Radical Philosophy
+  url: https://www.radicalphilosophy.com/
+- 
+  name: 'Rhetorica: A Journal of the History of Rhetoric'
+  url: >
+    https://www.press.jhu.edu/journals/rhetorica

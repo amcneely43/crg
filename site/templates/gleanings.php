@@ -39,7 +39,7 @@
         ['field' => 'toolkitJournals',   'label' => 'Salient Journals'],
       ];
       foreach ($sections as $s):
-        $items = $page->{$s['field']}()->toStructure();
+        $items = $site->{$s['field']}()->toStructure();
         if (!$items->count()) continue;
       ?>
         <div class="toolkit-section">
