@@ -34,9 +34,9 @@
 
 <?php /* ── Inject Kirby data for JS ──────────────────────────────────────────── */ ?>
 <script>
-window.CRG_TERMS         = <?= json_encode($termsData,     JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
-window.CRG_BOOKS         = <?= json_encode($booksData,     JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
-window.CRG_WORKSHOP_INTRO = <?= json_encode((string) $workshopIntro, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE) ?>;
+window.CRG_TERMS          = <?= json_encode($termsData,           JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?>;
+window.CRG_BOOKS          = <?= json_encode($booksData,           JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?>;
+window.CRG_WORKSHOP_INTRO = <?= json_encode((string) $workshopIntro, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_HEX_TAG) ?>;
 </script>
 
 <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>

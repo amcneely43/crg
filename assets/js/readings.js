@@ -39,6 +39,17 @@
   let activeTab    = 'readings';
   let activeTermId = null;
 
+  /* ── HTML-escape helper (plain-text fields rendered via innerHTML) ────────── */
+  function esc(str) {
+    if (!str) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
   /* ── DOM elements ────────────────────────────────────────────────────────── */
   const bookListEl      = document.getElementById('bookList');
   const mapViewEl       = document.getElementById('mapView');
@@ -90,10 +101,10 @@
 
     bookListEl.innerHTML = filtered.map(book => `
       <li class="book-item" data-id="${book.id}">
-        ${book.dateLabel ? `<span class="book-date">${book.dateLabel}</span>` : ''}
-        <span class="book-title">${book.title}</span>
-        ${book.author     ? `<span class="book-author">${book.author}</span>`      : ''}
-        ${book.contributor ? `<span class="book-contributor">${book.contributor}</span>` : ''}
+        ${book.dateLabel ? `<span class="book-date">${esc(book.dateLabel)}</span>` : ''}
+        <span class="book-title">${esc(book.title)}</span>
+        ${book.author      ? `<span class="book-author">${esc(book.author)}</span>`      : ''}
+        ${book.contributor ? `<span class="book-contributor">${esc(book.contributor)}</span>` : ''}
       </li>
     `).join('');
 
@@ -122,14 +133,14 @@
     let dateStr;
     if (isWorkshop) {
       const dateParts = [
-        book.dateLabel ? book.dateLabel.charAt(0) + book.dateLabel.slice(1).toLowerCase() : '',
-        book.customTime || '',
-        book.location   || '',
+        book.dateLabel  ? esc(book.dateLabel).charAt(0)  + esc(book.dateLabel).slice(1).toLowerCase()  : '',
+        book.customTime ? esc(book.customTime) : '',
+        book.location   ? esc(book.location)   : '',
       ].filter(Boolean);
       dateStr = dateParts.join(' · ');
     } else {
       dateStr = book.dateLabel
-        ? 'Reading began ' + book.dateLabel.charAt(0) + book.dateLabel.slice(1).toLowerCase()
+        ? 'Reading began ' + esc(book.dateLabel).charAt(0) + esc(book.dateLabel).slice(1).toLowerCase()
         : '';
     }
 
@@ -160,9 +171,9 @@
           </div>`;
 
     detailContentEl.innerHTML = `
-      <h2 class="detail-title">${book.title}</h2>
-      <p class="detail-author">${book.author || ''}</p>
-      ${book.contributor ? `<p class="detail-author">${book.contributor}</p>` : ''}
+      <h2 class="detail-title">${esc(book.title)}</h2>
+      <p class="detail-author">${esc(book.author)}</p>
+      ${book.contributor ? `<p class="detail-author">${esc(book.contributor)}</p>` : ''}
       ${dateStr ? `<p class="detail-meta">${dateStr}</p>` : ''}
       <hr class="dotted-divider">
       ${topCols}
@@ -210,6 +221,8 @@
 
       svg.attr('width', W).attr('height', H);
       svg.selectAll('*').remove();
+
+      if (!TERMS.length) return; /* No terms yet — skip D3 initialisation */
 
       /* ── Scale + category radii ─────────────────────────────────────── */
       const poleSymbolMargin = 52;

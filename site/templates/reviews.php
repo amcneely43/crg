@@ -20,7 +20,9 @@
           <h2 class="weavings-entry-title">
             <a href="<?= $article->url() ?>"><?= $article->title()->html() ?></a>
           </h2>
-          <p class="weavings-author"><?= $article->author()->html() ?></p>
+          <?php if ($article->author()->isNotEmpty()): ?>
+            <p class="weavings-author"><?= $article->author()->html() ?></p>
+          <?php endif ?>
           <?php if ($article->subtitle()->isNotEmpty()): ?>
             <p class="weavings-excerpt"><?= Str::excerpt($article->subtitle()->value(), 200) ?>…</p>
           <?php endif ?>
