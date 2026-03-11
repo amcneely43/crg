@@ -1,7 +1,7 @@
 <?php snippet('nav') ?>
 <main>
-  <div class="<?= $page ?> triptych">
-    <h3 class="header triptych uppercase"><?= $page->title() ?></h3>
+  <div class="<?= $page->slug() ?> triptych">
+    <h3 class="header triptych uppercase"><?= $page->title()->html() ?></h3>
     <div class="content">
       <?= $page->about()->kirbytext() ?>
     </div>

@@ -30,7 +30,7 @@ $info = page('doings');
         <h3>History</h3>
         <?= $info->history()->kirbytext() ?>
         <?php if ($info->author()->isNotEmpty()): ?>
-          <p class="right">– <?= $info->author() ?></p>
+          <p class="right">– <?= $info->author()->html() ?></p>
         <?php endif; ?>
       </div>
     <?php endif; ?>
