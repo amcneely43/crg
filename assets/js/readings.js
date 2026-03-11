@@ -152,11 +152,12 @@
           <div class="detail-annotations">
             <a href="${book.link}" target="_blank" rel="noopener" class="button-outline">Workshop Materials →</a>
           </div>` : '')
-      : (book.bookstackUrl ? `
+      : `
           <div class="detail-annotations">
-            <a href="${book.bookstackUrl}" target="_blank" rel="noopener" class="button-outline">View Annotations →</a>
-            <span class="detail-members-note">Members only · login required</span>
-          </div>` : '');
+            ${book.bookstackUrl
+              ? `<a href="${book.bookstackUrl}" target="_blank" rel="noopener" class="button-outline">View Annotations →</a>`
+              : `<span class="button-outline button-outline--disabled">View Annotations →</span>`}
+          </div>`;
 
     detailContentEl.innerHTML = `
       <h2 class="detail-title">${book.title}</h2>

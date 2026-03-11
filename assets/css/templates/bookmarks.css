@@ -4,8 +4,9 @@
   font-size: 2rem;
   font-weight: normal;
   border-top: none;
+  border-bottom: var(--dotted-border);
   padding-bottom: 1rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 
 .bookmarks .content {

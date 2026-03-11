@@ -63,12 +63,13 @@
       <div class="detail-blurb"><?= $page->blurb()->kirbytext() ?></div>
     <?php endif ?>
 
-    <?php if ($page->bookstackUrl()->isNotEmpty()): ?>
-      <div class="detail-annotations">
+    <div class="detail-annotations">
+      <?php if ($page->bookstackUrl()->isNotEmpty()): ?>
         <a href="<?= $page->bookstackUrl() ?>" target="_blank" rel="noopener" class="button-outline">View Annotations →</a>
-        <span class="detail-members-note">Members only · login required</span>
-      </div>
-    <?php endif ?>
+      <?php else: ?>
+        <span class="button-outline button-outline--disabled">View Annotations →</span>
+      <?php endif ?>
+    </div>
 
     <?php if ($page->links()->isNotEmpty()): ?>
       <div class="detail-links">

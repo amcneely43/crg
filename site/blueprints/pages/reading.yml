@@ -41,8 +41,9 @@ columns:
 
       # ── Content ───────────────────────────────────────────────────────
       note:
-        label: Intro
+        label: Main Keyword
         type: textarea
+        help: Brief etymology of the keyword chosen by the group
 
       blurb:
         label: Opening Remarks
@@ -61,15 +62,17 @@ columns:
 
       # ── Terms & Links ─────────────────────────────────────────────────
       terms:
-        label: Semantic Terms
+        label: Keywords (max 3)
         type: pages
         query: kirby.page('words').children
         multiple: true
+        max: 3
+        help: Tag up to 3 terms from the semantic network
 
       bookstackUrl:
-        label: BookStack URL
+        label: LACA Archive
         type: url
-        help: Link to this reading's BookStack page
+        help: Link to this reading's LACA Archive page
 
       download_reading:
         label: Link to Reading

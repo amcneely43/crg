@@ -4,11 +4,11 @@ Title: Doings
 
 Mission:
 
-Convening every Sunday, the Community Reading Group is a gathering committed to studying the rhetorical construction of *community* and its associated terms, such as the individual, the family, the neighborhood, the people, or simply <u>commonness</u> as such. 
+Convening every Sunday, the Community Reading Group is a gathering committed to studying the rhetorical construction of *community* and its associated terms, such as the individual, the family, the people, or the collective. 
 
-Our platform serves as a bridge between the knowledge production advanced by researchers within the academy and practitioners outside of it. We aim to apply the insights gained by our efforts to the space of organizing, broadly defined.
+This site aims to serve as a bridge between the knowledge-production that occurs within the university and the insights gleaned from movement-building in the world at large. Our work is to dwell in the complexity that adheres to the demand for praxis and the limits of theory.
 
-If you’re a political and/or spiritual organizer who struggles with a disconnect between the transformations you hope to realize and the language at your disposal, or you simply just love the exercise of close reading an intellectually challenging text, then you will be in good company here.
+If you’re a political and/or spiritual organizer who struggles with a disconnect between the transformations you hope to realize and the language at your disposal, or you simply just love the exercise of close reading an intellectually challenging book, then you will be in good company here.
 
 ----
 
@@ -69,41 +69,24 @@ Donate: https://lacarchive.com/section/donate
 
 Faq:
 
-*When does CRG meet? *
+*When does CRG meet?*
+Our primary group meets every Sunday from 7pm to 9pm, Pacific Time. We also have a rotation of morning groups to accommodate Central and Eastern Time Zones. Instructions for upcoming meetings will be sent out by email on Tuesdays.
 
-Our primary group meets every Sunday from 7pm to 9pm, Pacific Time. We also have a rotation of morning groups to accomodate Central and Eastern Time Zones. Instructions for upcoming meetings will be sent out by email on Tuesdays.  
+*Do I have to read the current book to participate?*
+We're committed to reciprocal attention and shared study — genuine engagement with the research interests of others is core to our mission. However, "engagement" may take other forms than reading, and we regularly share working notes so anyone can follow along.
 
-*Do I have to read the current book to participate in CRG? *
-
-We’re committed to reciprocal teaching—genuine engagement with the research interests of others is core to our mission. However, “engagement” may take other forms than reading, and we regularly share working notes so anyone can follow along.
-
-*What does CRG do that other reading groups do not already provide? *
-
-You’ll just have to join to find out. 
-
-*I missed a few books but want to jump into the new reading. Is that okay? And is it okay to participate here and there? Sometimes I can be consistent. *
-
-CRG is open to join at any time. We do not have expectations regarding your bandwidth, and we are just happy you showed up. 
-
-*How does the book selection process work? *
-
-Our course of study is collective, which means that we vote on the books we read. After each book is finished, the organizer nominates someone to propose several books to be subject to a vote. Once the winner is decided, members have one to two weeks to procure a physical copy of the book, although digital copies will always be made available. The intervening week(s) between each member’s turn is dedicated to CRG programming, namely guest speakers or presentations by participants (e.g., group crits or workshops). 
-
-*When do I get to pick a book?*
-
-Participants who commit themselves to reading and discussing at least two books in succession are given priority for book selection. (Selections do not necessarily need to be a book; they may also take the form of an article, a film, an exhibition, or music [provided that all are accessible online].) 
-
-*I am interested in starting a CRG around my interests. Would this be supported by CRG?*
-
-Absolutely! We regularly hold what we call "satellite studies," which pursue tangential lines of inquiry that interest our members. However, there is one caveat: Only stewards can organize a satellite study. A "steward" is essentially a volunteer who helps fellow stewards keep the ship sailing. For more details about stewardship, then "inquire within" as they say...
+*How does the book selection process work?*
+Our course of study is collective, which means that we vote on the books we read. After each book is finished, the organizer nominates someone to propose several books to be subject to a vote. Once the winner is decided, members have one to two weeks to procure a physical copy of the book.
 
 ----
 
 Governance:
 
-CRG’s governance structure follows in the tradition of loosely affiliated peer-support groups or rather, to borrow from the ethos of a well-known leader in the temperance movement, a longstanding model of “benign anarchy.” At the center of CRG’s governance structure is the reading group or groups, whose health is entrusted to members of an advocacy group. Advocacy group members oversee financing initiatives, inter-group communication, and coordination of public-facing activities. 
+CRG is working toward becoming a member-owned cooperative — a formal structure in which the project is collectively governed by its participants. 
 
-Each reading group is organized by a steward, an individual who has committed him, her, or themselves to building and preserving an independent branch of the project. Stewards are entrusted with ensuring that a group’s collective study, no matter what trajectory it may take, remains in orbit with the project’s twinned, inaugural explorations: the limits of community and the duties of common life.
+Membership is currently free. To join, write to us at communityreadinggroup@gmail.com. We will formalize the cooperative structure when active participation reaches a sustainable threshold. More details to follow as that process unfolds.
+
+Each reading group is organized by a steward, an individual who has committed him, her, or themselves to building and preserving an independent branch of the project.
 
 ----
 
@@ -114,10 +97,6 @@ People:
   url: https://www.olivialeiter.com/
   role: Curator (Community Bookmarks)
 - 
-  name: Michael Berlin
-  url: https://www.mpberlin.com/
-  role: Editor
-- 
   name: Joy Park
   url: https://joy-jade.com
   role: 'Designer & Programmer'
@@ -126,7 +105,7 @@ People:
   url: http://haileyloman.com/
   role: ""
 - 
-  name: Evelena Ruether
+  name: '& Evelena Ruether'
   url: ""
 
 ----
@@ -135,12 +114,16 @@ Steward:
 
 - 
   name: Andrew McNeely
-  group: '(attention group) &'
+  group: ""
   url: https://andrew-mcneely.com/
 - 
   name: Zach Whitworth
-  group: (progress group)
+  group: ""
   url: ""
+- 
+  name: Michael Berlin
+  group: ""
+  url: https://www.mpberlin.com/
 
 ----
 
