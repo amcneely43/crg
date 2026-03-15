@@ -35,14 +35,15 @@ if ($hoverEnabled) {
     }
   }
 
-  // c) Fallback: first non-meme image
+  // c) Fallback: first non-meme, non-flyer image
   if (!$coverFile) {
     $coverFile = $rdg->images()
       ->filter(function ($img) {
         $tpl  = (string)$img->template();
         $name = strtolower($img->filename());
 
-        if ($tpl === 'meme') return false;
+        if ($tpl === 'meme')  return false;
+        if ($tpl === 'flyer') return false;
         if (str_contains($name, 'meme')) return false;
 
         return true;

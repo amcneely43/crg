@@ -32,7 +32,7 @@
 
     <a href="<?= $page->parent()->url() ?>" class="back-link uppercase">← Back to Readings</a>
 
-    <h2 class="detail-title"><?= $page->title()->html() ?></h2>
+    <h2 class="detail-title"><?= $page->title()->html() ?><?php if ($page->subtitle()->isNotEmpty()): ?>: <?= $page->subtitle()->html() ?><?php endif ?></h2>
     <p class="detail-author"><?= $page->author()->html() ?></p>
 
     <?php if ($page->date()->isNotEmpty()): ?>
@@ -48,11 +48,14 @@
         <?php endif ?>
       </div>
       <div class="detail-flyer">
-        <?php $flyer = $page->flyer()->toFiles()->first() ?>
+        <?php $flyer = $page->images()->filterBy('template', 'flyer')->first() ?>
         <?php if ($flyer): ?>
           <img src="<?= $flyer->url() ?>" alt="<?= $page->title()->html() ?> flyer">
         <?php else: ?>
           <div class="detail-flyer-placeholder">Flyer Pending</div>
+        <?php endif ?>
+        <?php if ($page->flyerBy()->isNotEmpty()): ?>
+          <p class="detail-flyer-by">Design by <?= $page->flyerBy()->html() ?></p>
         <?php endif ?>
       </div>
     </div>
@@ -61,15 +64,10 @@
       <hr class="dotted-divider">
       <p class="detail-section-label">Opening Remarks</p>
       <div class="detail-blurb"><?= $page->blurb()->kirbytext() ?></div>
-    <?php endif ?>
-
-    <div class="detail-annotations">
-      <?php if ($page->bookstackUrl()->isNotEmpty()): ?>
-        <a href="<?= $page->bookstackUrl() ?>" target="_blank" rel="noopener" class="button-outline">View Annotations →</a>
-      <?php else: ?>
-        <span class="button-outline button-outline--disabled">View Annotations →</span>
+      <?php if ($page->nominatedBy()->isNotEmpty()): ?>
+        <p class="detail-section-credit">— <?= $page->nominatedBy()->html() ?></p>
       <?php endif ?>
-    </div>
+    <?php endif ?>
 
     <?php if ($page->links()->isNotEmpty()): ?>
       <div class="detail-links">
@@ -82,6 +80,32 @@
         </ul>
       </div>
     <?php endif ?>
+
+    <?php if ($page->interlocutors()->isNotEmpty()): ?>
+      <div class="detail-interlocutors">
+        <hr class="dotted-divider">
+        <p class="detail-section-label">Interlocutors</p>
+        <ul>
+          <?php foreach ($page->interlocutors()->toStructure() as $intl): ?>
+            <li>
+              <?php if ($intl->stanford_url()->isNotEmpty()): ?>
+                <a href="<?= $intl->stanford_url() ?>" target="_blank" rel="noopener"><?= $intl->name()->html() ?></a>
+              <?php else: ?>
+                <?= $intl->name()->html() ?>
+              <?php endif ?>
+            </li>
+          <?php endforeach ?>
+        </ul>
+      </div>
+    <?php endif ?>
+
+    <div class="detail-annotations">
+      <?php if ($page->bookstackUrl()->isNotEmpty()): ?>
+        <a href="<?= $page->bookstackUrl() ?>" target="_blank" rel="noopener" class="button-outline">View Annotations →</a>
+      <?php else: ?>
+        <span class="button-outline button-outline--disabled">View Annotations →</span>
+      <?php endif ?>
+    </div>
 
   </div>
 </main>

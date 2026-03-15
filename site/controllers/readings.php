@@ -48,12 +48,31 @@ return function ($page, $site) {
       $termSlugs[] = $termPage->slug();
     }
 
+    $flyerFile = $isWorkshop ? null : $rdg->images()->filterBy('template', 'flyer')->first();
+
+    $links = [];
+    foreach ($rdg->links()->toStructure() as $lnk) {
+      $links[] = [
+        'description' => $lnk->description()->value(),
+        'url'         => $lnk->url()->value(),
+      ];
+    }
+
+    $interlocutors = [];
+    foreach ($rdg->interlocutors()->toStructure() as $intl) {
+      $interlocutors[] = [
+        'name' => $intl->name()->value(),
+        'url'  => $intl->stanford_url()->value(),
+      ];
+    }
+
     $booksData[] = [
       'id'           => $rdg->slug(),
       'url'          => $rdg->url(),
       'year'         => $rdg->date()->isNotEmpty() ? $rdg->date()->toDate('Y') : '',
       'dateLabel'    => $rdg->date()->isNotEmpty() ? strtoupper($rdg->date()->toDate('F Y')) : '',
       'title'        => $rdg->title()->value(),
+      'subtitle'     => $rdg->subtitle()->value(),
       'author'       => $rdg->author()->value(),
       'contributor'  => $isWorkshop ? $rdg->contributor()->value() : '',
       'location'     => $isWorkshop ? $rdg->location()->value() : '',
@@ -61,11 +80,16 @@ return function ($page, $site) {
       'terms'        => $termSlugs,
       'note'         => (string) $rdg->note()->kirbytext(),
       'blurb'        => (string) $rdg->blurb()->kirbytext(),
+      'nominatedBy'  => $rdg->nominatedBy()->value(),
+      'flyerUrl'     => $flyerFile ? $flyerFile->url() : '',
+      'flyerBy'      => $rdg->flyerBy()->value(),
       'bookstackUrl' => $rdg->bookstackUrl()->value(),
       'type'         => $isWorkshop ? 'workshop' : 'reading',
       'link'         => $rdg->download_reading()->isNotEmpty()
                           ? $rdg->download_reading()->value()
                           : '',
+      'links'        => $links,
+      'interlocutors' => $interlocutors,
     ];
   }
 

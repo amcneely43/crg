@@ -145,19 +145,46 @@
     }
 
     // Note block — readings get two-col layout with flyer; workshops get note only
+    const flyerCol = `<div class="detail-flyer">
+      ${book.flyerUrl
+        ? `<img src="${book.flyerUrl}" alt="${esc(book.title)} flyer">`
+        : `<div class="detail-flyer-placeholder">Flyer Pending</div>`}
+      ${book.flyerBy ? `<p class="detail-flyer-by">Design by ${esc(book.flyerBy)}</p>` : ''}
+    </div>`;
+
     const topCols = isWorkshop
       ? `<div class="detail-note">${book.note || ''}</div>`
       : `<div class="detail-top-cols">
           <div class="detail-note">${book.note || ''}</div>
-          <div class="detail-flyer-placeholder">Flyer Pending</div>
+          ${flyerCol}
         </div>`;
 
     const openingBlock = book.blurb ? `
       <hr class="dotted-divider">
       <p class="detail-section-label">Opening Remarks</p>
-      <div class="detail-blurb">${book.blurb}</div>` : '';
+      <div class="detail-blurb">${book.blurb}</div>
+      ${book.nominatedBy ? `<p class="detail-section-credit">— ${esc(book.nominatedBy)}</p>` : ''}` : '';
 
-    // Bottom action button
+    // Supplementary resources
+    const linksBlock = (book.links && book.links.length) ? `
+      <hr class="dotted-divider">
+      <p class="detail-section-label">Supplementary Resources</p>
+      <ul class="detail-links-list">
+        ${book.links.map(l => `<li><a href="${l.url}" target="_blank" rel="noopener">${esc(l.description)}</a></li>`).join('')}
+      </ul>` : '';
+
+    // Interlocutors
+    const interlocutorsBlock = (book.interlocutors && book.interlocutors.length) ? `
+      <hr class="dotted-divider">
+      <p class="detail-section-label">Interlocutors</p>
+      <ul class="detail-interlocutors-list">
+        ${book.interlocutors.map(i => i.url
+          ? `<li><a href="${i.url}" target="_blank" rel="noopener">${esc(i.name)}</a></li>`
+          : `<li>${esc(i.name)}</li>`
+        ).join('')}
+      </ul>` : '';
+
+    // Bottom action button — always last
     const bottomBlock = isWorkshop
       ? (book.link ? `
           <div class="detail-annotations">
@@ -170,14 +197,20 @@
               : `<span class="button-outline button-outline--disabled">View Annotations →</span>`}
           </div>`;
 
+    const titleHtml = book.subtitle
+      ? `${esc(book.title)}: ${esc(book.subtitle)}`
+      : esc(book.title);
+
     detailContentEl.innerHTML = `
-      <h2 class="detail-title">${esc(book.title)}</h2>
+      <h2 class="detail-title">${titleHtml}</h2>
       <p class="detail-author">${esc(book.author)}</p>
       ${book.contributor ? `<p class="detail-author">${esc(book.contributor)}</p>` : ''}
       ${dateStr ? `<p class="detail-meta">${dateStr}</p>` : ''}
       <hr class="dotted-divider">
       ${topCols}
       ${openingBlock}
+      ${linksBlock}
+      ${interlocutorsBlock}
       ${bottomBlock}
     `;
 

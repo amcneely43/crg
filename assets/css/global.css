@@ -424,6 +424,21 @@ h3.header {
   color: white;
 }
 
+/* Readings overlay close — plain text style matching .gleaning-back */
+#bookDetailClose {
+  position: static;
+  border: none;
+  padding: 2.25rem 3rem 0;
+  background: transparent;
+  display: block;
+  margin-bottom: 2rem;
+}
+#bookDetailClose:hover {
+  background: transparent;
+  color: var(--main-color);
+  text-decoration: underline;
+}
+
 /* Content sections */
 .info .content > div {
   padding: 1rem 1.5rem;
@@ -1007,12 +1022,13 @@ main.readings {
 
 #bookDetailContent {
   max-width: 800px;
-  padding: 2.25rem 3rem 3rem;
+  padding: 0 3rem 3rem;
 }
 
 .back-link {
   display: inline-block;
-  font-size: 0.68rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--main-color);
   margin-bottom: 1.75rem;
@@ -1072,12 +1088,25 @@ main.readings {
   text-transform: uppercase;
 }
 
+.detail-flyer-by {
+  color: #bbb;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 0.5rem;
+}
+
 .detail-section-label {
   font-size: 0.68rem;
   color: var(--main-color);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-bottom: 0.85rem;
+}
+
+.detail-section-credit {
+  text-align: right;
+  margin-top: 0.5rem;
 }
 
 .detail-blurb {

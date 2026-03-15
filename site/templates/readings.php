@@ -28,7 +28,7 @@
 
 <?php /* ── Book detail slide-up overlay (mirrors Doings/.info) ──────────────── */ ?>
 <div id="bookDetail">
-  <button id="bookDetailClose" class="info-close">Close ↓</button>
+  <button id="bookDetailClose" class="info-close">← Back to Readings/Workshops</button>
   <div id="bookDetailContent"></div>
 </div>
 

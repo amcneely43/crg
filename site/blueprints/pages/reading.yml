@@ -123,6 +123,7 @@ columns:
         type: files
         multiple: false
         headline: Event Flyer
+        template: flyer
         layout: cards
         cover: true
         ratio: 5/2
