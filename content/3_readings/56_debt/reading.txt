@@ -22,17 +22,7 @@ Note: Debt
 
 ----
 
-Blurb:
-
-Where have we been? Where are we going? And what do we have to work with?
-
-In the darkness of the lived moment, we cannot wholly comprehend its meaning. The past is our dim lantern, faintly illuminating the treacherous path forward through the pitch-black night.
-
-But that past itself is not necessarily so luminous. It burns by sweet dreams and nightmares, by hopes and horrors, by freedom and domination. Clouded by the cynicism of social historians, dreams of communal life are frequently presented as the kernels of command and control, of the despotism of the many over the few, of totalizing dictatorships and rule by naked force. Fascism is made an historical norm, even by those who profess to oppose it, and the nightmares alone fuel the torch. The “clairvoyance” of the cynical historian projects only a future of terror. The past becomes nothing more than a “warning” without alternatives to the dangers ahead.
-
-Something else must be possible. The conscious student of history searches for the orphanages of hope, where the children abandoned by “progress” to the slums of time wait for us to take them home. If we do not recognize them as our own, they threaten to disappear forever, snatched away to islands of unspeakable barbarity. It is our task to look backward, at the past not yet known to us, to unearth and fulfill dreams of freedom not yet realized.
-
-From tragedy, through farce, toward community.
+Blurb: <p>Where have we been? Where are we going? And what do we have to work with?</p><p>In the darkness of the lived moment, we cannot wholly comprehend its meaning. The past is our dim lantern, faintly illuminating the treacherous path forward through the pitch-black night.</p><p>But that past itself is not necessarily so luminous. It burns by sweet dreams and nightmares, by hopes and horrors, by freedom and domination. Clouded by the cynicism of social historians, dreams of communal life are frequently presented as the kernels of command and control, of the despotism of the many over the few, of totalizing dictatorships and rule by naked force. Fascism is made an historical norm, even by those who profess to oppose it, and the nightmares alone fuel the torch. The “clairvoyance” of the cynical historian projects only a future of terror. The past becomes nothing more than a “warning” without alternatives to the dangers ahead.</p><p>Something else must be possible. The conscious student of history searches for the orphanages of hope, where the children abandoned by “progress” to the slums of time wait for us to take them home. If we do not recognize them as our own, they threaten to disappear forever, snatched away to islands of unspeakable barbarity. It is our task to look backward, at the past not yet known to us, to unearth and fulfill dreams of freedom not yet realized.</p><p>From tragedy, through farce, toward community.</p>
 
 ----
 
@@ -66,6 +56,12 @@ Links:
     radical imagination" by David Graeber
   url: >
     https://davidgraeber.org/wp-content/uploads/Occupy-Wall-Street-rediscovers-the-radical-imagination.pdf
+- 
+  description: >
+    "Debt" by The Open Encyclopedia of
+    Anthropology
+  url: >
+    https://www.anthroencyclopedia.com/entry/debt
 
 ----
 

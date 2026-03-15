@@ -169,7 +169,7 @@
     const linksBlock = (book.links && book.links.length) ? `
       <hr class="dotted-divider">
       <p class="detail-section-label">Supplementary Resources</p>
-      <ul class="detail-links-list">
+      <ul class="detail-links-list detail-links">
         ${book.links.map(l => `<li><a href="${l.url}" target="_blank" rel="noopener">${esc(l.description)}</a></li>`).join('')}
       </ul>` : '';
 
@@ -177,7 +177,7 @@
     const interlocutorsBlock = (book.interlocutors && book.interlocutors.length) ? `
       <hr class="dotted-divider">
       <p class="detail-section-label">Interlocutors</p>
-      <ul class="detail-interlocutors-list">
+      <ul class="detail-interlocutors-list detail-interlocutors">
         ${book.interlocutors.map(i => i.url
           ? `<li><a href="${i.url}" target="_blank" rel="noopener">${esc(i.name)}</a></li>`
           : `<li>${esc(i.name)}</li>`

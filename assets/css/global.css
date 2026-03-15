@@ -1097,14 +1097,18 @@ main.readings {
 }
 
 .detail-links ul,
-.detail-interlocutors ul {
+.detail-interlocutors ul,
+#bookDetailContent ul,
+#readingContent ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .detail-links li,
-.detail-interlocutors li {
+.detail-interlocutors li,
+#bookDetailContent ul li,
+#readingContent ul li {
   font-size: 0.9rem;
   line-height: 1.5;
   margin-bottom: 1.1em;

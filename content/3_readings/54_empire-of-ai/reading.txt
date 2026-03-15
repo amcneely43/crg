@@ -2,6 +2,14 @@ Title: Empire of AI
 
 ----
 
+Current: false
+
+----
+
+Date: 2025-08-17
+
+----
+
 Author: Karen Hao
 
 ----
@@ -22,11 +30,35 @@ As the creation and use of AI is ever more pervasive in all of these communities
 
 ----
 
-Contributor: Tracy Jarvis
+Nominatedby: 
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: https://www.lacarchive.com/item/cmmbp7m640001js04mqy3ryry
 
 ----
 
 Download-reading: 
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: Tracy Jarvis
 
 ----
 
@@ -38,27 +70,11 @@ Keywords: ai, artificial intelligence, technology, capitalism
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2025-08-17
-
-----
-
 Location: Zoom
-
-----
-
-Current: true
 
 ----
 

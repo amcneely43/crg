@@ -7,7 +7,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="<?= asset('crg.ico')->url() ?>" type="image/x-icon">
 
-  <?= css(['assets/css/global.css', 'assets/type/typography.css', 'assets/css/mobile.css', '@auto',]) ?>
+  <?php
+    $root = kirby()->root('index');
+    $cssFiles = ['assets/css/global.css', 'assets/type/typography.css', 'assets/css/mobile.css'];
+    foreach ($cssFiles as $file):
+      $v = filemtime($root . '/' . $file);
+      echo '<link rel="stylesheet" href="' . url($file) . '?v=' . $v . '">' . "\n  ";
+    endforeach;
+    // @auto per-template stylesheet
+    $tpl = $page->template()->name();
+    $autoFile = 'assets/css/templates/' . $tpl . '.css';
+    if (file_exists($root . '/' . $autoFile)):
+      $v = filemtime($root . '/' . $autoFile);
+      echo '<link rel="stylesheet" href="' . url($autoFile) . '?v=' . $v . '">' . "\n  ";
+    endif;
+  ?>
 </head>
 
 <body class="grid">
