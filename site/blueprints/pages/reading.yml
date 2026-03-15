@@ -42,12 +42,12 @@ columns:
       # ── Content ───────────────────────────────────────────────────────
       note:
         label: Main Keyword
-        type: textarea
+        type: writer
         help: Brief etymology of the keyword chosen by the group
 
       blurb:
         label: Opening Remarks
-        type: textarea
+        type: writer
 
       nominatedBy:
         label: Nominated By

@@ -45,11 +45,11 @@ columns:
       # ── Content ───────────────────────────────────────────────────────
       note:
         label: Description
-        type: textarea
+        type: writer
 
       blurb:
         label: Blurb
-        type: textarea
+        type: writer
 
       line-b:
         type: line

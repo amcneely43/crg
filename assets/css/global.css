@@ -1096,6 +1096,20 @@ main.readings {
   margin-top: 0.5rem;
 }
 
+.detail-links ul,
+.detail-interlocutors ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-links li,
+.detail-interlocutors li {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 1.1em;
+}
+
 .detail-section-label {
   font-size: 0.68rem;
   color: var(--main-color);
@@ -1113,6 +1127,10 @@ main.readings {
   font-size: var(--body-text);
   line-height: 1.7;
   margin-bottom: 1.5rem;
+}
+
+.detail-blurb p {
+  margin-bottom: 1em;
 }
 
 .detail-annotations {
@@ -1153,9 +1171,6 @@ main.readings {
   margin: 0;
 }
 
-.detail-links li {
-  margin-bottom: 0.4rem;
-}
 
 .detail-links a {
   font-size: var(--body-text);
