@@ -1109,7 +1109,7 @@ main.readings {
 .detail-interlocutors li,
 #bookDetailContent ul li,
 #readingContent ul li {
-  font-size: 0.9rem;
+  font-size: var(--body-text);
   line-height: 1.5;
   margin-bottom: 1.1em;
 }
@@ -1176,8 +1176,8 @@ main.readings {
 }
 
 
-.detail-links a {
-  font-size: var(--body-text);
+.detail-links a,
+.detail-interlocutors a {
   text-decoration: underline;
 }
 
