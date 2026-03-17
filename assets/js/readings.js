@@ -756,6 +756,6 @@
 
   /* ── Init ────────────────────────────────────────────────────────────────── */
   renderBookList(null);
-  buildMap();
+  if (window.innerWidth > 440) buildMap(); // skip D3 on mobile
 
 })();

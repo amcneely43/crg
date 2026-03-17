@@ -15,6 +15,14 @@
     flex-direction: column;
   }
 
+  /* body.grid desktop CSS sets height:100vh + overflow:hidden which breaks mobile
+     scrolling and inflates flex children. Override with higher specificity. */
+  body.grid {
+    height: auto;
+    min-height: 100vh;
+    overflow: auto;
+  }
+
   main {
     height: auto;
     width: auto;
@@ -22,6 +30,26 @@
 
   aside {
     display: none;
+  }
+
+  /* Gleanings toolkit: show below main content on mobile */
+  aside.toolkit-page {
+    display: block;
+    border-top: var(--dotted-border);
+    padding: 0.75rem 1rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: visible;
+  }
+
+  aside .toolkit-aside {
+    height: auto;
+    overflow: visible;
+  }
+
+  .toolkit-scroll {
+    overflow-y: visible;
+    flex: none;
   }
 
   .w100, .w90, .w80, .w70, .w60, .w50, .w40, .w30, .w20, .w10, .w25, .w75 { width: 100%; }
@@ -199,14 +227,94 @@
     padding: var(--mobile-pdg);
   }
 
-  /* Reading / Workshop detail page */
-  main.reading-detail {
-    padding: var(--mobile-pdg) 1rem 2rem;
+  /* ── Readings list page ───────────────────────────────────── */
+
+  /* Hide D3 semantic network — book list is primary on mobile */
+  main.readings {
+    display: none;
   }
 
+  /* Book list panel: full width, no side borders */
+  #bookListPanel {
+    border-right: none;
+    border-left: none;
+    min-height: 60vh;
+  }
+
+  /* Book detail: fixed full-screen overlay, slides up from bottom */
+  #bookDetail {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+  }
+
+  #bookDetailContent {
+    padding: 1.25rem 1.25rem 4rem;
+    max-width: 100%;
+  }
+
+  /* Close button: sticky bar at top of overlay, overrides .info-close fixed rule */
+  #bookDetailClose {
+    position: sticky;
+    top: 0;
+    bottom: auto;
+    right: auto;
+    width: 100%;
+    box-sizing: border-box;
+    background: white;
+    border-bottom: var(--dotted-border);
+    padding: 0.75rem 1.25rem;
+    text-align: left;
+    font-size: 0.75rem;
+    z-index: 2;
+  }
+
+  /* Cancel float for cover/flyer images inside the overlay */
+  #bookDetailContent .detail-top-cols {
+    overflow: visible;
+  }
+
+  #bookDetailContent .detail-flyer {
+    float: none;
+    width: 100%;
+    margin: 0 0 1rem 0;
+  }
+
+  #bookDetailContent .detail-flyer img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ── Reading / Workshop detail page ──────────────────────── */
+
+  /* Hide sidebar — content is primary; back-link replaces navigation */
+  body:has(main.reading-detail) #bookListPanel {
+    display: none;
+  }
+
+  main.reading-detail {
+    padding: var(--mobile-pdg) 1rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  /* Hide sidebar book list panel on reading detail — back link is sufficient */
+  #readingContent {
+    max-width: 100%;
+  }
+
+  /* Cancel float layout — images hidden on mobile for text-first experience */
   .detail-top-cols {
-    grid-template-columns: 1fr;
-    gap: 1rem;
+    overflow: visible;
+  }
+
+  .detail-flyer,
+  .detail-flyer-placeholder,
+  #bookDetailContent .detail-flyer {
+    display: none;
   }
 
   /* Gleanings */
