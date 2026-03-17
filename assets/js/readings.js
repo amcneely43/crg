@@ -162,8 +162,8 @@
           <div class="detail-note">${book.note || ''}</div>
         </div>`
       : `<div class="detail-top-cols">
-          <div class="detail-note">${book.note || ''}</div>
           ${flyerCol}
+          <div class="detail-note">${book.note || ''}</div>
         </div>`;
 
     const openingBlock = book.blurb ? `

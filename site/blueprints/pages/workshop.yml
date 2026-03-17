@@ -80,7 +80,6 @@ columns:
 
       cover:
         type: files
-        multiple: false
         headline: Image
         template: cover
         layout: cards
