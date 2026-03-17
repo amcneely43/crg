@@ -30,7 +30,7 @@
 <main class="reading-detail triptych">
   <div id="readingContent">
 
-    <a href="<?= $page->parent()->url() ?>" class="back-link uppercase">← Back to Readings</a>
+    <a href="<?= $page->parent()->url() ?>" class="back-link uppercase">← Back to Readings/Workshops</a>
 
     <h2 class="detail-title"><?= $page->title()->html() ?></h2>
     <p class="detail-author"><?= $page->author()->html() ?></p>
@@ -64,7 +64,7 @@
 
     <?php if ($page->blurb()->isNotEmpty()): ?>
       <hr class="dotted-divider">
-      <p class="detail-section-label">Opening Remarks</p>
+      <p class="detail-section-label">About Our Guest(s)</p>
       <div class="detail-blurb"><?= $page->blurb()->kirbytext() ?></div>
     <?php endif ?>
 

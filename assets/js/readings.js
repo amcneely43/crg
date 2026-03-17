@@ -144,7 +144,7 @@
         : '';
     }
 
-    // Note block — readings get two-col layout with flyer; workshops get note only
+    // Note block — readings get two-col layout with flyer; workshops get cover image + note
     const flyerCol = `<div class="detail-flyer">
       ${book.flyerUrl
         ? `<img src="${book.flyerUrl}" alt="${esc(book.title)} flyer">`
@@ -152,8 +152,15 @@
       ${book.flyerBy ? `<p class="detail-flyer-by">Design by ${esc(book.flyerBy)}</p>` : ''}
     </div>`;
 
+    const coverCol = isWorkshop && book.coverUrl
+      ? `<div class="detail-flyer"><img src="${book.coverUrl}" alt="${esc(book.title)}"></div>`
+      : '';
+
     const topCols = isWorkshop
-      ? `<div class="detail-note">${book.note || ''}</div>`
+      ? `<div class="detail-top-cols">
+          ${coverCol}
+          <div class="detail-note">${book.note || ''}</div>
+        </div>`
       : `<div class="detail-top-cols">
           <div class="detail-note">${book.note || ''}</div>
           ${flyerCol}
@@ -161,7 +168,7 @@
 
     const openingBlock = book.blurb ? `
       <hr class="dotted-divider">
-      <p class="detail-section-label">Opening Remarks</p>
+      <p class="detail-section-label">${isWorkshop ? 'About Our Guest(s)' : 'Opening Remarks'}</p>
       <div class="detail-blurb">${book.blurb}</div>
       ${book.nominatedBy ? `<p class="detail-section-credit">— ${esc(book.nominatedBy)}</p>` : ''}` : '';
 
@@ -188,7 +195,7 @@
     const bottomBlock = isWorkshop
       ? (book.link ? `
           <div class="detail-annotations">
-            <a href="${book.link}" target="_blank" rel="noopener" class="button-outline">Workshop Materials →</a>
+            <a href="${book.link}" target="_blank" rel="noopener" class="button-outline">Link to Reading →</a>
           </div>` : '')
       : `
           <div class="detail-annotations">

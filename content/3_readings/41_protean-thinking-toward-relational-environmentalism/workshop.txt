@@ -6,33 +6,52 @@ Author: A Workshop with Aimee Bahng
 
 ----
 
-Subtitle: Toward a Relational Environmentalism
-
-----
-
-Note:
-
-Octavia E. Butler was fascinated by the speculative worlds made possible by slime molds, anglerfish, and other category-defying species in Kingdom Protista. In the taxonomic projects of nineteenth-century Europe, science and empire became intertwined, cataloging everything from “exotic” flora and fauna during scientific expeditions to the world beyond Europe. 
-
-This critical reading workshop considers the nonhierarchical socialities offered by Octavia Butler’s work, while following human encounters with Kingdom Protista that illuminate the concurrently unfolding histories of U.S. imperialism, computational science, global racial capitalism, and ecosystems engineering that run on logics of containment, enclosure, and improvement. Along the way, questions of human relationships to other species, our legacies of racial ecologies, and how humans might most ethically meet our remaining time on Earth.  
-
-*About our Guest*
-
-Aimee Bahng (she/her) is an associate professor of Gender and Women’s Studies at Pomona College. She is the author of (link: https://www.dukeupress.edu/migrant-futures text: Migrant Futures: Decolonizing Speculation in Financial Times )(Duke UP 2018) and a member of the Feminist Editorial Collective behind the (link: https://nyupress.org/9781479808151/keywords-for-gender-and-sexuality-studies/ text: Keywords for Gender and Sexuality Studies) volume (NYU Press 2021). Her second monograph, tentatively titled “Settler Environmentalism and Pacific Resurgence” is currently underway.
-
-*Please join us for our first in-person gathering since March 2020! You can (link: https://docs.google.com/forms/d/e/1FAIpQLScy1Ilo3zEoKaRwABzI-TtVTwJSUe29CKqt_Igd21YcHzD_Jg/viewform?usp=sf_link text: sign up here) to let us know you're coming and to receive the selection of readings in advance. Looking forward to seeing everyone’s faces in-the-flesh.*
-
-----
-
-Blurb: 
-
-----
-
 Contributor: 
 
 ----
 
-Download-reading: 
+Date: 2022-05-01
+
+----
+
+Custom-time: Sunday, 1-4 PM
+
+----
+
+Location: Los Angeles Contemporary Archive
+
+----
+
+Note: <p>Octavia E. Butler was fascinated by the speculative worlds made possible by slime molds, anglerfish, and other category-defying species in Kingdom Protista. In the taxonomic projects of nineteenth-century Europe, science and empire became intertwined, cataloging everything from “exotic” flora and fauna during scientific expeditions to the world beyond Europe. This critical reading workshop considers the nonhierarchical socialities offered by Octavia Butler’s work, while following human encounters with Kingdom Protista that illuminate the concurrently unfolding histories of U.S. imperialism, computational science, global racial capitalism, and ecosystems engineering that run on logics of containment, enclosure, and improvement. Along the way, questions of human relationships to other species, our legacies of racial ecologies, and how humans might most ethically meet our remaining time on Earth.</p>
+
+----
+
+Blurb: <p>Aimee Bahng (she/her) is an associate professor of Gender and Women’s Studies at Pomona College. She is the author of (link: <a href="https://www.dukeupress.edu/migrant-futures" rel="noopener noreferrer">https://www.dukeupress.edu/migrant-futures</a> text: Migrant Futures: Decolonizing Speculation in Financial Times )(Duke UP 2018) and a member of the Feminist Editorial Collective behind the (link: <a href="https://nyupress.org/9781479808151/keywords-for-gender-and-sexuality-studies/" rel="noopener noreferrer">https://nyupress.org/9781479808151/keywords-for-gender-and-sexuality-studies/</a> text: Keywords for Gender and Sexuality Studies) volume (NYU Press 2021). Her second monograph, tentatively titled “Settler Environmentalism and Pacific Resurgence” is currently underway.</p>
+
+----
+
+Download-reading: https://bookshop.org/p/books/queer-feminist-science-studies-a-reader-assistant-professor-angela-willey/f909bddaa6801e43?ean=9780295742588&next=t
+
+----
+
+Links:
+
+- 
+  description: LACA Announcement
+  url: >
+    https://www.lacarchive.com/calendar/crg-dividual-programming
+- 
+  description: Video Documentation
+  url: >
+    https://www.youtube.com/watch?v=jKg5yFMhTow
+
+----
+
+Attachments: 
+
+----
+
+Subtitle: Toward a Relational Environmentalism
 
 ----
 
@@ -48,31 +67,11 @@ Interlocutors:
 
 ----
 
-Links: 
-
-----
-
-Attachments: 
-
-----
-
-Date: 2022-05-01
-
-----
-
-Location: Los Angeles Contemporary Archive
-
-----
-
 Current: false
 
 ----
 
 Category: workshop
-
-----
-
-Custom-time: Sunday, 1-4 PM
 
 ----
 

@@ -6,27 +6,48 @@ Author: Nizan Shaked
 
 ----
 
-Subtitle: The Politics of Contemporary Art Collections
-
-----
-
-Note: Please join us on Sunday, July 17 at 10 AM PT for a discussion with the author.
-
-----
-
-Blurb:
-
-I want museums to reflect our society’s democratic vision, however imperfect. Nizan Shaked’s *Museums and Wealth* reveals how all too often public art museums create private economic gains for a select few through philanthropic relationships and curatorial maneuvers. The public mission of museums is at odds with the governance structure of boards, which aim to secure investments under the guise of charity. This is done by exploiting the ambiguous public/private nature of the modern museum, allegedly belonging to the many while “stewarded” by only the few.  
- 
-As an artist and a nonprofit director, I have long been concerned with my own complicity and agency within this model of structural dependency. Can we imagine different ways of art display without legitimating a speculative circuit that does not benefit us? How might we demystify the opaque governance of our museums? How can we craft a different future in the arts that we want? It is these concerns that make me invested in community as a question.
-
-----
-
 Contributor: Hailey Loman
 
 ----
 
-Download-reading: 
+Date: 2022-05-08
+
+----
+
+Custom-time: 
+
+----
+
+Location: Zoom
+
+----
+
+Note: <p>Museums and Wealth: The Politics of Contemporary Art Collections is a critical analysis of contemporary art collections and the value form, showing why the nonprofit system is unfit to administer our common collections, and offering solutions for diversity reform and restructuring.<br><br>Please join us on Sunday, July 17 at 10 AM PT for a discussion with the author.</p>
+
+----
+
+Blurb: <p>Nizan Shaked is author of Museums and Wealth: The Politics of Contemporary Art Collections (Bloomsbury Academic 2022). Her book The Synthetic Proposition: Conceptualism and the Political Referent in Contemporary Art (Manchester University Press, 2017) was awarded the 2019 Smithsonian American Art Museum Eldredge Prize and a Wyeth Foundation for American Art College Art Association Publication Award in 2015. Shaked teaches contemporary art history, museum and curatorial studies, at California State University Long Beach.</p>
+
+----
+
+Download-reading: https://bookshop.org/p/books/museums-and-wealth-the-politics-of-contemporary-art-collections-nizan-shaked/ffc3e5be55e9942e?ean=9781350045767&next=t
+
+----
+
+Links:
+
+- 
+  description: LACA Book Launch
+  url: >
+    https://www.lacarchive.com/calendar/museums-and-wealth-the-politics-of-contemporary-art-collections
+
+----
+
+Attachments: 
+
+----
+
+Subtitle: The Politics of Contemporary Art Collections
 
 ----
 
@@ -42,31 +63,11 @@ Interlocutors:
 
 ----
 
-Links: 
-
-----
-
-Attachments: 
-
-----
-
-Date: 2022-05-08
-
-----
-
-Location: Zoom
-
-----
-
 Current: false
 
 ----
 
 Category: 
-
-----
-
-Custom-time: 
 
 ----
 

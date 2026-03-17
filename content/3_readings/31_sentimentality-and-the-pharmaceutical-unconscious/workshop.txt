@@ -6,17 +6,27 @@ Author: Michael Mahoney
 
 ----
 
-Subtitle: 
+Contributor: 
 
 ----
 
-Note:
+Date: 2021-02-21
 
-*Synopsis*
-This paper is an attempt to locate the phenomenon of television commercials for psychiatric medication (which are almost exclusively pitched to women) within a broader set of economic and theoretical discourses about "moods" and "feelings."
+----
 
-*About Our Guest*
-Michael Mahoney is currently finishing his PhD in English at UC Irvine with no contingency plan in place. His research reads dialectically across cultural and economic mediations made available by transformational shifts in the classification, diagnosis, and treatment of mental illness commencing with the 1980 DSM-III. Outside of academic pursuits, Michael has also been intermittently active in producing noise and sound art for the past decade and a half, and his work has appeared in the Korea National Gallery of Arts, the Bergen National Academy of Arts in Norway, and the Burchfield Penney Art Center in Buffalo, NY.
+Custom-time: 
+
+----
+
+Location: Zoom
+
+----
+
+Note: <p>This paper is an attempt to locate the phenomenon of television commercials for psychiatric medication (which are almost exclusively pitched to women) within a broader set of economic and theoretical discourses about "moods" and "feelings."</p>
+
+----
+
+Blurb: <p>Michael Mahoney is currently finishing his PhD in English at UC Irvine with no contingency plan in place. His research reads dialectically across cultural and economic mediations made available by transformational shifts in the classification, diagnosis, and treatment of mental illness commencing with the 1980 DSM-III. Outside of academic pursuits, Michael has also been intermittently active in producing noise and sound art for the past decade and a half, and his work has appeared in the Korea National Gallery of Arts, the Bergen National Academy of Arts in Norway, and the Burchfield Penney Art Center in Buffalo, NY.</p>
 
 ----
 
@@ -32,11 +42,7 @@ Attachments:
 
 ----
 
-Date: 2021-02-21
-
-----
-
-Location: Zoom
+Subtitle: 
 
 ----
 

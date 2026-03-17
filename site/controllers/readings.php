@@ -48,7 +48,8 @@ return function ($page, $site) {
       $termSlugs[] = $termPage->slug();
     }
 
-    $flyerFile = $isWorkshop ? null : $rdg->images()->filterBy('template', 'flyer')->first();
+    $flyerFile  = $isWorkshop ? null : $rdg->images()->filterBy('template', 'flyer')->first();
+    $coverFile  = $isWorkshop ? $rdg->images()->filterBy('template', 'cover')->first() : null;
 
     $links = [];
     foreach ($rdg->links()->toStructure() as $lnk) {
@@ -81,6 +82,7 @@ return function ($page, $site) {
       'note'         => (string) $rdg->note()->kirbytext(),
       'blurb'        => (string) $rdg->blurb()->kirbytext(),
       'nominatedBy'  => $rdg->nominatedBy()->value(),
+      'coverUrl'     => $coverFile ? $coverFile->url() : '',
       'flyerUrl'     => $flyerFile ? $flyerFile->url() : '',
       'flyerBy'      => $rdg->flyerBy()->value(),
       'bookstackUrl' => $rdg->bookstackUrl()->value(),
