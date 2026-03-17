@@ -15,10 +15,9 @@ $coverUrl = null;
 if ($hoverEnabled) {
   /**
    * Resolve a source file for the hover cover image.
-   * Priority:
+   * Only explicit cover images qualify — no fallback guessing.
    *   a) First image with template "cover"
    *   b) Literal file named cover.* (jpg/jpeg/png/webp)
-   *   c) First non-meme image (template != meme, and filename not meme-like)
    */
   $coverFile = null;
 
@@ -33,23 +32,6 @@ if ($hoverEnabled) {
         break;
       }
     }
-  }
-
-  // c) Fallback: first non-meme, non-flyer image
-  if (!$coverFile) {
-    $coverFile = $rdg->images()
-      ->filter(function ($img) {
-        $tpl  = (string)$img->template();
-        $name = strtolower($img->filename());
-
-        if ($tpl === 'meme')  return false;
-        if ($tpl === 'flyer') return false;
-        if (str_contains($name, 'meme')) return false;
-
-        return true;
-      })
-      ->sortBy('sort', 'asc')
-      ->first();
   }
 
   /**
@@ -75,7 +57,24 @@ if ($hoverEnabled) {
         @mkdir($absDir, 0777, true);
       }
 
-      if (!is_file($absPath)) {
+      // Remove stale cached copies with a different extension for this uid
+      foreach ((array)glob($absDir . '/' . $uid . '.*') as $stale) {
+        if ($stale !== $absPath) {
+          @unlink($stale);
+        }
+      }
+
+      // Copy if missing or if the source image is newer than the cache
+      $needsCopy = !is_file($absPath);
+      if (!$needsCopy) {
+        $srcMtime   = @filemtime($coverFile->root());
+        $cacheMtime = @filemtime($absPath);
+        if ($srcMtime && $cacheMtime && $srcMtime > $cacheMtime) {
+          $needsCopy = true;
+        }
+      }
+
+      if ($needsCopy) {
         try {
           $bytes = $coverFile->read();
           if ($bytes !== null && $bytes !== false) {

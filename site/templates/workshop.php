@@ -50,9 +50,17 @@
 
     <hr class="dotted-divider">
 
-    <?php if ($page->note()->isNotEmpty()): ?>
-      <div class="detail-note"><?= $page->note()->kirbytext() ?></div>
-    <?php endif ?>
+    <?php $workshopImage = $page->images()->filterBy('template', 'cover')->first() ?>
+    <div class="detail-top-cols">
+      <?php if ($workshopImage): ?>
+        <div class="detail-flyer">
+          <img src="<?= $workshopImage->url() ?>" alt="<?= $page->title()->html() ?>">
+        </div>
+      <?php endif ?>
+      <?php if ($page->note()->isNotEmpty()): ?>
+        <div class="detail-note"><?= $page->note()->kirbytext() ?></div>
+      <?php endif ?>
+    </div>
 
     <?php if ($page->blurb()->isNotEmpty()): ?>
       <hr class="dotted-divider">
@@ -60,9 +68,15 @@
       <div class="detail-blurb"><?= $page->blurb()->kirbytext() ?></div>
     <?php endif ?>
 
-    <?php if ($page->download_reading()->isNotEmpty()): ?>
+    <?php $hasAnnotations = $page->download_reading()->isNotEmpty() || $page->attachments()->toFiles()->count() > 0 ?>
+    <?php if ($hasAnnotations): ?>
       <div class="detail-annotations">
-        <a href="<?= $page->download_reading() ?>" target="_blank" rel="noopener" class="button-outline">Workshop Materials →</a>
+        <?php if ($page->download_reading()->isNotEmpty()): ?>
+          <a href="<?= $page->download_reading() ?>" target="_blank" rel="noopener" class="button-outline">Link to Reading →</a>
+        <?php endif ?>
+        <?php foreach ($page->attachments()->toFiles() as $attachment): ?>
+          <a href="<?= $attachment->url() ?>" target="_blank" rel="noopener" class="button-outline"><?= $attachment->filename() ?> →</a>
+        <?php endforeach ?>
       </div>
     <?php endif ?>
 

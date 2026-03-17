@@ -1065,10 +1065,15 @@ main.readings {
 }
 
 .detail-top-cols {
-  display: grid;
-  grid-template-columns: 1fr 220px;
-  gap: 2rem;
   margin: 0.5rem 0;
+  overflow: hidden; /* contain the floated image */
+}
+
+.detail-flyer {
+  float: right;
+  width: 220px;
+  margin-left: 1.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .detail-note {
@@ -1135,6 +1140,19 @@ main.readings {
 
 .detail-blurb p {
   margin-bottom: 1em;
+}
+
+/* Scope writer-field headings so h2/h3/h4 don't inherit full global heading sizes */
+.detail-blurb h2, .detail-note h2 { font-size: 1.3rem; margin: 1rem 0 0.5rem; }
+.detail-blurb h3, .detail-note h3 { font-size: 1.15rem; margin: 0.85rem 0 0.4rem; }
+.detail-blurb h4, .detail-note h4 { font-size: 1rem; margin: 0.75rem 0 0.35rem; }
+
+/* Keep em/i in triptych-roman inside detail areas — prevents jarring typeface switches
+   in etymology notes and opening remarks where italic terms are frequent */
+.detail-blurb em, .detail-blurb i,
+.detail-note em, .detail-note i {
+  font-family: inherit;
+  font-style: italic;
 }
 
 .detail-annotations {

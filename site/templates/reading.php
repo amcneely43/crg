@@ -42,11 +42,6 @@
     <hr class="dotted-divider">
 
     <div class="detail-top-cols">
-      <div class="detail-note">
-        <?php if ($page->note()->isNotEmpty()): ?>
-          <?= $page->note()->kirbytext() ?>
-        <?php endif ?>
-      </div>
       <div class="detail-flyer">
         <?php $flyer = $page->images()->filterBy('template', 'flyer')->first() ?>
         <?php if ($flyer): ?>
@@ -56,6 +51,11 @@
         <?php endif ?>
         <?php if ($page->flyerBy()->isNotEmpty()): ?>
           <p class="detail-flyer-by">Design by <?= $page->flyerBy()->html() ?></p>
+        <?php endif ?>
+      </div>
+      <div class="detail-note">
+        <?php if ($page->note()->isNotEmpty()): ?>
+          <?= $page->note()->kirbytext() ?>
         <?php endif ?>
       </div>
     </div>
@@ -104,6 +104,9 @@
         <a href="<?= $page->bookstackUrl() ?>" target="_blank" rel="noopener" class="button-outline">View Annotations →</a>
       <?php else: ?>
         <span class="button-outline button-outline--disabled">View Annotations →</span>
+      <?php endif ?>
+      <?php if ($page->download_reading()->isNotEmpty()): ?>
+        <a href="<?= $page->download_reading() ?>" target="_blank" rel="noopener" class="button-outline">Link to Reading →</a>
       <?php endif ?>
     </div>
 

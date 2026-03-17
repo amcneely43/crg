@@ -3,7 +3,7 @@
 <?php
 // Gather data once
 $reading_list       = page('readings');
-$readings           = $reading_list ? $reading_list->children()->listed() : null;
+$readings           = $reading_list ? $reading_list->children()->listed()->filterBy('intendedTemplate', 'reading') : null;
 $currently_readings = $reading_list ? $reading_list->currentlyReading() : null;
 ?>
 
