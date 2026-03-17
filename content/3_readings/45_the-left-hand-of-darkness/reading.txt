@@ -2,6 +2,14 @@ Title: The Left Hand of Darkness
 
 ----
 
+Current: false
+
+----
+
+Date: 2023-02-21
+
+----
+
 Author: Ursula K. Le Guin
 
 ----
@@ -14,31 +22,39 @@ Note: "A groundbreaking work of science fiction, *The Left Hand of Darkness* tel
 
 ----
 
-Blurb:
-
-i think of everything as relational.
-these words are not in a vacuum, and yet … *vvvvvvvvvvvvvvv*
-you’re reading them now, but i wish we were talking.
-i wish we were communicating.
-i wish we were communing.
-
-Any use of the term “community” assumes a boundary between private and public. Are you on the inside or outside of this community? What are the terms of participation, or inclusion? In CRG, the subject of our inquiry is also our method. To study what it is to commune, we must commune. My nominations tend to this reflexive position of the group and are also an opportunity to bring out the books that rest on my shelves waiting to be touched, to be held, to be felt up a page at a time. 
-
-One of the selections, *Stolen Life*, is the second in Moten’s *consent not to be a single being* trilogy. Often when telling others about CRG, I share that when we were reading *Black and Blur* we spent 3 hours dedicated to a 3-page chapter on the song Ghetto Superstar. Or how I would spend my Sundays immersed in the subject of that week’s chapter—a film or a record or a poem or an artist and Moten’s text. *(Hear: Ornette, Mingus, Lord Invader. See: Tshibumba Kanda-Matulu’s paintings. Feel: David Hammons’s melting snowballs.)* This was often an ecstatic and nearly psychedelic experience, Moten sending thoughts through a sparkly, spiraling, tickled brain freeze. The viscera of the writing could sometimes obfuscate the tightly-held arguments, a hard-packed brown sugar softened through our collective baking; through mud pie buried in its own soil, we dig. *Ya dig?*
-
-To parse through this language and share it with esteemed co-conspirators is a special thing. We take the time to locate each spice in the butterfly soup. *“Abstraction is food for thought, but who does the chewing?”* Moten feeds us deep-*un*disciplinarity. The way that subjects (/the subjected), genres (/genders), (over-/under-)writing, and (hysterical) histories converge—where does the body sit in this and what do we taste? Does it recede as we reach out to touch it? 
-
-I envision we’re in a ballroom dance, exchanging partners between Glenn Gould, Ol’ Dirty Bastard, and Adorno, with Moten (or Butler or Warner or Jordan or Le Guin [or is it Andrew?]) conducting an ensemble, or staging the steps of our discursive choreography. Won’t you cast your vote and dance with us? 
-
-Thank you for your participation, reader. See you soon.
+Blurb: <p>i think of everything as relational. these words are not in a vacuum, and yet … *vvvvvvvvvvvvvvv* you’re reading them now, but i wish we were talking. i wish we were communicating. i wish we were communing. <br><br>Any use of the term “community” assumes a boundary between private and public. Are you on the inside or outside of this community? What are the terms of participation, or inclusion? In CRG, the subject of our inquiry is also our method. To study what it is to commune, we must commune. My nominations tend to this reflexive position of the group and are also an opportunity to bring out the books that rest on my shelves waiting to be touched, to be held, to be felt up a page at a time. <br><br>One of the selections, *Stolen Life*, is the second in Moten’s *consent not to be a single being* trilogy. Often when telling others about CRG, I share that when we were reading *Black and Blur* we spent 3 hours dedicated to a 3-page chapter on the song Ghetto Superstar. Or how I would spend my Sundays immersed in the subject of that week’s chapter—a film or a record or a poem or an artist and Moten’s text. *(Hear: Ornette, Mingus, Lord Invader. See: Tshibumba Kanda-Matulu’s paintings. Feel: David Hammons’s melting snowballs.)* This was often an ecstatic and nearly psychedelic experience, Moten sending thoughts through a sparkly, spiraling, tickled brain freeze. The viscera of the writing could sometimes obfuscate the tightly-held arguments, a hard-packed brown sugar softened through our collective baking; through mud pie buried in its own soil, we dig. *Ya dig?* <br><br>To parse through this language and share it with esteemed co-conspirators is a special thing. We take the time to locate each spice in the butterfly soup. *“Abstraction is food for thought, but who does the chewing?”* Moten feeds us deep-*un*disciplinarity. The way that subjects (/the subjected), genres (/genders), (over-/under-)writing, and (hysterical) histories converge—where does the body sit in this and what do we taste? Does it recede as we reach out to touch it? <br><br>I envision we’re in a ballroom dance, exchanging partners between Glenn Gould, Ol’ Dirty Bastard, and Adorno, with Moten (or Butler or Warner or Jordan or Le Guin [or is it Andrew?]) conducting an ensemble, or staging the steps of our discursive choreography. Won’t you cast your vote and dance with us? <br><br>Thank you for your participation, reader. See you soon.</p>
 
 ----
 
-Contributor: Evelena Ruether
+Nominatedby: Evelena Ruether
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://ia904703.us.archive.org/11/items/ursula-k.-le-guin-the-left-hand-of-darkness-ace-books-2000/Ursula%20K.%20Le%20Guin%20-%20The%20Left%20Hand%20of%20Darkness-Ace%20Books%20%282000%29.pdf
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: Evelena Ruether
 
 ----
 
@@ -50,27 +66,11 @@ Keywords: gender, sci-fi, science fiction, novel
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2023-02-21
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

@@ -2,11 +2,15 @@ Title: Emergent Strategy
 
 ----
 
-Author: adrienne maree brown
+Current: false
 
 ----
 
-Published: 2017
+Date: 2020-10-20
+
+----
+
+Author: adrienne maree brown
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: Shaping Change, Changing Worlds
 
 ----
 
-Translator: 
-
-----
-
-Publisher: AK Press
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Nora Beckman
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -39,19 +55,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 2017
+
+----
+
+Translator: 
+
+----
+
+Publisher: AK Press
+
+----
+
 Attachments: 
 
 ----
 
-Date: 2020-10-20
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

@@ -2,6 +2,14 @@ Title: Neither Settler Nor Native
 
 ----
 
+Current: false
+
+----
+
+Date: 2021-11-15
+
+----
+
 Author: Mahmood Mamdani
 
 ----
@@ -18,11 +26,35 @@ Blurb: I have long been interested in how secular political concepts are often r
 
 ----
 
-Contributor: Andrew McNeely
+Nominatedby: Andrew McNeely
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://bookshop.org/books/neither-settler-nor-native-the-making-and-unmaking-of-permanent-minorities/9780674987326
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: Andrew McNeely
 
 ----
 
@@ -34,27 +66,11 @@ Keywords:
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2021-11-15
-
-----
-
 Location: Zoom/In person
-
-----
-
-Current: false
 
 ----
 

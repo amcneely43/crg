@@ -2,6 +2,14 @@ Title: City of Quartz
 
 ----
 
+Current: false
+
+----
+
+Date: 2024-01-21
+
+----
+
 Author: Mike Davis
 
 ----
@@ -10,12 +18,7 @@ Subtitle: Excavating the Future in Los Angeles
 
 ----
 
-Note:
-
-"No metropolis has been more loved or more hated. To its official boosters, "Los Angeles brings it all together." To detractors, LA is a sunlit mortuary where "you can rot without feeling it." To Mike Davis, the author of this fiercely elegant and wide-ranging work of social history, Los Angeles is both utopia and dystopia, a place where the last Joshua trees are being plowed under to make room for model communities in the desert, where the rich have hired their own police to fend off street gangs, as well as armed Beirut militias.
-
-In *City of Quartz*, Davis reconstructs LA's shadow history and dissects its ethereal economy. He tells us who has the power and how they hold on to it. He gives us a city of Dickensian extremes, Pynchonesque conspiracies, and a desperation straight out of Nathaniel West - a city in which we may glimpse our own future mirrored with terrifying clarity."
-((link: https://www.versobooks.com/products/1320-city-of-quartz text: Verso))
+Note: <p><strong><em>booster (n.)</em></strong></p><p>1885, "one who boosts" or promotes something, agent noun from boost (v.). The electrical sense is recorded from 1894. Young child's booster chair is attested under that name from 1957 (booster-seat is from 1956). Related: Boosterism (1902).</p>
 
 ----
 
@@ -27,11 +30,35 @@ The books I am proposing span genres from fiction to history to philosophy to se
 
 ----
 
-Contributor: Beth Fiedorek
+Nominatedby: Beth Fiedorek
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: https://www.lacarchive.com/item/cmmmju5ul0001js04k6x3b38h
 
 ----
 
 Download-reading: https://files.libcom.org/files/[Mike_Davis,_Robert_Morrow]_City_of_Quartz_Excava(Bookos.org).pdf
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: Beth Fiedorek
 
 ----
 
@@ -43,27 +70,11 @@ Keywords: los angeles, california
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2024-01-21
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

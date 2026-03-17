@@ -18,7 +18,7 @@ Subtitle: Dreams and Nightmares in Sam Altman's OpenAI
 
 ----
 
-Note: "From a brilliant longtime AI insider with intimate access to the world of Sam Altman’s OpenAI from the beginning, an eye-opening account of arguably the most fateful tech arms race in history, reshaping the planet in real time, from the cockpit of the company that is driving the frenzy." ((link: https://www.penguinrandomhouse.com/books/743569/empire-of-ai-by-karen-hao/ text: Penguin Random House))
+Note: <p><strong><em>intelligence (n.)</em></strong> </p><p>late 14c., "the highest faculty of the mind, capacity for comprehending general truths;" c. 1400, "faculty of understanding, comprehension," from Old French <em>intelligence</em> (12c.) and directly from Latin <em>intelligentia</em>, <em>intellegentia</em> "understanding, knowledge, power of discerning; art, skill, taste," from <em>intelligentem</em> (nominative <em>intelligens</em>) "discerning, appreciative," present participle of <em>intelligere</em> "to understand, comprehend, come to know." This is from assimilated form of inter "between" (see <em>inter-</em>) + <em>legere</em> "choose, pick out, read," from PIE root <em>*leg-</em> (1) "to collect, gather," with derivatives meaning "to speak (to 'pick out words')."</p>
 
 ----
 
@@ -30,11 +30,11 @@ As the creation and use of AI is ever more pervasive in all of these communities
 
 ----
 
-Nominatedby: 
+Nominatedby: Tracy Jarvis
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 

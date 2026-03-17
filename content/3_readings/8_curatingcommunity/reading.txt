@@ -2,11 +2,15 @@ Title: Curating Community
 
 ----
 
-Author: Stacy Douglas
+Current: false
 
 ----
 
-Published: 2017
+Date: 2019-01-01
+
+----
+
+Author: Stacy Douglas
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: Museums, Constitutionalism, and the Taming of the Political
 
 ----
 
-Translator: 
-
-----
-
-Publisher: The University of Michigan Press
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: 
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -34,19 +50,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 2017
+
+----
+
+Translator: 
+
+----
+
+Publisher: The University of Michigan Press
+
+----
+
 Files: 
 
 ----
 
-Date: 2019-01-01
-
-----
-
 Location: Los Angeles Contemporary Archive, Chinatown
-
-----
-
-Current: false
 
 ----
 

@@ -2,6 +2,14 @@ Title: The Problem with Work
 
 ----
 
+Current: false
+
+----
+
+Date: 2022-02-13
+
+----
+
 Author: Kathi Weeks
 
 ----
@@ -14,15 +22,39 @@ Note:
 
 ----
 
-Blurb: As an artist, writer, and educator, the notion of community is something I ponder deeply in my day-to-day. In current works, I consider markings on public signage that (while illegal) propose an active relation between people and publics, the reclamation of the agora for speech acts that cannot be seamlessly monetized and surveilled, and what happens when an art object that addresses geopolitical atrocity is removed from common space and returned to the domicile of its owner. At CRG, I look forward to continuing dialogs that foreground our stake in commonwealth, examining a text that considers nationalism, migration, the perpetual deferment of democracy, our right to the city, or our collective right to withhold our labor.
+Blurb: <p>As an artist, writer, and educator, the notion of community is something I ponder deeply in my day-to-day. In current works, I consider markings on public signage that (while illegal) propose an active relation between people and publics, the reclamation of the agora for speech acts that cannot be seamlessly monetized and surveilled, and what happens when an art object that addresses geopolitical atrocity is removed from common space and returned to the domicile of its owner. <br><br>At CRG, I look forward to continuing dialogs that foreground our stake in commonwealth, examining a text that considers nationalism, migration, the perpetual deferment of democracy, our right to the city, or our collective right to withhold our labor.</p>
 
 ----
 
-Contributor: David Weldzius
+Nominatedby: David Weldzius
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://bookshop.org/books/the-problem-with-work-feminism-marxism-antiwork-politics-and-postwork-imaginaries/9780822351122
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: David Weldzius
 
 ----
 
@@ -34,27 +66,11 @@ Keywords:
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2022-02-13
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

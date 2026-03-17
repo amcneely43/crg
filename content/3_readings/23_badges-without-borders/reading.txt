@@ -2,11 +2,15 @@ Title: Badges Without Borders
 
 ----
 
-Author: Stuart Schrader
+Current: false
 
 ----
 
-Published: 2019
+Date: 2020-06-15
+
+----
+
+Author: Stuart Schrader
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: How Global Counterinsurgency Transformed American Policing
 
 ----
 
-Translator: 
-
-----
-
-Publisher: University of California Press
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Erich Wise
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -39,19 +55,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 2019
+
+----
+
+Translator: 
+
+----
+
+Publisher: University of California Press
+
+----
+
 Files: 
 
 ----
 
-Date: 2020-06-15
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

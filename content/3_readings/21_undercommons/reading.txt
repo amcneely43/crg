@@ -2,11 +2,15 @@ Title: The Undercommons
 
 ----
 
-Author: Stefano Harney and Fred Moten
+Current: false
 
 ----
 
-Published: 2013
+Date: 2020-04-01
+
+----
+
+Author: Stefano Harney and Fred Moten
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: Fugitive Planning and Black Study
 
 ----
 
-Translator: 
-
-----
-
-Publisher: Minor Compositions
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: David Ertel
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -49,19 +65,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 2013
+
+----
+
+Translator: 
+
+----
+
+Publisher: Minor Compositions
+
+----
+
 Files: 
 
 ----
 
-Date: 2020-04-01
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

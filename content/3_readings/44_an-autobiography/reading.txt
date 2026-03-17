@@ -2,6 +2,14 @@ Title: An Autobiography
 
 ----
 
+Current: false
+
+----
+
+Date: 2022-11-20
+
+----
+
 Author: Angela Davis
 
 ----
@@ -14,19 +22,39 @@ Note: "Angela Davis has been a political activist at the cutting edge of the Bla
 
 ----
 
-Blurb:
-
-As an educator of young students I’ve studied and learned about the power of sustained community building. This I’ve come to understand more  through a repetitive close reading and listening of children’s author Jon J. Muth’s retelling of  Tolstoy’s “The Three Questions.” Tolstoy’s story addresses the existential nature of childhood—therefore personhood—by giving the reader a vicarious experience with a self-reflected character who experiences the tensions that precede an inquiry and finally a resolution. This tale has supported the community aspect of my pedagogy by analyzing the effect that a close reading has on dialoguing through self-reflection, questioning and interpretation of the text that itself invites the readers to become aware of themselves as people who are  capable of metacognition in an environment where all participants feel comfortable making inquiries through critical responses to the story.
-
-The conversations around asking thoughtful questions creates a safe culture of inquiry where the community setting (our classroom) becomes a cognitively active program that holds space for all in the intellectual schemata. My own close reading of texts reinforces awareness of the importance of sharing personal insight through valuable engagement with others, which addressed my own pre-inquiry tension that a reading community group helped to resolve. To quote Paolo Freire, “Dialogue both requires and generates critical thinking.”  I’ve observed this communal interaction raise the intellectual bar of all concerned but, more importantly, compels the participants to take responsibility for a raised critical consciousness.
+Blurb: <p>As an educator of young students I’ve studied and learned about the power of sustained community building. This I’ve come to understand more through a repetitive close reading and listening of children’s author Jon J. Muth’s retelling of Tolstoy’s “The Three Questions.” Tolstoy’s story addresses the existential nature of childhood—therefore personhood—by giving the reader a vicarious experience with a self-reflected character who experiences the tensions that precede an inquiry and finally a resolution. This tale has supported the community aspect of my pedagogy by analyzing the effect that a close reading has on dialoguing through self-reflection, questioning and interpretation of the text that itself invites the readers to become aware of themselves as people who are capable of metacognition in an environment where all participants feel comfortable making inquiries through critical responses to the story. <br><br>The conversations around asking thoughtful questions creates a safe culture of inquiry where the community setting (our classroom) becomes a cognitively active program that holds space for all in the intellectual schemata. My own close reading of texts reinforces awareness of the importance of sharing personal insight through valuable engagement with others, which addressed my own pre-inquiry tension that a reading community group helped to resolve. To quote Paolo Freire, “Dialogue both requires and generates critical thinking.” I’ve observed this communal interaction raise the intellectual bar of all concerned but, more importantly, compels the participants to take responsibility for a raised critical consciousness.</p>
 
 ----
 
-Contributor: Marjorie Miller
+Nominatedby: Marjorie Miller
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://decolonisesociology.files.wordpress.com/2019/03/angela-davis-autobiography.pdf
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: Marjorie Miller
 
 ----
 
@@ -38,27 +66,11 @@ Keywords: angela davis, autobiography, abolition, incarcertion, prison, black ma
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2022-11-20
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

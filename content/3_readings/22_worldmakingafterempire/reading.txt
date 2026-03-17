@@ -2,11 +2,15 @@ Title: Worldmaking After Empire
 
 ----
 
-Author: Adom Getachew
+Current: false
 
 ----
 
-Published: 2019
+Date: 2020-05-06
+
+----
+
+Author: Adom Getachew
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: The Rise and Fall of Self-Determination
 
 ----
 
-Translator: 
-
-----
-
-Publisher: Princeton University Press
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Ryan Jeffery
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -95,19 +111,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 2019
+
+----
+
+Translator: 
+
+----
+
+Publisher: Princeton University Press
+
+----
+
 Files: 
 
 ----
 
-Date: 2020-05-06
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

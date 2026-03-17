@@ -2,6 +2,14 @@ Title: In the Break
 
 ----
 
+Current: false
+
+----
+
+Date: 2024-05-21
+
+----
+
 Author: Fred Moten
 
 ----
@@ -10,10 +18,7 @@ Subtitle: The Aesthetics of the Black Radical Tradition
 
 ----
 
-Note:
-
-Fred Moten investigates the provocative connections between jazz, sexual identity, and radical black politics. He focuses in particular on the brilliant improvisatory jazz of John Coltrane, Ornette Coleman, Albert Ayler, Eric Dolphy, Charles Mingus, and others, arguing that all black performance—culture, politics, sexuality, identity, and blackness itself—is improvisation.
-((link: https://www.upress.umn.edu/book-division/books/in-the-break text: Minnesota University Press))
+Note: <p><strong><em>fugitive (adj.)</em></strong></p><p>late 14c., "fleeing, having fled, having taken flight," from Old French <em>fugitif</em>, <em>fuitif</em> "absent, missing," from Latin <em>fugitivus</em> "fleeing," past-participle adjective from stem of <em>fugere</em> "to flee, fly, take flight, run away; become a fugitive, leave the country, go into exile; pass quickly; vanish, disappear, perish; avoid, shun; escape the notice of, be unknown to," from PIE root <em>*bheug-</em> "to flee" (source also of Greek <em>pheugein</em> "to flee, escape, go into exile, be on the run," <em>phyza</em> "(wild) flight, panic," <em>phyge</em> "flight, exile;" Lithuanian <em>būgstu</em>, <em>būgti</em> "be frightened," <em>bauginti</em> "frighten someone," <em>baugus</em> "timid, nervous;" perhaps also Avestan <em>būj(i)-</em> "penance, atonement," <em>būjat</em> "frees"). Old English had <em>flyma</em>.<br>Meaning "lasting but a short time, fleeting" is from c. 1500. Hence its use in literature for short compositions written for passing occasions or purposes (1766).</p>
 
 ----
 
@@ -26,11 +31,35 @@ Simply said, I am curious about how we live and make our way in the world—in t
 
 ----
 
-Contributor: Ian Meares
+Nominatedby: Ian Meares
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://monoskop.org/images/6/63/Moten_Fred_In_the_Break_The_Aesthetics_of_the_Black_Radical_Tradition_2003.pdf
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: Ian Meares
 
 ----
 
@@ -42,27 +71,11 @@ Keywords: Fred Moten, Black Radical Tradition
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2024-05-21
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

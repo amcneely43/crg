@@ -2,11 +2,15 @@ Title: Against the Grain
 
 ----
 
-Author: James C. Scott
+Current: false
 
 ----
 
-Published: 2017
+Date: 2020-08-30
+
+----
+
+Author: James C. Scott
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: A Deep History of the Earliest States
 
 ----
 
-Translator: 
-
-----
-
-Publisher: Yale University
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Leah Laird
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -45,19 +61,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 2017
+
+----
+
+Translator: 
+
+----
+
+Publisher: Yale University
+
+----
+
 Files: 
 
 ----
 
-Date: 2020-08-30
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

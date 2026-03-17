@@ -2,6 +2,14 @@ Title: Caliban and the Witch
 
 ----
 
+Current: false
+
+----
+
+Date: 2021-01-03
+
+----
+
 Author: Silvia Federici
 
 ----
@@ -10,11 +18,27 @@ Subtitle: Women, The Body And Primitive Accumulation
 
 ----
 
-Blurb: “I wanted to share with you and the group that my interest in these readings is based on my own dive into disability justice this year. I am immunocompromised and identify as disabled, although “invisibly.” This material / biological difference being heightened during the pandemic, I’ve been interested in readings that offer insight on our collective relationship with illness - the social control of our bodies and split between body & mind - and the necessity / possibility of community care through mutual aid (Care Work).”
+Note: <p><strong><em>care (n.)</em></strong></p><p>Old English <em>caru</em>, <em>cearu</em> "sorrow, anxiety, grief," also "burdens of mind; serious mental attention," in late Old English also "concern, anxiety caused by apprehension of evil or the weight of many burdens," from Proto-Germanic <em>*karō</em> "lament; grief, care" (source also of Old Saxon <em>kara</em> "sorrow;" Old High German chara "wail, lament;" Gothic kara "sorrow, trouble, care."</p>
 
 ----
 
-Contributor: Jean Guo
+Blurb: <p>I wanted to share with you and the group that my interest in these readings is based on my own dive into disability justice this year. I am immunocompromised and identify as disabled, although “invisibly.” This material / biological difference being heightened during the pandemic, I’ve been interested in readings that offer insight on our collective relationship with illness - the social control of our bodies and split between body &amp; mind - and the necessity / possibility of community care through mutual aid (Care Work).</p>
+
+----
+
+Nominatedby: In Memoriam of Jean Guo (1982 - 2020)
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -22,7 +46,7 @@ Download-reading: http://criticaltheoryindex.org/silvia-federici-caliban-and-the
 
 ----
 
-Keywords: 
+Links: 
 
 ----
 
@@ -30,7 +54,11 @@ Interlocutors:
 
 ----
 
-Links: 
+Contributor: Jean Guo
+
+----
+
+Keywords: 
 
 ----
 
@@ -38,15 +66,7 @@ Attachments:
 
 ----
 
-Date: 2021-01-03
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

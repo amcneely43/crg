@@ -2,6 +2,14 @@ Title: Anarchist Education and the Modern School
 
 ----
 
+Current: false
+
+----
+
+Date: 2023-07-16
+
+----
+
 Author: Francisco Ferrer
 
 ----
@@ -10,11 +18,7 @@ Subtitle: A Francisco Ferrer Reader
 
 ----
 
-Note:
-
-"On October 13, 1909, Francisco Ferrer, the notorious Catalan anarchist educator and founder of the Modern School, was executed by firing squad. The Spanish government accused him of masterminding the Tragic Week rebellion, while the transnational movement that emerged in his defense argued that he was simply the founder of the groundbreaking Modern School of Barcelona. Was Ferrer a ferocious revolutionary, an ardently nonviolent pedagogue, or something else entirely?
-
-*Anarchist Education and the Modern School* is the first historical reader to gather together Ferrer’s writings on rationalist education, revolutionary violence, and the general strike (most translated into English for the first time) and put them into conversation with the letters, speeches, and articles of his comrades, collaborators, and critics to show that the truth about the founder of the Modern School was far more complex than most of his friends or enemies realized. Francisco Ferrer navigated a tempestuous world of anarchist assassins, radical republican conspirators, anticlerical rioters, and freethinking educators to establish the legendary Escuela Moderna and the Modern School movement that his martyrdom propelled around the globe." ((link: https://pmpress.org/index.php?l=product_detail&p=933 text: pmpress.org))
+Note: <p><strong><em>teach (v.)</em></strong></p><p>Middle English <em>tēchen</em>, from Old English <em>tæcan</em> (past tense <em>tæhte</em>, past participle <em>tæht</em>) "to show (transitive), point out, declare; demonstrate," also "give instruction, train, assign, direct; warn; persuade." This is reconstructed to be from Proto-Germanic <em>taikijan</em> "to show" (source also of Old High German <em>zihan</em>, German <em>zeihen</em> "to accuse," Gothic <em>ga-teihan</em> "to announce")<em>, </em>from PIE root<em> deik-</em> "to show, point out." It is related to Old English <em>tacen</em>, <em>tacn</em> "sign, mark" (see token). The notion is "to show how to do something by way of information or instruction." By mid-14c. as "disseminate" a system of belief. By c. 1200 as "indicate" how something is to happen; used by 1560s in threats, "make known to one at a cost."</p>
 
 ----
 
@@ -26,23 +30,23 @@ The Community Reading Group has offered me a deeper, thoughtful analysis of not 
 
 ----
 
-Contributor: Allison Whitworth
+Nominatedby: Allison Whitworth
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://ia803201.us.archive.org/35/items/anarchist-education-and-the-modern-school/Anarchist%20Education%20and%20the%20Modern%20School%20-%20Mark%20Bray%3B%20Francisco%20Ferrer%3B%20Robert%20H.%20Haw.pdf
-
-----
-
-Hosted-elsewhere: true
-
-----
-
-Keywords: anarchism, education, pedagogy, spain, history, biography
-
-----
-
-Interlocutors: 
 
 ----
 
@@ -63,19 +67,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Contributor: Allison Whitworth
+
+----
+
+Hosted-elsewhere: true
+
+----
+
+Keywords: anarchism, education, pedagogy, spain, history, biography
+
+----
+
 Attachments: 
 
 ----
 
-Date: 2023-07-16
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

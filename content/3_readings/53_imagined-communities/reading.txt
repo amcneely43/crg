@@ -2,6 +2,14 @@ Title: Imagined Communities
 
 ----
 
+Current: false
+
+----
+
+Date: 2025-05-04
+
+----
+
 Author: Benedict Anderson
 
 ----
@@ -10,7 +18,7 @@ Subtitle: Reflections on the Origin and Spread of Nationalism
 
 ----
 
-Note: "**The defining, best-selling book on the history, origins and development of nationalism.** What are the imagined communities that compel men to kill or to die for an idea of a nation? This notion of nationhood had its origins in the founding of the Americas, but was then adopted and transformed by populist movements in nineteenth-century Europe. It became the rallying cry for anti-Imperialism as well as the abiding explanation for colonialism. In this scintillating, groundbreaking work of intellectual history Anderson explores how ideas are formed and reformulated at every level, from high politics to popular culture, and the way that they can make people do extraordinary things. In the twenty-first century, these debates on the nature of the nation state are even more urgent. As new nations rise, vying for influence, and old empires decline, we must understand who we are as a community in the face of history, and change." ((link: https://www.versobooks.com/products/1126-imagined-communities text: Verso))
+Note: <p><strong><em>medium (n.)</em></strong></p><p>1580s, "a middle ground, quality, or degree; that which holds a middle place or position," from Latin <em>medium</em> "the middle, midst, center; interval," noun use of neuter of adjective <em>medius</em> "in the middle, between; from the middle" (from PIE root <em>*medhyo-</em> "middle").</p><p>Many of the secondary senses are via the notion of "intervening substance through which a force or quality is conveyed" (1590s) and "intermediate agency, channel of communication" (c. 1600). From the former, via application to air, etc., comes the sense of "one's environment or conditions" (1865). From the latter comes the sense of "a print publication" (1795) which later grew into the meaning in media.</p>
 
 ----
 
@@ -28,23 +36,23 @@ As nationalist movements reignite across the globe, I wish to explore the origin
 
 ----
 
-Contributor: Masha Yamnitski
+Nominatedby: Masha Yamnitski
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: https://www.lacarchive.com/item/cmmmyg7510001jl04sbcxynh5
 
 ----
 
 Download-reading: https://ia601200.us.archive.org/25/items/benedict-anderson-imagined-communities/Benedict-Anderson-Imagined%20Communities.pdf
-
-----
-
-Hosted-elsewhere: true
-
-----
-
-Keywords: nationalism, politics, political science
-
-----
-
-Interlocutors: 
 
 ----
 
@@ -61,19 +69,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Contributor: Masha Yamnitski
+
+----
+
+Hosted-elsewhere: true
+
+----
+
+Keywords: nationalism, politics, political science
+
+----
+
 Attachments: 
 
 ----
 
-Date: 2025-05-04
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

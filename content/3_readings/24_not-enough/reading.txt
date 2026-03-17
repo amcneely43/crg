@@ -2,11 +2,15 @@ Title: Not Enough
 
 ----
 
-Author: Samuel Moyn
+Current: false
 
 ----
 
-Published: 2018
+Date: 2020-06-14
+
+----
+
+Author: Samuel Moyn
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: Human Rights in an Unequal World
 
 ----
 
-Translator: 
-
-----
-
-Publisher: The Belknap Press of Harvard University Press
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Andrew McNeely
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -47,6 +63,22 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 2018
+
+----
+
+Translator: 
+
+----
+
+Publisher: The Belknap Press of Harvard University Press
+
+----
+
 Files:
 
 - versteeg-review-moyn.pdf
@@ -54,15 +86,7 @@ Files:
 
 ----
 
-Date: 2020-06-14
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

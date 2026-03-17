@@ -2,6 +2,14 @@ Title: Black and Blur
 
 ----
 
+Current: false
+
+----
+
+Date: 2021-02-28
+
+----
+
 Author: Fred Moten
 
 ----
@@ -14,15 +22,39 @@ Note:
 
 ----
 
-Blurb: “Coming together each week with the Community Reading Group has propped me up when I really needed it this year. I appreciate the little extra motivation, accountability, and joy of gathering for discourse with a group of insightful people who show up for nothing more than the communal commitment we make to each other. I think of our project as studying the material histories that create the conditions of our time, and what it means to be a body, in a social body, in the world today. I’m excited for our next book, Black and Blur by Fred Moten, because I trust that the group will help fill in my own knowledge gaps, and offer a context for a richer experience of the book.”
+Blurb: <p>Coming together each week with the Community Reading Group has propped me up when I really needed it this year. I appreciate the little extra motivation, accountability, and joy of gathering for discourse with a group of insightful people who show up for nothing more than the communal commitment we make to each other. </p><p>I think of our project as studying the material histories that create the conditions of our time, and what it means to be a body, in a social body, in the world today. I’m excited for our next book, Black and Blur by Fred Moten, because I trust that the group will help fill in my own knowledge gaps, and offer a context for a richer experience of the book.</p>
 
 ----
 
-Contributor: Evelena Ruether
+Nominatedby: Evelena Ruether
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: http://criticaltheoryindex.org/assets/fred-moten-black-and-blur-consent-not-to-be-a-single-being-1.pdf
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: Evelena Ruether
 
 ----
 
@@ -34,27 +66,11 @@ Keywords:
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2021-02-28
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

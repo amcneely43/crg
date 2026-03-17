@@ -2,11 +2,15 @@ Title: The Death of Luigi Trastulli and Other Stories
 
 ----
 
-Author: Alessandro Portelli
+Current: false
 
 ----
 
-Published: 1991
+Date: 2020-12-12
+
+----
+
+Author: Alessandro Portelli
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: Form and Meaning in Oral History
 
 ----
 
-Translator: 
-
-----
-
-Publisher: State University of New York Press
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Hailey Loman
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -34,19 +50,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 1991
+
+----
+
+Translator: 
+
+----
+
+Publisher: State University of New York Press
+
+----
+
 Files: 
 
 ----
 
-Date: 2020-12-12
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

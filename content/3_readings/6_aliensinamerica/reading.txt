@@ -2,11 +2,15 @@ Title: Aliens in America
 
 ----
 
-Author: Jodi Dean
+Current: false
 
 ----
 
-Published: 1998
+Date: 2018-08-01
+
+----
+
+Author: Jodi Dean
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: Conspiracy Cultures from Outer-Space to Cyberspace
 
 ----
 
-Translator: 
-
-----
-
-Publisher: Verso
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: 
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -34,19 +50,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 1998
+
+----
+
+Translator: 
+
+----
+
+Publisher: Verso
+
+----
+
 Files: 
 
 ----
 
-Date: 2018-08-01
-
-----
-
 Location: The Liberation School of Los Angeles, Boyle Heights
-
-----
-
-Current: false
 
 ----
 

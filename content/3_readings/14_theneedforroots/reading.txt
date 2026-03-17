@@ -2,11 +2,15 @@ Title: The Need for Roots
 
 ----
 
-Author: Simone Weil
+Current: false
 
 ----
 
-Published: 1949
+Date: 2019-09-15
+
+----
+
+Author: Simone Weil
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: Prelude to a Declaration of Duties toward Mankind
 
 ----
 
-Translator: Arthur Wills
-
-----
-
-Publisher: Rutledge Classics
-
-----
-
 Note: *Attention* is what Simone Weil would ask of us...
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: 
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -39,19 +55,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 1949
+
+----
+
+Translator: Arthur Wills
+
+----
+
+Publisher: Rutledge Classics
+
+----
+
 Attachments: 
 
 ----
 
-Date: 2019-09-15
-
-----
-
 Location: Los Angeles Contemporary Archive, Chinatown
-
-----
-
-Current: false
 
 ----
 

@@ -2,6 +2,14 @@ Title: Family Abolition
 
 ----
 
+Current: false
+
+----
+
+Date: 2023-10-15
+
+----
+
 Author: M. E. O'Brien
 
 ----
@@ -10,11 +18,7 @@ Subtitle: Capitalism and the Communizing of Care
 
 ----
 
-Note:
-
-"For some of us, the family is a source of love and support. But for many others, the family is a place of private horror, coercion and personal domination. In capitalist society, the private family carries the impossible demands of interpersonal care and social reproductive labor. Can we imagine a different future?
-
-In *Family Abolition*, author M.E. O'Brien uncovers the history of struggles to create radical alternatives to the private family. O'Brien traces the changing family politics of racial capitalism in the industrial cities of Europe and in the slave plantations and settler frontier of North America, explaining the rise and fall of the housewife-based family form. From early Marxists to Black and queer insurrectionists to today's mass protest movements, O'Brien finds revolutionaries seeking better ways of loving, caring, and living. *Family Abolition* takes us through the past and present of family politics into a speculative future of the commune, imagining how care could be organized in a free society."  (link: http://www.plutobooks.com/9780745343846/family-abolition/ text: Pluto Press)
+Note: <p><strong><em>family (n.)</em></strong></p><p>early 15c., "servants of a household," from Latin <em>familia</em> "family servants, domestics collectively, the servants in a household," thus also "members of a household, the estate, property; the household, including relatives and servants," abstract noun formed from <em>famulus</em> "servant, slave," which is of unknown origin. The Latin word rarely appears in the sense "parents with their children," for which <em>domus</em> was used. </p>
 
 ----
 
@@ -26,23 +30,23 @@ A few of my selections are straight manifestos or manifesto-like writings that c
 
 ----
 
-Contributor: Bernadette Schoeman
+Nominatedby: Bernadette Schoeman
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: https://www.lacarchive.com/item/cmmmkk7zs0001lj04lhzeku3m
 
 ----
 
 Download-reading: 
-
-----
-
-Hosted-elsewhere: true
-
-----
-
-Keywords: family, communism
-
-----
-
-Interlocutors: 
 
 ----
 
@@ -58,19 +62,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Contributor: Bernadette Schoeman
+
+----
+
+Hosted-elsewhere: true
+
+----
+
+Keywords: family, communism
+
+----
+
 Attachments: 
 
 ----
 
-Date: 2023-10-15
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

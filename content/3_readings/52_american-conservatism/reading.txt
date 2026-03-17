@@ -2,6 +2,14 @@ Title: American Conservatism
 
 ----
 
+Current: false
+
+----
+
+Date: 2024-11-10
+
+----
+
 Author: Andrew J. Bacevich, ed
 
 ----
@@ -10,29 +18,43 @@ Subtitle: Reclaiming an Intellectual Tradition
 
 ----
 
-Note:
-
-What is American conservatism? What are its core beliefs and values? What answers can it offer to the fundamental questions we face in the twenty-first century about the common good and the meaning of freedom, the responsibilities of citizenship, and America’s proper role in the world?
-
-As libertarians, neoconservatives, Never Trump-ers, and others battle over the label, this landmark collection offers an essential survey of conservative thought in the United States since 1900, highlighting the centrality of four key themes: the importance of tradition and the local, resistance to an ever-expanding state, opposition to the threat of tyranny at home and abroad, and free markets as the key to sustaining individual liberty.
+Note: <p><strong><em>conservative (adj.)</em></strong></p><p>late 14c., <em>conservatyf</em>, "tending to preserve or protect, preservative, having the power to keep whole or safe," from Old French <em>conservatif</em>, from Medieval Latin <em>conservativus</em>, from Latin <em>conservatus</em>, past participle of conservare "to keep, preserve, keep intact, guard," from assimilated form of <em>com-</em>, here perhaps an intensive prefix (see <em>com-</em>), + <em>servare</em> "keep watch, maintain" (from PIE root <em>*ser-</em> (1) "to protect").</p><p>From 1840 in the general sense "disposed to retain and maintain what is established, opposed to innovation and change," or, in a negative sense "opposed to progress."</p>
 
 ----
 
-Blurb:
-
-A perennial question that Americans are familiar with is the nation’s longstanding disagreement over the rightful authority of the federal government. Should the United States be a highly centralized bureaucracy or should power principally reside at the state or local municipality level. I myself have long struggled to reconcile my stance on this issue due to two personal beliefs. On the one hand, I ardently subscribe to the ideal of direct democracy. On the other, I strongly believe that direct democracy will tend toward tribalism if given full control over policy.
-
-Hannah Arendt, who publicly derided segregation, famously struggled with a similar question, leading her to surprise many of her readers by opposing the Supreme Court’s decision in Brown v. Board of Education, which would force Little Rock, Arkansas, to integrate African American students into its schools. For Arendt, state-forced association was a wrong-headed approach to the social problem of an individual’s choice to dissociate from certain people. In essence, the Court’s solution conflated a social problem with a political one. The government, Arendt writes in “Reflections of Little Rock,” “can legitimately take no steps against social discrimination because government can act only in the name of equality—a principle which does not obtain in the social sphere.”
-
-Arendt’s position on Little Rock has left her interpreters to disagree over whether she was at her core a conservative or progressive thinker—a debate that has yet to arrive at a consensus. Today, there are familiar echoes of the above question in contemporary debates over reproductive healthcare and marriage equality. I’d like to interrogate my own feelings toward appeals to government decentralization, and I wish to do so by taking a deep dive into conservative thought. I cannot think of anything more productive than to take on this endeavor with a group of folks equally committed to the project of radical freedom.
+Blurb: <p>A perennial question that Americans are familiar with is the nation’s longstanding disagreement over the rightful authority of the federal government. Should the United States be a highly centralized bureaucracy or should power principally reside at the state or local municipality level. I myself have long struggled to reconcile my stance on this issue due to two personal beliefs. On the one hand, I ardently subscribe to the ideal of direct democracy. On the other, I strongly believe that direct democracy will tend toward tribalism if given full control over policy. </p><p>Hannah Arendt, who publicly derided segregation, famously struggled with a similar question, leading her to surprise many of her readers by opposing the Supreme Court’s decision in Brown v. Board of Education, which would force Little Rock, Arkansas, to integrate African American students into its schools. For Arendt, state-forced association was a wrong-headed approach to the social problem of an individual’s choice to dissociate from certain people. In essence, the Court’s solution conflated a social problem with a political one. The government, Arendt writes in “Reflections of Little Rock,” “can legitimately take no steps against social discrimination because government can act only in the name of equality—a principle which does not obtain in the social sphere.” </p><p>Arendt’s position on Little Rock has left her interpreters to disagree over whether she was at her core a conservative or progressive thinker—a debate that has yet to arrive at a consensus. Today, there are familiar echoes of the above question in contemporary debates over reproductive healthcare and marriage equality. I’d like to interrogate my own feelings toward appeals to government decentralization, and I wish to do so by taking a deep dive into conservative thought. I cannot think of anything more productive than to take on this endeavor with a group of folks equally committed to the project of radical freedom.</p>
 
 ----
 
-Contributor: Andrew McNeely
+Nominatedby: Andrew McNeely
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://www.loa.org/books/630-american-conservatism-reclaiming-an-intellectual-tradition/?gad_source=1&gclid=Cj0KCQiAo5u6BhDJARIsAAVoDWuzNLGqFCoKt4ZzdObZYHAWtvEaOCE66jtV6FeSUgRN2D6ogysOrT4aAluAEALw_wcB
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: Andrew McNeely
 
 ----
 
@@ -44,27 +66,11 @@ Keywords: conservatism, republican, rightwing
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2024-11-10
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

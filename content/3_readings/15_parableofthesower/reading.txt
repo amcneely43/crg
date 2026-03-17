@@ -2,11 +2,15 @@ Title: The Parable of the Sower
 
 ----
 
-Author: Octavia Butler
+Current: false
 
 ----
 
-Published: 1993
+Date: 2019-10-15
+
+----
+
+Author: Octavia Butler
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle:
 
 ----
 
-Translator: 
+Note: 
 
 ----
 
-Publisher: Four Walls Eight Windows
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
 
 ----
 
-Note: Greetings, seeds of the earth. For the first time, we’re reading fiction. More specifically, Octavia Butler’s first book of the Parable series—a vision of an end and its eerie resonance with the present. Gather with us to bury our dead and reap the harvest of Butler's light.
+Nominatedby: Joy Jade
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -34,19 +50,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 1993
+
+----
+
+Translator: 
+
+----
+
+Publisher: Four Walls Eight Windows
+
+----
+
 Files: 
 
 ----
 
-Date: 2019-10-15
-
-----
-
 Location: Los Angeles Contemporary Archive, Chinatown
-
-----
-
-Current: false
 
 ----
 

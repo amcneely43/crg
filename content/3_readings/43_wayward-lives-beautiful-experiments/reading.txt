@@ -2,6 +2,14 @@ Title: Wayward Lives, Beautiful Experiments
 
 ----
 
+Current: false
+
+----
+
+Date: 2022-08-07
+
+----
+
 Author: Saidiya Hartman
 
 ----
@@ -14,19 +22,39 @@ Note: "In the early twentieth century, young black women were in open rebellion.
 
 ----
 
-Blurb:
-
-I find definitions of community in relation to politics confusing. I find rigid ideologies suspect, and any adherence to them is a scratch worth itching—maybe enough to draw blood. I can’t stand monumentalizing an individual but am deferential to respecting subjectivity and extolling the value of lived experience. I care to know the dimensions of what community can mean, often in terms of trust, empathy, interpersonal dynamics related to power, and self-organization by shared beliefs.
- 
-In my time in CRG the reading has been leaned toward an abstract/theoretical tone in discussions of community—a bit super-structure oriented. So, I’ve suggested books focusing on the experience of subjective identities as an anchor in the service of CRG’s exploration of community.  I’m curious to see how this will tip the balance of our conversations, especially considering the frameworks of knowledge that group members have benefited from reading thus far.
+Blurb: <p>I find definitions of community in relation to politics confusing. I find rigid ideologies suspect, and any adherence to them is a scratch worth itching—maybe enough to draw blood. I can’t stand monumentalizing an individual but am deferential to respecting subjectivity and extolling the value of lived experience. I care to know the dimensions of what community can mean, often in terms of trust, empathy, interpersonal dynamics related to power, and self-organization by shared beliefs. </p><p>In my time in CRG the reading has been leaned toward an abstract/theoretical tone in discussions of community—a bit super-structure oriented. So, I’ve suggested books focusing on the experience of subjective identities as an anchor in the service of CRG’s exploration of community. I’m curious to see how this will tip the balance of our conversations, especially considering the frameworks of knowledge that group members have benefited from reading thus far.</p>
 
 ----
 
-Contributor: Simone Montemurno
+Nominatedby: Simone Montemurno
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://ia601706.us.archive.org/34/items/wayward-lives-beautiful-experiments-intimate-histories-of-social-upheaval-hartman/Wayward%20Lives%2C%20Beautiful%20Experiments_%20Inti%20-%20Saidiya%20Hartman.pdf
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: Simone Montemurno
 
 ----
 
@@ -38,27 +66,11 @@ Keywords:
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2022-08-07
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

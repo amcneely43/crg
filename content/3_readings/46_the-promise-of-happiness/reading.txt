@@ -2,6 +2,14 @@ Title: The Promise of Happiness
 
 ----
 
+Current: false
+
+----
+
+Date: 2023-05-07
+
+----
+
 Author: Sara Ahmed
 
 ----
@@ -10,11 +18,7 @@ Subtitle:
 
 ----
 
-Note:
-
-"*The Promise of Happiness* is a provocative cultural critique of the imperative to be happy. It asks what follows when we make our desires and even our own happiness conditional on the happiness of others: 'I just want you to be happy'; 'I’m happy if you’re happy.' Combining philosophy and feminist cultural studies, Sara Ahmed reveals the affective and moral work performed by the 'happiness duty,' the expectation that we will be made happy by taking part in that which is deemed good, and that by being happy ourselves, we will make others happy. Ahmed maintains that happiness is a promise that directs us toward certain life choices and away from others. Happiness is promised to those willing to live their lives in the right way.
-
-Ahmed draws on the intellectual history of happiness, from classical accounts of ethics as the good life, through seventeenth-century writings on affect and the passions, eighteenth-century debates on virtue and education, and nineteenth-century utilitarianism. She engages with feminist, antiracist, and queer critics who have shown how happiness is used to justify social oppression, and how challenging oppression causes unhappiness. Reading novels and films including *Mrs. Dalloway*, *The Well of Loneliness*, *Bend It Like Beckham*, and *Children of Men*, Ahmed considers the plight of the figures who challenge and are challenged by the attribution of happiness to particular objects or social ideals: the feminist killjoy, the unhappy queer, the angry black woman, and the melancholic migrant. Through her readings she raises critical questions about the moral order imposed by the injunction to be happy." ((link: https://www.dukeupress.edu/The-Promise-of-Happiness/ text: dukeupress.edu))
+Note: <p><strong><em>happy (adj.)</em></strong></p><p>late 14c., "lucky, favored by fortune, being in advantageous circumstances, prosperous;" of events, "turning out well," from <em>hap</em> (n.) "chance, fortune" + <em>-y</em> (2). The sense of "very glad" is recorded by late 14c. The meaning "greatly pleased and content" is from 1520s.</p>
 
 ----
 
@@ -28,23 +32,23 @@ Committing to happiness often propels us forward in a daily routine of habitual 
 
 ----
 
-Contributor: Masha Hupalo
+Nominatedby: Masha Hupalo
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://we.riseup.net/assets/406978/ahmed-the-promise-of-happiness.pdf
-
-----
-
-Hosted-elsewhere: true
-
-----
-
-Keywords: happiness, ethics, philosophy, feminism
-
-----
-
-Interlocutors: 
 
 ----
 
@@ -57,19 +61,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Contributor: Masha Hupalo
+
+----
+
+Hosted-elsewhere: true
+
+----
+
+Keywords: happiness, ethics, philosophy, feminism
+
+----
+
 Attachments: 
 
 ----
 
-Date: 2023-05-07
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

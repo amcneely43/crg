@@ -2,15 +2,59 @@ Title: The Origin of the Political
 
 ----
 
+Current: false
+
+----
+
+Date: 2018-07-10
+
+----
+
 Author: Roberto Esposito
 
 ----
 
-Published: 2017
+Subtitle: Hannah Arendt Or Simone Weil?
 
 ----
 
-Subtitle: Hannah Arendt Or Simone Weil?
+Note: <p><strong><em>political (adj.)</em></strong></p><p>1550s, "of or pertaining to a polity, civil affairs, or government;" from Latin <em>politicus</em> "of citizens or the state." Meaning "taking sides in party politics" (usually pejorative) is from 1749. Political prisoner first recorded 1860; political science is from 1779 (first attested in Hume). Political animal translates Greek <em>politikon zōon</em> (Aristotle, "Politics," I.ii.9) "an animal intended to live in a city; a social animal."</p>
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Andrew McNeely
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
+
+----
+
+Download-reading: https://bookshop.org/p/books/the-origin-of-the-political-hannah-arendt-or-simone-weil-roberto-esposito/29285030daa11ea2?ean=9780823276271&next=t
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Published: 2017
 
 ----
 
@@ -22,31 +66,11 @@ Publisher: Fordham University Press
 
 ----
 
-Note: 
-
-----
-
-Download-reading: http://criticaltheoryindex.org/assets/roberto-esposito-the-origin-of-the-political-hannah-arendt-or-simone-weil-1%20(3).pdf
-
-----
-
-Links: 
-
-----
-
 Files: 
 
 ----
 
-Date: 2018-07-10
-
-----
-
 Location: The Liberation School of Los Angeles, Boyle Heights
-
-----
-
-Current: false
 
 ----
 

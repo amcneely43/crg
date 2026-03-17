@@ -2,6 +2,14 @@ Title: Communitas
 
 ----
 
+Current: false
+
+----
+
+Date: 2018-07-01
+
+----
+
 Author: Roberto Esposito
 
 ----
@@ -10,35 +18,35 @@ Subtitle: The Origin and Destiny of Community
 
 ----
 
-Note: 
+Note: <p>community(n.)</p><p>late 14c., communite, "a number of people associated together by the fact of residence in the same locality," also "the common people" (not the rulers or the clergy), from Old French comunité "community, commonness, everybody" (Modern French communauté), from Latin communitatem (nominative communitas) "community, society, fellowship, friendly intercourse; courtesy, condescension, affability," from communis "common, public, general, shared by all or many."</p>
 
 ----
 
-Blurb:
-
-This reading group will explore philosophical investigations of the concept of community by theorists working in the continental tradition. I will give preference to philosophers who complicate popular invocations of community-building and social inclusivity as a means to further democratic progress. I chose to begin with the English translation of Roberto Esposito’s *Communitas* (2009). For those interested in this group, I would recommend familiarizing yourself with the discourses of communitarianism and multiculturalism in Anglo-American political philosophy to add context to your reading of Esposito’s thought. I’ve provided links to both communitarianism and multiculturalism below. 
-
-While it is unavoidable that we'll discuss definitions of “community,” my hope is that our focus will narrowly contemplate the relationship between invocations of community – whether coupled with terms like “health” and/or “resilience” – and anti-capitalist struggle. After finishing this book, should there be an interest in pursuing this topic further, then I would be interested in organizing a group that examines the literature on this subject in greater detail. Last, to be clear, this is a discussion group for anyone interested in the topic no matter what their level of familiarity is with the names and titles I’ve listed.
+Blurb: <p>This reading group will explore philosophical investigations of the concept of community by theorists working in the continental tradition. I will give preference to philosophers who complicate popular invocations of community-building and social inclusivity as a means to further democratic progress. I chose to begin with the English translation of Roberto Esposito’s *Communitas* (2009). <br><br>For those interested in this group, I would recommend familiarizing yourself with the discourses of communitarianism and multiculturalism in Anglo-American political philosophy to add context to your reading of Esposito’s thought. I’ve provided links to both communitarianism and multiculturalism below. While it is unavoidable that we'll discuss definitions of “community,” my hope is that our focus will narrowly contemplate the relationship between invocations of community—whether coupled with terms like “health” and/or “resilience”—and anti-capitalist struggle. <br><br>After finishing this book, should there be an interest in pursuing this topic further, then I would be interested in organizing a group that examines the literature on this subject in greater detail. Last, to be clear, this is a discussion group for anyone interested in the topic no matter what their level of familiarity is with the names and titles I’ve listed.</p>
 
 ----
 
-Contributor: Andrew McNeely
+Nominatedby: Andrew McNeely
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms:
+
+- words/common
+- words/duty
+- words/sacrifice
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://bookshop.org/p/books/communitas-the-origin-and-destiny-of-community-roberto-esposito/c1c1e54d327a33b9?ean=9780804746472&next=t
-
-----
-
-Hosted-elsewhere: true
-
-----
-
-Keywords: 
-
-----
-
-Interlocutors: 
 
 ----
 
@@ -59,19 +67,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Contributor: Andrew McNeely
+
+----
+
+Hosted-elsewhere: true
+
+----
+
+Keywords: 
+
+----
+
 Attachments: 
 
 ----
 
-Date: 2018-07-01
-
-----
-
 Location: The Liberation School of Los Angeles, Boyle Heights
-
-----
-
-Current: false
 
 ----
 

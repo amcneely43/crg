@@ -2,11 +2,15 @@ Title: The King’s Two Bodies
 
 ----
 
-Author: Ernst Kantorowicz
+Current: false
 
 ----
 
-Published: 1957
+Date: 2019-11-30
+
+----
+
+Author: Ernst Kantorowicz
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: A Study in Medieval Political Theology
 
 ----
 
-Translator: 
-
-----
-
-Publisher: Princeton University Press
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Michael Berlin & Andrew McNeely
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -34,19 +50,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 1957
+
+----
+
+Translator: 
+
+----
+
+Publisher: Princeton University Press
+
+----
+
 Files: 
 
 ----
 
-Date: 2019-11-30
-
-----
-
 Location: Los Angeles Contemporary Archive, Chinatown
-
-----
-
-Current: false
 
 ----
 

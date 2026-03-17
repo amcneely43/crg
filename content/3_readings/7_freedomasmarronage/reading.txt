@@ -2,11 +2,15 @@ Title: Freedom as Marronage
 
 ----
 
-Author: Neil Roberts
+Current: false
 
 ----
 
-Published: 2015
+Date: 2018-09-10
+
+----
+
+Author: Neil Roberts
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle:
 
 ----
 
-Translator: 
-
-----
-
-Publisher: University of Chicago Press
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: 
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -34,19 +50,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 2015
+
+----
+
+Translator: 
+
+----
+
+Publisher: University of Chicago Press
+
+----
+
 Files: 
 
 ----
 
-Date: 2018-09-10
-
-----
-
 Location: Los Angeles Contemporary Archive, Chinatown
-
-----
-
-Current: false
 
 ----
 

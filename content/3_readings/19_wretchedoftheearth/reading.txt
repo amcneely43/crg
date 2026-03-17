@@ -2,11 +2,15 @@ Title: The Wretched of the Earth
 
 ----
 
-Author: Frantz Fanon
+Current: false
 
 ----
 
-Published: 1963
+Date: 2020-01-12
+
+----
+
+Author: Frantz Fanon
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle:
 
 ----
 
-Translator: Richard Philcox
-
-----
-
-Publisher: Grove New York Press
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Andrew McNeely
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -46,19 +62,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 1963
+
+----
+
+Translator: Richard Philcox
+
+----
+
+Publisher: Grove New York Press
+
+----
+
 Files: 
 
 ----
 
-Date: 2020-01-12
-
-----
-
 Location: Los Angeles Contemporary Archive, Chinatown
-
-----
-
-Current: false
 
 ----
 

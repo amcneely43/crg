@@ -2,6 +2,14 @@ Title: The Ecology of Freedom
 
 ----
 
+Current: false
+
+----
+
+Date: 2021-07-11
+
+----
+
 Author: Murray Bookchin
 
 ----
@@ -14,35 +22,27 @@ Note:
 
 ----
 
-Blurb:
-
-1) When I was a substitute teacher, a first grader once asked me what the word “communal” meant. In English, it is often in reference to *communism*, an association which comes with significant problems, but in French, the *commune* is no different than a town, a municipality.
-
-2) My studies over the last couple years have involved various takes on the commune—alternative museums, anarchist schools, farms, confederations, and even cities. Each has brought into question another, more complicated word—*civilization.*
-
-3) Relevant to my own ancestry, I consider how Ashkenazi Jews—historically emerging from social precariousness and violence in Europe—have approached these ideas.
-
-4) As I’ve seen the projects of lifestyle anarchists and communists devolve into chaotic hierarchies, the ramifications of civilization have not ceased to concern me. In collaboration, I want to ponder these questions: What is the nature of *civilization*? What is possible in the *commune*?
+Blurb: <p>1) When I was a substitute teacher, a first grader once asked me what the word “communal” meant. In English, it is often in reference to *communism*, an association which comes with significant problems, but in French, the *commune* is no different than a town, a municipality. </p><p>2) My studies over the last couple years have involved various takes on the commune—alternative museums, anarchist schools, farms, confederations, and even cities. Each has brought into question another, more complicated word—*civilization.* </p><p>3) Relevant to my own ancestry, I consider how Ashkenazi Jews—historically emerging from social precariousness and violence in Europe—have approached these ideas. </p><p>4) As I’ve seen the projects of lifestyle anarchists and communists devolve into chaotic hierarchies, the ramifications of civilization have not ceased to concern me. In collaboration, I want to ponder these questions: What is the nature of *civilization*? What is possible in the *commune*?</p>
 
 ----
 
-Contributor: Zach Whitworth
+Nominatedby: Zach Whitworth
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: https://libcom.org/files/Murray_Bookchin_The_Ecology_of_Freedom_1982.pdf
-
-----
-
-Hosted-elsewhere: true
-
-----
-
-Keywords: ecology, anarchism, marxism, socialism, environmentalism, nature, philosophy
-
-----
-
-Interlocutors: 
 
 ----
 
@@ -59,19 +59,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Contributor: Zach Whitworth
+
+----
+
+Hosted-elsewhere: true
+
+----
+
+Keywords: ecology, anarchism, marxism, socialism, environmentalism, nature, philosophy
+
+----
+
 Attachments: 
 
 ----
 
-Date: 2021-07-11
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

@@ -2,6 +2,14 @@ Title: Ch'ixinakax Utxisa
 
 ----
 
+Current: false
+
+----
+
+Date: 2021-05-30
+
+----
+
 Author: Silvia Rivera Cusicanqui
 
 ----
@@ -14,15 +22,39 @@ Note:
 
 ----
 
-Blurb: Since moving to Los Angeles from Argentina, I have been invested in building conceptual bridges and observing conceptual differences in the fields of political praxis and critical theory, emerging in, from, and in between the US and Latin American political experiences and intellectual grounds. I think of community as never pre-established but always in the making, gathering activity fueled by the desire of questioning, destabilizing, relativizing, and situating already made thoughts and words—and work/think together to create new alliances and possible futures. My idea of community is thus grounded in the experience of leaving my culture and finding myself in a different cultural field, existing in translation and in between socio-political realities. My hope with these articles is to contribute to our group's inquiries and to offer a perspective on decolonial and feminist thought from the border, south of it, and beyond.
+Blurb: <p>Since moving to Los Angeles from Argentina, I have been invested in building conceptual bridges and observing conceptual differences in the fields of political praxis and critical theory, emerging in, from, and in between the US and Latin American political experiences and intellectual grounds. <br><br>I think of community as never pre-established but always in the making, gathering activity fueled by the desire of questioning, destabilizing, relativizing, and situating already made thoughts and words—and work/think together to create new alliances and possible futures. My idea of community is thus grounded in the experience of leaving my culture and finding myself in a different cultural field, existing in translation and in between socio-political realities. My hope with these articles is to contribute to our group's inquiries and to offer a perspective on decolonial and feminist thought from the border, south of it, and beyond.</p>
 
 ----
 
-Contributor: Carmen Amengual
+Nominatedby: Carmen Armengual
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
 Download-reading: http://www.adivasiresurgence.com/wp-content/uploads/2016/02/Silvia-Rivera-Cusicanqui-Chixinakax-Eng1.pdf
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Contributor: Carmen Amengual
 
 ----
 
@@ -34,27 +66,11 @@ Keywords:
 
 ----
 
-Interlocutors: 
-
-----
-
-Links: 
-
-----
-
 Attachments: 
 
 ----
 
-Date: 2021-05-30
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

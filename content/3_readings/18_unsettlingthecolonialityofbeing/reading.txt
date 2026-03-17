@@ -2,11 +2,15 @@ Title: Unsettling the Coloniality of Being/Power/Truth/Freedom
 
 ----
 
-Author: Sylvia Wynter
+Current: false
 
 ----
 
-Published: 2003
+Date: 2019-12-29
+
+----
+
+Author: Sylvia Wynter
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: Towards the Human, After Man, Its Overrepresentation—An Argument
 
 ----
 
-Translator: 
-
-----
-
-Publisher: Michigan State University Press
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Joy Jade
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -34,19 +50,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 2003
+
+----
+
+Translator: 
+
+----
+
+Publisher: Michigan State University Press
+
+----
+
 Files: 
 
 ----
 
-Date: 2019-12-29
-
-----
-
 Location: Los Angeles Contemporary Archive, Chinatown
-
-----
-
-Current: false
 
 ----
 

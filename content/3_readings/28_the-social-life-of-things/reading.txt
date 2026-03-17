@@ -2,11 +2,15 @@ Title: The Social Life of Things
 
 ----
 
-Author: Arjun Appadurai
+Current: false
 
 ----
 
-Published: 1986
+Date: 2020-11-20
+
+----
+
+Author: Arjun Appadurai
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle: Commodities in cultural perspective
 
 ----
 
-Translator: 
-
-----
-
-Publisher: Cambridge University Press
-
-----
-
 Note: 
+
+----
+
+Blurb: 
+
+----
+
+Nominatedby: 
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -34,19 +50,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 1986
+
+----
+
+Translator: 
+
+----
+
+Publisher: Cambridge University Press
+
+----
+
 Files: 
 
 ----
 
-Date: 2020-11-20
-
-----
-
 Location: Zoom
-
-----
-
-Current: false
 
 ----
 

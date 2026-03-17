@@ -2,15 +2,63 @@ Title: Politics in the Present
 
 ----
 
+Current: false
+
+----
+
+Date: 2018-07-05
+
+----
+
 Author: Roberto Esposito
 
 ----
 
-Published: 2017
+Subtitle: 
 
 ----
 
-Subtitle: 
+Note: <p><strong><em>immunity (n.)</em></strong></p><p><strong>late 14c.</strong>, "exemption from service or obligation," from Old French <em>immunité</em> "privilege; immunity from attack, inviolability" (14c.) and directly from Latin <em>immunitatem</em> (nominative <em>immunitas</em>) "exemption from performing public service or charge, privilege," from <em>immunis</em> "exempt, free, not paying a share." Medical sense of "protection from disease" is from 1879, from French or German.</p>
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Andrew McNeely
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms:
+
+- words/citizen
+- words/nation
+- words/rights
+
+----
+
+Bookstackurl: 
+
+----
+
+Download-reading: https://bookshop.org/p/books/sovereignty-in-ruins-a-politics-of-crisis-george-edmondson/f70cfc5895dd05f4?ean=9780822363026&next=t&
+
+----
+
+Links: 
+
+----
+
+Interlocutors: 
+
+----
+
+Published: 2017
 
 ----
 
@@ -22,31 +70,11 @@ Publisher: Duke University Press Books
 
 ----
 
-Note: 
-
-----
-
-Download-reading: 
-
-----
-
-Links: 
-
-----
-
 Files: 
 
 ----
 
-Date: 2018-07-05
-
-----
-
 Location: The Liberation School of Los Angeles, Boyle Heights
-
-----
-
-Current: false
 
 ----
 

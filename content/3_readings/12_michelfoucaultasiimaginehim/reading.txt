@@ -2,11 +2,15 @@ Title: Michel Foucault, as I Imagine Him
 
 ----
 
-Author: Maurice Blanchot
+Current: false
 
 ----
 
-Published: 1987
+Date: 2019-05-01
+
+----
+
+Author: Maurice Blanchot
 
 ----
 
@@ -14,15 +18,27 @@ Subtitle:
 
 ----
 
-Translator: Jeffrey Mehlman
-
-----
-
-Publisher: Zone Books
-
-----
-
 Note: 
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: 
+
+----
+
+Flyerby: 
+
+----
+
+Terms: 
+
+----
+
+Bookstackurl: 
 
 ----
 
@@ -34,19 +50,27 @@ Links:
 
 ----
 
+Interlocutors: 
+
+----
+
+Published: 1987
+
+----
+
+Translator: Jeffrey Mehlman
+
+----
+
+Publisher: Zone Books
+
+----
+
 Files: 
 
 ----
 
-Date: 2019-05-01
-
-----
-
 Location: Los Angeles Contemporary Archive, Chinatown
-
-----
-
-Current: false
 
 ----
 
