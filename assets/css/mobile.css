@@ -272,20 +272,9 @@
     z-index: 2;
   }
 
-  /* Cancel float for cover/flyer images inside the overlay */
+  /* Overlay: cancel float containment (flyer hidden below via display:none) */
   #bookDetailContent .detail-top-cols {
     overflow: visible;
-  }
-
-  #bookDetailContent .detail-flyer {
-    float: none;
-    width: 100%;
-    margin: 0 0 1rem 0;
-  }
-
-  #bookDetailContent .detail-flyer img {
-    width: 100%;
-    height: auto;
   }
 
   /* ── Reading / Workshop detail page ──────────────────────── */

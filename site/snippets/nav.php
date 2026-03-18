@@ -46,8 +46,8 @@
 			</div>
 
       <div class="m-show">
-        <a href="#" id="nav_arrow">
-          <img src="<?= asset('assets/icons/arrow-down.svg')->url() ?>" class="slide-close">
+        <a href="#" id="nav_arrow" aria-label="Toggle navigation">
+          <img src="<?= asset('assets/icons/arrow-down.svg')->url() ?>" class="slide-close" alt="">
         </a>
       </div>
 		</div>
