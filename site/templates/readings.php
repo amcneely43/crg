@@ -26,6 +26,15 @@
 
 <div id="mapTooltip"></div>
 
+<?php /* ── Doxa panel: ConceptNet overlay, opened by clicking amber-ring nodes ── */ ?>
+<div id="doxaPanel" hidden>
+  <button id="doxaPanelClose" aria-label="Close doxa panel">×</button>
+  <p id="doxaPanelTerm" class="doxa-panel-term"></p>
+  <div id="doxaPanelBody">
+    <p class="doxa-panel-loading">Loading…</p>
+  </div>
+</div>
+
 <?php /* ── Book detail slide-up overlay (mirrors Doings/.info) ──────────────── */ ?>
 <div id="bookDetail">
   <button id="bookDetailClose" class="info-close">← Back to Readings/Workshops</button>

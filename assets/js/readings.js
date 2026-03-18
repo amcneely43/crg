@@ -38,6 +38,8 @@
   /* ── State ───────────────────────────────────────────────────────────────── */
   let activeTab    = 'readings';
   let activeTermId = null;
+  let activeDoxaId = null;
+  const doxaCache  = new Map();
 
   /* ── HTML-escape helper (plain-text fields rendered via innerHTML) ────────── */
   function esc(str) {
@@ -56,6 +58,80 @@
   const detailEl        = document.getElementById('bookDetail');
   const detailContentEl = document.getElementById('bookDetailContent');
   const tabBtns         = document.querySelectorAll('.book-tab-btn');
+  const doxaPanelEl     = document.getElementById('doxaPanel');
+  const doxaTermEl      = document.getElementById('doxaPanelTerm');
+  const doxaBodyEl      = document.getElementById('doxaPanelBody');
+  const doxaCloseBtn    = document.getElementById('doxaPanelClose');
+
+  /* ── Doxa panel ─────────────────────────────────────────────────────────── */
+  function closeDoxaPanel() {
+    activeDoxaId = null;
+    doxaPanelEl.hidden = true;
+    doxaBodyEl.innerHTML = '<p class="doxa-panel-loading">Loading\u2026</p>';
+  }
+
+  async function openDoxaPanel(d) {
+    if (activeDoxaId === d.id) { closeDoxaPanel(); return; }
+    activeDoxaId = d.id;
+    doxaTermEl.textContent = d.label;
+    doxaBodyEl.innerHTML = '<p class="doxa-panel-loading">Loading\u2026</p>';
+    doxaPanelEl.hidden = false;
+
+    const term = (d.label || d.id).toLowerCase().replace(/\s+/g, '_');
+    let edges;
+
+    if (doxaCache.has(term)) {
+      edges = doxaCache.get(term);
+    } else {
+      try {
+        const res  = await fetch('https://api.conceptnet.io/c/en/' + encodeURIComponent(term));
+        const data = await res.json();
+        const allowed  = new Set(['RelatedTo', 'IsA', 'HasProperty']);
+        const termUri  = '/c/en/' + term;
+        edges = (data.edges || [])
+          .filter(e =>
+            allowed.has(e.rel.label) &&
+            e.start.language === 'en' &&
+            e.end.language   === 'en'
+          )
+          .map(e => {
+            const other = e.start['@id'].startsWith(termUri) ? e.end : e.start;
+            return {
+              rel:   e.rel.label,
+              label: other.label || other['@id'].replace(/.*\//, ''),
+            };
+          })
+          .filter(e => e.label.toLowerCase() !== term.replace(/_/g, ' '));
+        doxaCache.set(term, edges);
+      } catch (_) {
+        if (activeDoxaId === d.id) {
+          doxaBodyEl.innerHTML = '<p class="doxa-panel-error">Could not load data.</p>';
+        }
+        return;
+      }
+    }
+
+    if (activeDoxaId !== d.id) return; // closed while fetching
+
+    if (!edges.length) {
+      doxaBodyEl.innerHTML = '<p class="doxa-panel-empty">No relations found.</p>';
+      return;
+    }
+
+    const relLabels = { RelatedTo: 'Related To', IsA: 'Is A', HasProperty: 'Has Property' };
+    const groups = {};
+    edges.forEach(e => { (groups[e.rel] = groups[e.rel] || []).push(e.label); });
+
+    doxaBodyEl.innerHTML = Object.entries(groups)
+      .map(([rel, labels]) =>
+        '<p class="doxa-panel-rel">' + (relLabels[rel] || rel) + '</p>' +
+        '<ul class="doxa-panel-list">' +
+          labels.slice(0, 8).map(l => '<li>' + esc(l) + '</li>').join('') +
+        '</ul>'
+      ).join('');
+  }
+
+  if (doxaCloseBtn) doxaCloseBtn.addEventListener('click', closeDoxaPanel);
 
   /* ── Tabs ────────────────────────────────────────────────────────────────── */
   tabBtns.forEach(btn => {
@@ -744,6 +820,13 @@
           d3.select(this).select('circle')
             .attr('fill', nodeBaseFill(d))
             .attr('r', d.derived ? 6 : 3);
+        });
+
+      /* ── Doxa node click → ConceptNet panel ─────────────────────────── */
+      node.filter(d => d.doxa && !d.center)
+        .on('click', function (event, d) {
+          event.stopPropagation();
+          openDoxaPanel(d);
         });
 
       /* ── Zoom ────────────────────────────────────────────────────────── */

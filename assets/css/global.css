@@ -988,6 +988,69 @@ main.readings {
   overflow: hidden;
   padding: 0;
   background: #0d0018;
+  position: relative;
+}
+
+/* ── Doxa panel (ConceptNet overlay on map) ──────────────────────────── */
+#doxaPanel {
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  width: 210px;
+  max-height: calc(100% - 80px);
+  overflow-y: auto;
+  background: rgba(13, 0, 24, 0.92);
+  border: 1px dashed rgba(255, 175, 0, 0.5);
+  padding: 1rem 1rem 1rem 1rem;
+  z-index: 10;
+  color: rgba(255, 255, 255, 0.85);
+  font-family: 'triptych-roman', Georgia, serif;
+}
+#doxaPanelClose {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: none;
+  border: none;
+  color: rgba(255, 175, 0, 0.8);
+  font-size: 1rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+.doxa-panel-term {
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFAF00;
+  margin: 0 1.5rem 0.75rem 0;
+  font-family: 'triptych', sans-serif;
+}
+.doxa-panel-rel {
+  font-size: 0.58rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.45);
+  margin: 0.75rem 0 0.25rem;
+}
+.doxa-panel-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.doxa-panel-list li {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 0.15rem 0;
+  letter-spacing: 0.03em;
+}
+.doxa-panel-loading,
+.doxa-panel-error,
+.doxa-panel-empty {
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.45);
+  font-style: italic;
+  margin: 0;
 }
 
 #mapView {
