@@ -640,11 +640,29 @@
         satText.on('click', function (event) {
           event.stopPropagation();
           satelliteExploded = true;
+
+          // Capture current rendered position BEFORE removing the animation
+          const textRect = satText.node().getBoundingClientRect();
+          const svgRect  = svgEl.getBoundingClientRect();
+          const cx = textRect.left + textRect.width  / 2 - svgRect.left;
+          const cy = textRect.top  + textRect.height / 2 - svgRect.top;
+
+          // Stop orbit and hide original
           satSpin.classed('satellite-spin', false);
-          satText.text('💥');
+          satText.style('display', 'none');
+
+          // Place 💥 at the captured position in the root SVG group
+          const boom = g.append('text')
+            .attr('x', cx).attr('y', cy)
+            .attr('dominant-baseline', 'middle')
+            .attr('text-anchor', 'middle')
+            .style('font-size', '1.2rem')
+            .style('pointer-events', 'none')
+            .text('💥');
+
           setTimeout(() => {
-            satText.transition().duration(400).style('opacity', 0)
-              .on('end', () => satGroup.remove());
+            boom.transition().duration(400).style('opacity', 0)
+              .on('end', () => { boom.remove(); satGroup.remove(); });
           }, 200);
         });
       }
