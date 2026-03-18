@@ -29,14 +29,14 @@ To submit, email communityreadinggroup@gmail.com with the subject line Workshop 
 Toolkitessential:
 
 - 
+  name: Philopedia
+  url: https://philopedia.org/
+- 
   name: Internet Archive
   url: https://archive.org/
 - 
   name: The Keywords Project
   url: https://keywords.pitt.edu/
-- 
-  name: Open Humanities Press
-  url: https://www.openhumanitiespress.org/
 - 
   name: Stanford Encyclopedia of Philosophy
   url: https://plato.stanford.edu/
@@ -80,9 +80,6 @@ Toolkitdatabases:
 
 Toolkitarchives:
 
-- 
-  name: Globethics
-  url: https://globethics.net/
 - 
   name: Knowledge Commons
   url: https://hcommons.org/
@@ -134,32 +131,35 @@ Toolkitindexes:
 Toolkitjournals:
 
 - 
-  name: CLR James Journal
-  url: >
-    https://www.pdcnet.org/clrjames/The-CLR-James-Journal
-- 
-  name: Community Literacy Journal
-  url: >
-    https://digitalcommons.fiu.edu/pages/?page=CLJ
-- 
   name: Enculturation
   url: https://enculturation.net/
 - 
-  name: Journal of World Philosophies
-  url: https://iupress.org/journals/jwp/
+  name: Radical Philosophy
+  url: https://www.radicalphilosophy.com/
+- 
+  name: CLR James Journal
+  url: >
+    https://www.pdcnet.org/clrjames/The-CLR-James-Journal
 - 
   name: 'Philosophy & Rhetoric'
   url: >
     https://www.psupress.org/Journals/jnls_pr.html
 - 
+  name: Open Humanities Press
+  url: https://www.openhumanitiespress.org/
+- 
   name: Political Theology Network
   url: https://politicaltheology.com/
 - 
+  name: Community Literacy Journal
+  url: >
+    https://digitalcommons.fiu.edu/pages/?page=CLJ
+- 
+  name: Journal of World Philosophies
+  url: https://iupress.org/journals/jwp/
+- 
   name: Project on the Rhetoric of Inquiry
   url: https://pubs.lib.uiowa.edu/poroi/
-- 
-  name: Radical Philosophy
-  url: https://www.radicalphilosophy.com/
 - 
   name: 'Rhetorica: A Journal of the History of Rhetoric'
   url: >

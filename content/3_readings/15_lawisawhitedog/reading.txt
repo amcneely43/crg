@@ -18,7 +18,7 @@ Subtitle: How Legal Rituals Make and Unmake Persons
 
 ----
 
-Note: 
+Note: <p><em>isolated (adj.)</em></p><p>"standing detached from others of its kind," 1740, a rendering into English of French <em>isolé</em> "isolated" (17c.), from Italian <em>isolato</em>, from Latin <em>insulatus</em> "made into an island," from <em>insula</em> "island" (see isle (n.)). English at first used the French word (<em>isole</em>, also <em>isole'd</em>, c. 1750), then after isolate (v.) became an English word, isolated became its past participle.</p>
 
 ----
 
@@ -26,15 +26,19 @@ Blurb: <p>The Community Reading Group is a gathering committed to the study of c
 
 ----
 
-Nominatedby: 
+Nominatedby: Andrew McNeely
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/dignity
+- words/rights
+- words/violence
 
 ----
 
@@ -42,7 +46,7 @@ Bookstackurl:
 
 ----
 
-Download-reading: http://criticaltheoryindex.org/assets/colin-dayan-the-law-is-a-white-dog-how-legal-rituals-make-and-unmake-persons.pdf
+Download-reading: https://bookshop.org/p/books/the-law-is-a-white-dog-how-legal-rituals-make-and-unmake-persons-colin-dayan/77c3dc8c497cbb71?ean=9780691157870&next=t
 
 ----
 

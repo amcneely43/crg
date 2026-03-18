@@ -18,7 +18,7 @@ Subtitle:
 
 ----
 
-Note: <p><strong><em>immunity (n.)</em></strong></p><p><strong>late 14c.</strong>, "exemption from service or obligation," from Old French <em>immunité</em> "privilege; immunity from attack, inviolability" (14c.) and directly from Latin <em>immunitatem</em> (nominative <em>immunitas</em>) "exemption from performing public service or charge, privilege," from <em>immunis</em> "exempt, free, not paying a share." Medical sense of "protection from disease" is from 1879, from French or German.</p>
+Note: <p><strong><em>immunity (n.)</em></strong></p><p>late 14c., "exemption from service or obligation," from Old French <em>immunité</em> "privilege; immunity from attack, inviolability" (14c.) and directly from Latin <em>immunitatem</em> (nominative <em>immunitas</em>) "exemption from performing public service or charge, privilege," from <em>immunis</em> "exempt, free, not paying a share." Medical sense of "protection from disease" is from 1879, from French or German.</p>
 
 ----
 
@@ -50,11 +50,33 @@ Download-reading: https://bookshop.org/p/books/sovereignty-in-ruins-a-politics-o
 
 ----
 
-Links: 
+Links:
+
+- 
+  description: Sovereignty
+  url: >
+    https://plato.stanford.edu/entries/sovereignty/
+- 
+  description: Immunology
+  url: >
+    https://plato.stanford.edu/entries/immunology/
 
 ----
 
-Interlocutors: 
+Interlocutors:
+
+- 
+  name: Michel Foucault
+  stanford_url: >
+    https://plato.stanford.edu/entries/foucault/
+- 
+  name: Carl Schmitt
+  stanford_url: >
+    https://plato.stanford.edu/entries/schmitt/
+- 
+  name: Niccolò Machiavelli
+  stanford_url: >
+    https://plato.stanford.edu/entries/machiavelli/
 
 ----
 

@@ -18,7 +18,7 @@ Subtitle:
 
 ----
 
-Note: 
+Note: <p><strong><em>avow (v.)</em></strong></p><p>c. 1300, "uphold, support, approve; stand by, back up (someone); declare openly, take sides openly, affirm;" mid-14c. "admit openly," from Anglo-French <em>avouer</em>, Old French <em>avoer</em> "acknowledge, accept, recognize," especially as a protector (12c., Modern French <em>avouer</em>), from Latin advocare "to call, summon, invite" (see advocate (n.)). A synonym of avouch (q.v.), which tends to contain the more technical, legal aspect of the word.</p>
 
 ----
 
@@ -26,11 +26,11 @@ Blurb: <p>The Community Reading Group is a gathering committed to the study of c
 
 ----
 
-Nominatedby: 
+Nominatedby: Andrew McNeely
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
@@ -42,11 +42,20 @@ Bookstackurl:
 
 ----
 
-Download-reading: http://criticaltheoryindex.org/assets/jeanluc-nancy-the-disavowed-community.pdf
+Download-reading: https://bookshop.org/p/books/the-disavowed-community-jean-luc-nancy/a10de27159c06f61?ean=9780823273850&next=t
 
 ----
 
-Links: 
+Links:
+
+- 
+  description: Sacrifice and the Eucharist
+  url: >
+    https://www.saet.ac.uk/Christianity/SacrificeandtheEucharist
+- 
+  description: 'Roberto Nigro: The French Debate About the Community'
+  url: >
+    https://www.on-curating.org/issue-7-reader/the-french-debate-about-the-community.html
 
 ----
 

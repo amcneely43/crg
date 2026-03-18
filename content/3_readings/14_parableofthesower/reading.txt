@@ -18,7 +18,7 @@ Subtitle:
 
 ----
 
-Note: 
+Note: <p><strong><em>sower (n.)</em></strong></p><p>Middle English <em>souere</em>, "one who scatters seed on the ground to be grown for food," from Old English <em>sawere</em>, agent noun from sow (v.). As "that which sows, a sowing machine," 1728.</p>
 
 ----
 
@@ -30,11 +30,15 @@ Nominatedby: Joy Jade
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/care
+- words/empathy
+- words/neighbor
 
 ----
 
@@ -42,7 +46,7 @@ Bookstackurl:
 
 ----
 
-Download-reading: http://criticaltheoryindex.org/assets/octavia-e-butler-parable-of-the-sower.pdf
+Download-reading: https://bookshop.org/p/books/parable-of-the-sower-octavia-e-butler/3d0d65170d5548df?ean=9781538732182&next=t
 
 ----
 

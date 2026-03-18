@@ -18,7 +18,7 @@ Subtitle:
 
 ----
 
-Note: 
+Note: <p><strong><em>expose (v.)</em></strong></p><p>early 15c., "to leave without shelter or defense," from Old French esposer, exposer "lay open, set forth, speak one's mind, explain" (13c.), from Latin exponere "set forth, lay open, exhibit, reveal, publish," from ex "from, forth" (see <em>ex-</em>) + <em>ponere</em> "to put, place" (see position (n.)). Altered in French by confusion with <em>poser</em> "to place, lay down" (see pose (v.1)). Meaning "to exhibit openly" is from 1620s; that of "to unmask" is from 1690s. Photographic sense is from 1839. </p>
 
 ----
 
@@ -26,11 +26,11 @@ Blurb: <p>The Community Reading Group is a gathering committed to the study of c
 
 ----
 
-Nominatedby: 
+Nominatedby: Andrew McNeely
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
@@ -42,11 +42,20 @@ Bookstackurl:
 
 ----
 
-Download-reading: 
+Download-reading: https://archive.org/details/inoperativecommu0000nanc
 
 ----
 
-Links: 
+Links:
+
+- 
+  description: 'Jean Luc-Nancy: La communauté désoeuvrée'
+  url: >
+    https://philopedia.org/works/the-inoperative-community/
+- 
+  description: 'Roberto Nigro: The French Debate About the Community'
+  url: >
+    https://www.on-curating.org/issue-7-reader/the-french-debate-about-the-community.html
 
 ----
 

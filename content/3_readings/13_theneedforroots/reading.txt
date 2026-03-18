@@ -18,7 +18,7 @@ Subtitle: Prelude to a Declaration of Duties toward Mankind
 
 ----
 
-Note: *Attention* is what Simone Weil would ask of us...
+Note: <p><strong><em>duty(n.)</em></strong></p><p>late 14c., <em>duete</em>, "obligatory service, that which ought to be done," also "the force of that which is morally right," from Anglo-French duete, from Old French <em>deu</em> "due, owed," hence "proper, just" (on the notion of "that which one is bound by natural, moral, or legal obligation to do or perform"); from Vulgar Latin <em>debutus</em>, from Latin <em>debitus</em>, past participle of <em>debere</em> "to owe," originally, "keep something away from someone," from <em>de-</em> "away" (see <em>de-</em>) + <em>habere</em> "to have" (from PIE root <em>ghabh-</em> "to give or receive").</p>
 
 ----
 
@@ -26,11 +26,11 @@ Blurb: <p>The Community Reading Group is a gathering committed to the study of c
 
 ----
 
-Nominatedby: 
+Nominatedby: Andrew McNeely
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
@@ -42,7 +42,7 @@ Bookstackurl:
 
 ----
 
-Download-reading: http://criticaltheoryindex.org/assets/TheNeedforRoots
+Download-reading: https://archive.org/details/needforroots0000simo_i0a8
 
 ----
 
@@ -55,7 +55,12 @@ Links:
 
 ----
 
-Interlocutors: 
+Interlocutors:
+
+- 
+  name: Meister Eckhart
+  stanford_url: >
+    https://plato.stanford.edu/entries/meister-eckhart/
 
 ----
 

@@ -34,7 +34,11 @@ Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/violence
+- words/common
+- words/freedom
 
 ----
 
@@ -46,11 +50,31 @@ Download-reading: https://bookshop.org/p/books/the-origin-of-the-political-hanna
 
 ----
 
-Links: 
+Links:
+
+- 
+  description: >
+    Ancient Theories of Freedom and
+    Determinism
+  url: >
+    https://plato.stanford.edu/entries/freedom-ancient/
+- 
+  description: 'Simone Weil: The Iliad, or The Poem of Force'
+  url: >
+    https://theanarchistlibrary.org/library/simone-weil-the-iliad.pdf
 
 ----
 
-Interlocutors: 
+Interlocutors:
+
+- 
+  name: Hannah Arendt
+  stanford_url: >
+    https://plato.stanford.edu/entries/arendt/
+- 
+  name: Simone Weil
+  stanford_url: >
+    https://plato.stanford.edu/entries/simone-weil/
 
 ----
 

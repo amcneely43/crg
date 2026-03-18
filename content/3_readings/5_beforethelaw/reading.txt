@@ -2,15 +2,77 @@ Title: Before the Law
 
 ----
 
+Current: false
+
+----
+
+Date: 2018-07-20
+
+----
+
 Author: Cary Wolfe
 
 ----
 
-Published: 2012
+Subtitle: Humans and Other Animals in a Biopolitical Frame
 
 ----
 
-Subtitle: Humans and Other Animals in a Biopolitical Frame
+Note: <p><strong><em>beast (n.)</em></strong></p><p>c. 1200, <em>beste</em>, "one of the lower animals" (opposed to man), especially "a four-footed animal," also "a marvelous creature, a monster" (mermaids, werewolves, lamia, satyrs, the beast of the Apocalypse), "a brutish or stupid man," from Old French beste "animal, wild beast," figuratively "fool, idiot" (11c., Modern French bête), from Vulgar Latin <em>*besta</em>, from Latin <em>bestia</em> "beast, wild animal," which is of unknown origin.</p><p>The word was used in Middle English to translate Latin animal. It displaced Old English <em>deor</em> (see deer) as the generic word for "wild creature," only to be ousted 16c. by animal.</p><p></p>
+
+----
+
+Blurb: <p>The Community Reading Group is a gathering committed to the study of community as a political category in popular, philosophical, and legal discourse. We focus on literature that complicates affirmative invocations of community in both grassroots and organizational contexts as the proper aim of activism. Examples: community building, resilience, preservation, displacement, health, rights, and wealth.</p>
+
+----
+
+Nominatedby: Andrew McNeely
+
+----
+
+Flyerby: CRG
+
+----
+
+Terms:
+
+- words/rights
+- words/dignity
+- words/exposure
+
+----
+
+Bookstackurl: 
+
+----
+
+Download-reading: http://criticaltheoryindex.org/assets/cary-wolfe-before-the-law-humans-and-other-animals-in-a-biopolitical-frame.pdf
+
+----
+
+Links:
+
+- 
+  description: The Moral Status of Animals
+  url: >
+    https://plato.stanford.edu/entries/moral-animal/
+- 
+  description: 'Giorgio Agamben: Homo Sacer'
+  url: >
+    https://archive.org/details/homosacersoverei0000agam
+
+----
+
+Interlocutors:
+
+- 
+  name: Michel Foucault
+  stanford_url: >
+    https://plato.stanford.edu/entries/foucault/
+
+----
+
+Published: 2012
 
 ----
 
@@ -22,31 +84,11 @@ Publisher: University of Chicago Press
 
 ----
 
-Note: 
-
-----
-
-Download-reading: http://criticaltheoryindex.org/assets/cary-wolfe-before-the-law-humans-and-other-animals-in-a-biopolitical-frame.pdf
-
-----
-
-Links: 
-
-----
-
 Files: 
 
 ----
 
-Date: 2018-07-20
-
-----
-
 Location: The Liberation School of Los Angeles, Boyle Heights
-
-----
-
-Current: false
 
 ----
 

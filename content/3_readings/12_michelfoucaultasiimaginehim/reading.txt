@@ -1,4 +1,4 @@
-Title: Michel Foucault, as I Imagine Him
+Title: Foucault/Blanchot
 
 ----
 
@@ -10,7 +10,7 @@ Date: 2019-05-01
 
 ----
 
-Author: Maurice Blanchot
+Author: Michel Foucault and Maurice Blanchot
 
 ----
 
@@ -18,7 +18,7 @@ Subtitle:
 
 ----
 
-Note: 
+Note: <p><strong><em>subjection (n.)</em></strong></p><p>late 14c., <em>subjeccioun</em>, "obedience, submission; servitude, bondage, state of being under the dominion of another; act of subjecting or subduing;" from Anglo-French <em>subjectioun</em>, Old French subjection "submission; subjugation; inferior condition; captivity" (12c., Modern French <em>sujétion</em>), from Latin <em>subjectionem</em> (nominative <em>subjectio</em>) "a putting under," noun of action from past-participle stem of <em>subicere</em> (see subject (n.)).</p>
 
 ----
 
@@ -26,11 +26,11 @@ Blurb: <p>The Community Reading Group is a gathering committed to the study of c
 
 ----
 
-Nominatedby: 
+Nominatedby: Michael Berlin
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
@@ -42,7 +42,7 @@ Bookstackurl:
 
 ----
 
-Download-reading: http://criticaltheoryindex.org/assets/michel-foucault-maurice-blanchot-the-thought-from-outside-michel-foucault-as-i-imagine-him-1.pdf
+Download-reading: https://archive.org/details/mauriceblanchott0000fouc
 
 ----
 

@@ -18,7 +18,7 @@ Subtitle: Conspiracy Cultures from Outer-Space to Cyberspace
 
 ----
 
-Note: 
+Note: <p><strong><em>truth (n.)</em></strong></p><p>Middle English <em>treuth</em>, <em>truþ</em>, from Old English <em>triewð</em> (West Saxon), <em>treowð</em> (Mercian) "faith, faithfulness; fidelity to country, kin, friends; loyalty; disposition to be faithful; veracity, quality of being true; pledge, covenant."</p><p>This is reconstructed to be from a Germanic abstract noun from Proto-Germanic <em>treuwaz</em> "having or characterized by good faith." This in turn is reconstructed in Watkins to be from PIE <em>drew-o-</em>, a suffixed form of the root <em>deru-</em> "be firm, solid, steadfast." With Germanic abstract noun suffix <em>-itho</em> (see -th (2)). Compare troth, truce, trust (n.), tree (n.). English and most other IE languages do not have a primary verb for "speak the truth," as a contrast to lie (v.).</p><p>The sense of "something that is true, a true statement or proposition" is recorded by mid-14c. The meaning "accuracy, correctness, conformity of thought with fact" is from 1560s. It is attested by late 14c. as "that which is righteous or in accordance with divine standard; true religious doctrine; virtuous conduct." <em>Truth!</em> as an expression of assent or emphasis is by 1530s.</p>
 
 ----
 
@@ -26,15 +26,19 @@ Blurb: <p>The Community Reading Group is a gathering committed to the study of c
 
 ----
 
-Nominatedby: 
+Nominatedby: Olivia Leiter
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/common
+- words/recognition
+- words/nation
 
 ----
 
@@ -42,11 +46,20 @@ Bookstackurl:
 
 ----
 
-Download-reading: http://criticaltheoryindex.org/assets/AliensinAmerica.pdf
+Download-reading: https://bookshop.org/p/books/aliens-in-america-professor-jodi-dean/96b1e2594793dcb5?ean=9780801484681&next=t
 
 ----
 
-Links: 
+Links:
+
+- 
+  description: 'Jodi Dean: Why the Net is Not a Public Sphere'
+  url: >
+    https://means.at/media/pages/library/why-the-net-is-not-a-public-sphere/1a3c08f07a-1622174424/jodi-dean-why-the-net-is-not-a-public-sphere-1.pdf
+- 
+  description: The Ethics and Rationality of Voting
+  url: >
+    https://plato.stanford.edu/entries/voting/
 
 ----
 

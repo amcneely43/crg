@@ -18,7 +18,7 @@ Subtitle: The Origin and Destiny of Community
 
 ----
 
-Note: <p>community(n.)</p><p>late 14c., communite, "a number of people associated together by the fact of residence in the same locality," also "the common people" (not the rulers or the clergy), from Old French comunité "community, commonness, everybody" (Modern French communauté), from Latin communitatem (nominative communitas) "community, society, fellowship, friendly intercourse; courtesy, condescension, affability," from communis "common, public, general, shared by all or many."</p>
+Note: <p><strong><em>community (n.)</em></strong></p><p>late 14c., <em>communite</em>, "a number of people associated together by the fact of residence in the same locality," also "the common people" (not the rulers or the clergy), from Old French <em>comunité</em> "community, commonness, everybody" (Modern French communauté), from Latin communitatem (nominative communitas) "community, society, fellowship, friendly intercourse; courtesy, condescension, affability," from communis "common, public, general, shared by all or many."</p>
 
 ----
 
@@ -64,10 +64,34 @@ Links:
   description: Liberalism
   url: >
     https://plato.stanford.edu/entries/liberalism/?fbclid=IwY2xjawOYcZFleHRuA2FlbQIxMQBicmlkETFLWE5OR3dvZlB5WmI4eEQyc3J0YwZhcHBfaWQBMAABHueR0RWTLFMNbNH_gDGKKNPgIjfzW0dzoOhaFdxMrloWzUImItkIsZx0ku6-_aem_XJl1h6xKHRFGy1B4Dzu9Vg
+- 
+  description: 'Georges Bataille: Erotism : death & sensuality'
+  url: >
+    https://archive.org/details/erotismdeathsens0000bata
 
 ----
 
-Interlocutors: 
+Interlocutors:
+
+- 
+  name: Thomas Hobbes
+  stanford_url: >
+    https://plato.stanford.edu/entries/hobbes/
+- 
+  name: Jean Jacques Rousseau
+  stanford_url: >
+    https://plato.stanford.edu/entries/rousseau/
+- 
+  name: Immanuel Kant
+  stanford_url: https://plato.stanford.edu/entries/kant/
+- 
+  name: Martin Heidegger
+  stanford_url: >
+    https://plato.stanford.edu/entries/heidegger/
+- 
+  name: Georges Bataille
+  stanford_url: >
+    https://philopedia.org/philosophers/georges-bataille/
 
 ----
 

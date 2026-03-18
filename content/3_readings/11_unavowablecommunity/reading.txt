@@ -18,7 +18,7 @@ Subtitle:
 
 ----
 
-Note: 
+Note: <p><strong><em>avow (v.)</em></strong></p><p>c. 1300, "uphold, support, approve; stand by, back up (someone); declare openly, take sides openly, affirm;" mid-14c. "admit openly," from Anglo-French <em>avouer</em>, Old French <em>avoer</em> "acknowledge, accept, recognize," especially as a protector (12c., Modern French <em>avouer</em>), from Latin advocare "to call, summon, invite" (see advocate (n.)). A synonym of avouch (q.v.), which tends to contain the more technical, legal aspect of the word.</p>
 
 ----
 
@@ -26,15 +26,19 @@ Blurb: <p>The Community Reading Group is a gathering committed to the study of c
 
 ----
 
-Nominatedby: 
+Nominatedby: Andrew McNeely
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/people
+- words/exposure
+- words/collective
 
 ----
 
@@ -42,11 +46,16 @@ Bookstackurl:
 
 ----
 
-Download-reading: http://criticaltheoryindex.org/assets/maurice-blanchot-the-unavowable-community.pdf
+Download-reading: https://archive.org/details/unavowablecommun0000blan
 
 ----
 
-Links: 
+Links:
+
+- 
+  description: 'Marguerite Duras: The Malady of Death'
+  url: >
+    https://archive.org/details/maladyofdeath00dura
 
 ----
 

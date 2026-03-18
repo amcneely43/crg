@@ -18,7 +18,7 @@ Subtitle: Museums, Constitutionalism, and the Taming of the Political
 
 ----
 
-Note: 
+Note: <p><strong><em>tame (v.)</em></strong></p><p>mid-14c., <em>tamen</em>, "domesticate (an animal), reclaim from a wild or feral state," from tame (adj.), or altered by the form of the adjective from Old English <em>temian</em> "subdue, make tame," from Proto-Germanic <em>*tamjan-</em> (source also of Old Norse <em>temja</em>, Old Frisian <em>tema</em>, Middle Dutch <em>temmen</em>, Old High German <em>zemmen</em>, German <em>zähmen</em>, Gothic tamjan "to tame"). The general sense of "bring into subjection, subdue or restrain" is from late 14c.; as "deprive of courage or spirit" by 1520s. </p>
 
 ----
 
@@ -26,15 +26,19 @@ Blurb: <p>The Community Reading Group is a gathering committed to the study of c
 
 ----
 
-Nominatedby: 
+Nominatedby: Andrew McNeely
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/exposure
+- words/people
+- words/recognition
 
 ----
 
@@ -42,11 +46,16 @@ Bookstackurl:
 
 ----
 
-Download-reading: 
+Download-reading: https://bookshop.org/p/books/curating-community-museums-constitutionalism-and-the-taming-of-the-political-stacy-douglas/b52db1e76d6c359c?ean=9780472053544&next=t
 
 ----
 
-Links: 
+Links:
+
+- 
+  description: Constitutionalism
+  url: >
+    https://plato.stanford.edu/entries/constitutionalism/
 
 ----
 

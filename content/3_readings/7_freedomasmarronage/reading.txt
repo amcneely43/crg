@@ -18,7 +18,7 @@ Subtitle:
 
 ----
 
-Note: 
+Note: <p><strong><em>fugitive (adj.)</em></strong></p><p>late 14c., "fleeing, having fled, having taken flight," from Old French <em>fugitif</em>, <em>fuitif</em> "absent, missing," from Latin <em>fugitivus</em> "fleeing," past-participle adjective from stem of <em>fugere</em> "to flee, fly, take flight, run away; become a fugitive, leave the country, go into exile; pass quickly; vanish, disappear, perish; avoid, shun; escape the notice of, be unknown to," from PIE root <em>*bheug-</em> "to flee" (source also of Greek <em>pheugein</em> "to flee, escape, go into exile, be on the run," <em>phyza</em> "(wild) flight, panic," <em>phyge</em> "flight, exile;" Lithuanian <em>būgstu</em>, <em>būgti</em> "be frightened," <em>bauginti</em> "frighten someone," <em>baugus</em> "timid, nervous;" perhaps also Avestan <em>būj(i)-</em> "penance, atonement," <em>būjat</em> "frees").</p>
 
 ----
 
@@ -26,15 +26,19 @@ Blurb: <p>The Community Reading Group is a gathering committed to the study of c
 
 ----
 
-Nominatedby: 
+Nominatedby: Amanda Trager
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/freedom
+- words/recognition
+- words/property
 
 ----
 
@@ -42,15 +46,45 @@ Bookstackurl:
 
 ----
 
-Download-reading: http://criticaltheoryindex.org/assets/FreedomasMarronageNeilRoberts.pdf
+Download-reading: https://bookshop.org/p/books/freedom-as-marronage-neil-roberts/96588ee99cdaf180?ean=9780226201047&next=t
 
 ----
 
-Links: 
+Links:
+
+- 
+  description: Négritude
+  url: >
+    https://plato.stanford.edu/entries/negritude/
+- 
+  description: Colonialism
+  url: >
+    https://plato.stanford.edu/entries/colonialism/
+- 
+  description: Contemporary Africana Philosophy
+  url: >
+    https://plato.stanford.edu/entries/africana-contemporary/
 
 ----
 
-Interlocutors: 
+Interlocutors:
+
+- 
+  name: Frantz Fanon
+  stanford_url: >
+    https://plato.stanford.edu/entries/frantz-fanon/
+- 
+  name: Isaiah Berlin
+  stanford_url: >
+    https://plato.stanford.edu/entries/berlin/
+- 
+  name: Hannah Arendt
+  stanford_url: >
+    https://plato.stanford.edu/entries/arendt/
+- 
+  name: Frederick Douglass
+  stanford_url: >
+    https://plato.stanford.edu/entries/frederick-douglass/
 
 ----
 

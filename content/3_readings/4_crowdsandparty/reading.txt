@@ -18,7 +18,7 @@ Subtitle:
 
 ----
 
-Note: 
+Note: <p><strong><em>power (n.)</em></strong></p><p>c. 1300, <em>pouer</em>, "ability; ability to act or do; strength, vigor, might," especially in battle; "efficacy; control, mastery, lordship, dominion, ability or right to command or control; legal power or authority; authorization; military force, an army," from Anglo-French <em>pouair</em>, Old French <em>povoir</em>, noun use of the infinitive, "to be able," earlier podir (9c.), from Vulgar Latin <em>potere</em> (source also of Spanish <em>poder</em>, Italian <em>potere</em>), from Latin <em>potis</em> "powerful" (from PIE root <em>poti-</em> "powerful; lord").</p>
 
 ----
 
@@ -26,15 +26,19 @@ Blurb: <p>The Community Reading Group is a gathering committed to the study of c
 
 ----
 
-Nominatedby: 
+Nominatedby: Olivia Leiter
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/collective
+- words/people
+- words/recognition
 
 ----
 
@@ -42,15 +46,29 @@ Bookstackurl:
 
 ----
 
-Download-reading: 
+Download-reading: https://bookshop.org/p/books/crowds-and-party-jodi-dean/423d5fe7ab51c166?ean=9781781687062&next=t
 
 ----
 
-Links: 
+Links:
+
+- 
+  description: 'Critical Theory (Frankfurt School): 4.3 Critical Practices'
+  url: >
+    https://plato.stanford.edu/entries/critical-theory/
+- 
+  description: 'Elias Canetti: Crowds & Power'
+  url: >
+    https://archive.org/details/crowdspower00cane
 
 ----
 
-Interlocutors: 
+Interlocutors:
+
+- 
+  name: Elias Canetti
+  stanford_url: >
+    https://en.wikipedia.org/wiki/Elias_Canetti
 
 ----
 
