@@ -22,18 +22,45 @@
     </div>
   </div>
 
+  <?php /* ── Legend panel (bottom-left, HTML so it moves with the map like the doxa panel) ── */ ?>
+  <div id="legendPanel">
+    <p class="legend-title">Poles of Being in Common</p>
+    <div class="legend-cols">
+      <div class="legend-col">
+        <div class="legend-item">
+          <svg width="14" height="14" viewBox="-7 -7 14 14" aria-hidden="true"><circle r="6" fill="rgba(255,255,255,0.75)"/></svg>
+          <span>Rapture</span>
+        </div>
+        <div class="legend-item">
+          <svg width="14" height="14" viewBox="-7 -7 14 14" aria-hidden="true"><circle r="6" fill="none" stroke="rgba(255,255,255,0.75)" stroke-width="1.5"/></svg>
+          <span>Rupture</span>
+        </div>
+      </div>
+      <div class="legend-col">
+        <div class="legend-item">
+          <svg width="14" height="14" viewBox="-7 -7 14 14" aria-hidden="true"><path d="M 6,0 A 6,6 0 1,0 -6,0 A 6,6 0 1,0 6,0 Z M -1,-4 L 1,-4 L 1,-1 L 4,-1 L 4,1 L 1,1 L 1,4 L -1,4 L -1,1 L -4,1 L -4,-1 L -1,-1 Z" fill="rgba(255,255,255,0.75)" fill-rule="evenodd"/></svg>
+          <span>Harmony</span>
+        </div>
+        <div class="legend-item">
+          <svg width="14" height="14" viewBox="-7 -7 14 14" aria-hidden="true"><path d="M 6,0 A 6,6 0 1,0 -6,0 A 6,6 0 1,0 6,0 Z M -4,-1 L 4,-1 L 4,1 L -4,1 Z" fill="rgba(255,255,255,0.75)" fill-rule="evenodd"/></svg>
+          <span>Dissonance</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <?php /* ── Doxa panel: ConceptNet overlay, opened by clicking amber-ring nodes ── */ ?>
+  <div id="doxaPanel" hidden>
+    <button id="doxaPanelClose" aria-label="Close doxa panel">×</button>
+    <p id="doxaPanelTerm" class="doxa-panel-term"></p>
+    <div id="doxaPanelBody">
+      <p class="doxa-panel-loading">Loading…</p>
+    </div>
+  </div>
+
 </main>
 
 <div id="mapTooltip"></div>
-
-<?php /* ── Doxa panel: ConceptNet overlay, opened by clicking amber-ring nodes ── */ ?>
-<div id="doxaPanel" hidden>
-  <button id="doxaPanelClose" aria-label="Close doxa panel">×</button>
-  <p id="doxaPanelTerm" class="doxa-panel-term"></p>
-  <div id="doxaPanelBody">
-    <p class="doxa-panel-loading">Loading…</p>
-  </div>
-</div>
 
 <?php /* ── Book detail slide-up overlay (mirrors Doings/.info) ──────────────── */ ?>
 <div id="bookDetail">

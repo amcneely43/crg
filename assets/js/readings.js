@@ -608,71 +608,8 @@
         .attrTween('x2', d => d3.interpolateNumber(W / 2, d.target.finalX))
         .attrTween('y2', d => d3.interpolateNumber(H / 2, d.target.finalY));
 
-      /* ── Legend (bottom-left, two columns) ─────────────────────────── */
-      const legR     = 6;
-      const legBotY  = H - 30;
-      const legRowH  = 20;
-      const legFill  = 'rgba(255,255,255,0.75)';
-      const legGroup = g.append('g');
-
-      const legCircP  = `M ${legR},0 A ${legR},${legR} 0 1,0 -${legR},0 A ${legR},${legR} 0 1,0 ${legR},0 Z`;
-      const legPlusC  = `M -1,-4 L 1,-4 L 1,-1 L 4,-1 L 4,1 L 1,1 L 1,4 L -1,4 L -1,1 L -4,1 L -4,-1 L -1,-1 Z`;
-      const legMinusC = `M -4,-1 L 4,-1 L 4,1 L -4,1 Z`;
-
-      /* Dashed box around legend (same language as doxa panel) */
-      const legBoxX = 8;
-      const legBoxW = 215;
-      const legBoxH = 2 * legRowH + 26 + 24;
-      const legBoxY = legBotY - 2 * legRowH - 26 - 12;
-      legGroup.append('rect')
-        .attr('x', legBoxX).attr('y', legBoxY)
-        .attr('width', legBoxW).attr('height', legBoxH)
-        .attr('fill', 'rgba(13,0,24,0.92)')
-        .attr('stroke', 'rgba(255,175,0,0.5)')
-        .attr('stroke-width', 1)
-        .attr('stroke-dasharray', '4,3');
-
-      [
-        {
-          x: 20,
-          items: [
-            { draw: r => r.append('circle').attr('r', legR).attr('fill', legFill),                                                             label: 'Rapture'     },
-            { draw: r => r.append('circle').attr('r', legR).attr('fill', 'none').attr('stroke', legFill).attr('stroke-width', 1.5),            label: 'Rupture'     },
-          ],
-        },
-        {
-          x: 130,
-          items: [
-            { draw: r => r.append('path').attr('d', `${legCircP} ${legPlusC}` ).attr('fill', legFill).attr('fill-rule', 'evenodd'),            label: 'Harmony'     },
-            { draw: r => r.append('path').attr('d', `${legCircP} ${legMinusC}`).attr('fill', legFill).attr('fill-rule', 'evenodd'),            label: 'Dissonance'  },
-          ],
-        },
-      ].forEach(col => {
-        col.items.forEach((item, i) => {
-          const y   = legBotY - (col.items.length - 1 - i) * legRowH;
-          const row = legGroup.append('g').attr('transform', `translate(${col.x},${y})`);
-          item.draw(row);
-          row.append('text')
-            .attr('x', 14).attr('y', 0)
-            .attr('dominant-baseline', 'middle')
-            .style('font-size',   '0.7rem')
-            .style('font-family', '"triptych-roman", Georgia, serif')
-            .style('letter-spacing', '0.05em')
-            .attr('fill', 'rgba(255,255,255,0.55)')
-            .text(item.label);
-        });
-      });
-
-      /* Legend title */
-      legGroup.append('text')
-        .attr('x', legBoxX + legBoxW / 2)
-        .attr('y', legBotY - legRowH - 26)
-        .attr('text-anchor', 'middle')
-        .style('font-size',   '0.65rem')
-        .style('font-family', '"triptych-roman", Georgia, serif')
-        .style('letter-spacing', '0.12em')
-        .attr('fill', 'rgba(255,255,255,0.45)')
-        .text('POLES OF BEING IN COMMON');
+      /* Legend is now an HTML panel (#legendPanel) positioned bottom-left
+         of main.readings — see readings.php and global.css */
 
       /* ══════════════════════════════════════════════════════════════════
          COMPASS ROTATION
