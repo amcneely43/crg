@@ -994,10 +994,10 @@ main.readings {
 /* ── Doxa panel (ConceptNet overlay on map) ──────────────────────────── */
 #doxaPanel {
   position: absolute;
-  top: 40px;
+  bottom: 30px;
   right: 20px;
   width: 210px;
-  max-height: calc(100% - 80px);
+  max-height: 320px;
   overflow-y: auto;
   background: rgba(13, 0, 24, 0.92);
   border: 1px dashed rgba(255, 175, 0, 0.5);

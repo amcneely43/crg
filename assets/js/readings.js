@@ -608,7 +608,7 @@
         .attrTween('x2', d => d3.interpolateNumber(W / 2, d.target.finalX))
         .attrTween('y2', d => d3.interpolateNumber(H / 2, d.target.finalY));
 
-      /* ── Legend (bottom-right, two columns) ─────────────────────────── */
+      /* ── Legend (bottom-left, two columns) ─────────────────────────── */
       const legR     = 6;
       const legBotY  = H - 30;
       const legRowH  = 20;
@@ -619,16 +619,29 @@
       const legPlusC  = `M -1,-4 L 1,-4 L 1,-1 L 4,-1 L 4,1 L 1,1 L 1,4 L -1,4 L -1,1 L -4,1 L -4,-1 L -1,-1 Z`;
       const legMinusC = `M -4,-1 L 4,-1 L 4,1 L -4,1 Z`;
 
+      /* Dashed box around legend (same language as doxa panel) */
+      const legBoxX = 8;
+      const legBoxW = 215;
+      const legBoxH = 2 * legRowH + 26 + 24;
+      const legBoxY = legBotY - 2 * legRowH - 26 - 12;
+      legGroup.append('rect')
+        .attr('x', legBoxX).attr('y', legBoxY)
+        .attr('width', legBoxW).attr('height', legBoxH)
+        .attr('fill', 'rgba(13,0,24,0.92)')
+        .attr('stroke', 'rgba(255,175,0,0.5)')
+        .attr('stroke-width', 1)
+        .attr('stroke-dasharray', '4,3');
+
       [
         {
-          x: W - 220,
+          x: 20,
           items: [
             { draw: r => r.append('circle').attr('r', legR).attr('fill', legFill),                                                             label: 'Rapture'     },
             { draw: r => r.append('circle').attr('r', legR).attr('fill', 'none').attr('stroke', legFill).attr('stroke-width', 1.5),            label: 'Rupture'     },
           ],
         },
         {
-          x: W - 110,
+          x: 130,
           items: [
             { draw: r => r.append('path').attr('d', `${legCircP} ${legPlusC}` ).attr('fill', legFill).attr('fill-rule', 'evenodd'),            label: 'Harmony'     },
             { draw: r => r.append('path').attr('d', `${legCircP} ${legMinusC}`).attr('fill', legFill).attr('fill-rule', 'evenodd'),            label: 'Dissonance'  },
@@ -652,7 +665,7 @@
 
       /* Legend title */
       legGroup.append('text')
-        .attr('x', W - 125)
+        .attr('x', legBoxX + legBoxW / 2)
         .attr('y', legBotY - legRowH - 26)
         .attr('text-anchor', 'middle')
         .style('font-size',   '0.65rem')
