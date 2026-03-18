@@ -36,10 +36,12 @@
   const MAP_BG  = '#0d0018';
 
   /* ── State ───────────────────────────────────────────────────────────────── */
-  let activeTab    = 'readings';
-  let activeTermId = null;
-  let activeDoxaId = null;
-  const doxaCache  = new Map();
+  let activeTab         = 'readings';
+  let activeTermId      = null;
+  let activeDoxaId      = null;
+  const doxaCache       = new Map();
+  let hasBloomedOnce    = false; // bloom only on first load, not on resize
+  let satelliteExploded = false; // persists across redraws
 
   /* ── HTML-escape helper (plain-text fields rendered via innerHTML) ────────── */
   function esc(str) {
@@ -583,8 +585,8 @@
       sim.stop();
       for (let i = 0; i < 300; ++i) sim.tick();
 
-      /* Stash final positions; reset all to centre for bloom start */
-      nodes.forEach(d => { d.finalX = d.x; d.finalY = d.y; d.x = W / 2; d.y = H / 2; });
+      /* Stash final positions */
+      nodes.forEach(d => { d.finalX = d.x; d.finalY = d.y; });
 
       function applyPositions() {
         link
@@ -592,24 +594,60 @@
           .attr('x2', d => d.target.x).attr('y2', d => d.target.y);
         node.attr('transform', d => `translate(${d.x},${d.y})`);
       }
-      applyPositions();
 
-      /* Bloom: animate from centre to settled positions over 1200ms */
-      const BLOOM_DUR = 1200;
-      node.transition().duration(BLOOM_DUR).ease(d3.easeCubicOut)
-        .attrTween('transform', d => {
-          const xi = d3.interpolateNumber(W / 2, d.finalX);
-          const yi = d3.interpolateNumber(H / 2, d.finalY);
-          return t => `translate(${xi(t)},${yi(t)})`;
-        });
-      link.transition().duration(BLOOM_DUR).ease(d3.easeCubicOut)
-        .attrTween('x1', d => d3.interpolateNumber(W / 2, d.source.finalX))
-        .attrTween('y1', d => d3.interpolateNumber(H / 2, d.source.finalY))
-        .attrTween('x2', d => d3.interpolateNumber(W / 2, d.target.finalX))
-        .attrTween('y2', d => d3.interpolateNumber(H / 2, d.target.finalY));
+      if (!hasBloomedOnce) {
+        /* First load: reset to centre, bloom out */
+        hasBloomedOnce = true;
+        nodes.forEach(d => { d.x = W / 2; d.y = H / 2; });
+        applyPositions();
+
+        const BLOOM_DUR = 1200;
+        node.transition().duration(BLOOM_DUR).ease(d3.easeCubicOut)
+          .attrTween('transform', d => {
+            const xi = d3.interpolateNumber(W / 2, d.finalX);
+            const yi = d3.interpolateNumber(H / 2, d.finalY);
+            return t => `translate(${xi(t)},${yi(t)})`;
+          });
+        link.transition().duration(BLOOM_DUR).ease(d3.easeCubicOut)
+          .attrTween('x1', d => d3.interpolateNumber(W / 2, d.source.finalX))
+          .attrTween('y1', d => d3.interpolateNumber(H / 2, d.source.finalY))
+          .attrTween('x2', d => d3.interpolateNumber(W / 2, d.target.finalX))
+          .attrTween('y2', d => d3.interpolateNumber(H / 2, d.target.finalY));
+      } else {
+        /* Resize: jump straight to settled positions, no animation */
+        nodes.forEach(d => { d.x = d.finalX; d.y = d.finalY; });
+        applyPositions();
+      }
 
       /* Legend is now an HTML panel (#legendPanel) positioned bottom-left
          of main.readings — see readings.php and global.css */
+
+      /* ── Satellite 🛰️ — orbits just outside the dial ring ───────────── */
+      if (!satelliteExploded) {
+        const orbitR   = dialR + poleOffset + 30;
+        const satGroup = g.append('g')
+          .attr('transform', `translate(${W / 2},${H / 2})`);
+        const satSpin  = satGroup.append('g').attr('class', 'satellite-spin');
+        const satText  = satSpin.append('text')
+          .attr('x', orbitR).attr('y', 0)
+          .attr('dominant-baseline', 'middle')
+          .attr('text-anchor', 'middle')
+          .style('font-size', '1rem')
+          .style('cursor', 'pointer')
+          .style('user-select', 'none')
+          .text('🛰️');
+
+        satText.on('click', function (event) {
+          event.stopPropagation();
+          satelliteExploded = true;
+          satSpin.classed('satellite-spin', false);
+          satText.text('💥');
+          setTimeout(() => {
+            satText.transition().duration(400).style('opacity', 0)
+              .on('end', () => satGroup.remove());
+          }, 200);
+        });
+      }
 
       /* ══════════════════════════════════════════════════════════════════
          COMPASS ROTATION

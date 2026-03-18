@@ -1031,6 +1031,16 @@ main.readings {
   letter-spacing: 0.05em;
 }
 
+/* ── Satellite orbit animation ───────────────────────────────────────── */
+@keyframes satellite-orbit {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.satellite-spin {
+  transform-origin: 0 0;
+  animation: satellite-orbit 50s linear infinite;
+}
+
 /* ── Doxa panel (ConceptNet overlay on map) ──────────────────────────── */
 #doxaPanel {
   position: absolute;
