@@ -38,7 +38,11 @@ Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/care
+- words/family
+- words/fear
 
 ----
 

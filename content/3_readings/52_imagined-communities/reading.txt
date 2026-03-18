@@ -44,7 +44,11 @@ Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/people
+- words/guilt
+- words/class
 
 ----
 

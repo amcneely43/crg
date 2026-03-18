@@ -34,7 +34,11 @@ Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/care
+- words/people
+- words/ecstasy
 
 ----
 

@@ -36,9 +36,9 @@ Flyerby: CRG
 
 Terms:
 
-- words/common
-- words/duty
-- words/sacrifice
+- words/exposure
+- words/violence
+- words/property
 
 ----
 

@@ -30,11 +30,15 @@ Nominatedby: Leah Laird
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/people
+- words/tradition
+- words/freedom
 
 ----
 

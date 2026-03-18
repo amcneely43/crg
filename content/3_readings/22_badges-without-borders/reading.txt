@@ -30,11 +30,15 @@ Nominatedby: Erich Wise
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/class
+- words/property
+- words/violence
 
 ----
 

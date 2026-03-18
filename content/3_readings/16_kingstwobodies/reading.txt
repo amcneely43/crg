@@ -34,7 +34,11 @@ Flyerby:
 
 ----
 
-Terms: 
+Terms:
+
+- words/property
+- words/law
+- words/citizen
 
 ----
 

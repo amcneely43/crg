@@ -36,9 +36,9 @@ Flyerby: CRG
 
 Terms:
 
-- words/collective
 - words/people
 - words/recognition
+- words/law
 
 ----
 

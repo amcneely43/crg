@@ -30,11 +30,15 @@ Nominatedby: Ryan Jeffery
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/recognition
+- words/freedom
+- words/violence
 
 ----
 

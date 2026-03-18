@@ -30,11 +30,15 @@ Nominatedby: Andrew McNeely
 
 ----
 
-Flyerby: 
+Flyerby: GRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/rights
+- words/law
+- words/citizen
 
 ----
 

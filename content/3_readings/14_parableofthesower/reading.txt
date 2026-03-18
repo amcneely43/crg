@@ -37,8 +37,8 @@ Flyerby: CRG
 Terms:
 
 - words/care
-- words/empathy
 - words/neighbor
+- words/fear
 
 ----
 

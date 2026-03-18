@@ -37,8 +37,8 @@ Flyerby: CRG
 Terms:
 
 - words/citizen
-- words/nation
-- words/rights
+- words/law
+- words/property
 
 ----
 

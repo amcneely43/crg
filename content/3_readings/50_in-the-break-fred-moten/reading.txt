@@ -39,7 +39,11 @@ Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/freedom
+- words/tradition
+- words/violence
 
 ----
 

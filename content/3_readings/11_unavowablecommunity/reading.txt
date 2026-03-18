@@ -38,7 +38,7 @@ Terms:
 
 - words/people
 - words/exposure
-- words/collective
+- words/property
 
 ----
 

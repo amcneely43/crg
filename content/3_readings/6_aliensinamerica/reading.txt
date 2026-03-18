@@ -36,9 +36,9 @@ Flyerby: CRG
 
 Terms:
 
-- words/common
 - words/recognition
-- words/nation
+- words/fear
+- words/people
 
 ----
 

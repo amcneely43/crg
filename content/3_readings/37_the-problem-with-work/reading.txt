@@ -34,7 +34,11 @@ Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/class
+- words/fear
+- words/debt
 
 ----
 

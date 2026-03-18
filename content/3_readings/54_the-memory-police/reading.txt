@@ -42,7 +42,7 @@ Terms:
 
 - words/sacred
 - words/care
-- words/empathy
+- words/attention
 
 ----
 

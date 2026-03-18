@@ -30,11 +30,15 @@ Nominatedby: Cedric Tai
 
 ----
 
-Flyerby: 
+Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/property
+- words/citizen
+- words/violence
 
 ----
 

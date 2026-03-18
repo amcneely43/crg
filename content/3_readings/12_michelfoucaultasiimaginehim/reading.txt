@@ -34,7 +34,11 @@ Flyerby: CRG
 
 ----
 
-Terms: 
+Terms:
+
+- words/exposure
+- words/guilt
+- words/ecstasy
 
 ----
 

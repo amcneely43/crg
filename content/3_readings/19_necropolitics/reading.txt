@@ -34,7 +34,11 @@ Flyerby:
 
 ----
 
-Terms: 
+Terms:
+
+- words/ecstasy
+- words/violence
+- words/freedom
 
 ----
 
