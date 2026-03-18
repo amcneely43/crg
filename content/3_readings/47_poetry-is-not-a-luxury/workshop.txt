@@ -2,7 +2,11 @@ Title: Poetry Is Not a Luxury
 
 ----
 
-Presenter: Practices of Study
+Author: A Workshop with Practices of Study
+
+----
+
+Contributor: 
 
 ----
 
@@ -18,25 +22,11 @@ Location: Los Angeles Contemporary Archive
 
 ----
 
-Note:
-
-“The Idea of poetry as necessary – and as not merely a luxury, or a waste of time, was beautifully expressed by the poet and writer Audre Lorde.
-
-For Audre Lorde, poetry was defined as an efficient art form.  The power of poetry is found in the versatility of the art form; poems can be as short as a few words, or as long as one page.  Poetry can be composed while waiting for the bus, on break while at work, can be co-created with someone else and shared.
-
-The ability to efficiently share ideas and emotions via poetry distinguishes the art form from other forms of writing; novels, essays, blogs – projects that take longer, take space, and require greater resources.  For Audre Lorde the immediacy of poetry lends itself to individuals who have very little time, but have great imaginations.
-
-Lorde’s insisted that poetry was not a luxury was born out of her resistance to the criticism by some that there were more “important things to do” and as such poetry was “wasting her time.”  She responded that writing and sharing poetry was needed in order to dream about life; that to consider poetry a luxury is to give up on the future of our world, become unable to dream big and be reduced to mere parts within a machine unable to fully experience what it means to be alive.” ((link: https://pressbooks.online.ucf.edu/hum2020environmentalhumanities/chapter/chapter-2-poetry-is-not-a-luxury/ text: pressbooks.online.ucf.edu))
+Note: <p>The Idea of poetry as necessary – and as not merely a luxury, or a waste of time, was beautifully expressed by the poet and writer Audre Lorde. <br><br>For Audre Lorde, poetry was defined as an efficient art form. The power of poetry is found in the versatility of the art form; poems can be as short as a few words, or as long as one page. Poetry can be composed while waiting for the bus, on break while at work, can be co-created with someone else and shared. <br><br>The ability to efficiently share ideas and emotions via poetry distinguishes the art form from other forms of writing; novels, essays, blogs – projects that take longer, take space, and require greater resources. For Audre Lorde the immediacy of poetry lends itself to individuals who have very little time, but have great imaginations. Lorde’s insisted that poetry was not a luxury was born out of her resistance to the criticism by some that there were more “important things to do” and as such poetry was “wasting her time.” She responded that writing and sharing poetry was needed in order to dream about life; that to consider poetry a luxury is to give up on the future of our world, become unable to dream big and be reduced to mere parts within a machine unable to fully experience what it means to be alive.</p>
 
 ----
 
-Blurb:
-
-Practices of Study is an informal monthly dinner series bringing together people across LA who are interested in reimagining education and building other spaces of study, learning, and gathering.
-
-Community Reading Group will lead a conversation of Audre Lorde's "Poetry Is Not a Luxury" followed by an introduction to LACA and workshopping of *Private Practices: AAPI Artist and Sex Worker Collection*. Soup, bread, and drinks will be provided.
-
-*You can (link: https://docs.google.com/forms/d/e/1FAIpQLSd9kniBkF5dvmEUBd02X5wngQWMTvVBblw1z6nYthyUmLE3vg/viewform text: sign up here) to let us know you're coming.*
+Blurb: <p>Practices of Study is an informal monthly dinner series bringing together people across LA who are interested in reimagining education and building other spaces of study, learning, and gathering. Community Reading Group will lead a conversation of Audre Lorde's "Poetry Is Not a Luxury" followed by an introduction to LACA and workshopping of <em>Private Practices: AAPI Artist and Sex Worker Collection</em>. Soup, bread, and drinks will be provided.</p>
 
 ----
 
@@ -52,15 +42,11 @@ Attachments:
 
 ----
 
-Author: A Workshop with Practices of Study
+Presenter: Practices of Study
 
 ----
 
 Subtitle: Audre Lorde
-
-----
-
-Contributor: 
 
 ----
 

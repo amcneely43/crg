@@ -28,7 +28,7 @@
     <?php endif ?>
 
     <?php if ($page->body()->isNotEmpty()): ?>
-      <div class="gleaning-body"><?= $page->body() ?></div>
+      <div class="gleaning-body"><?= $page->body()->value() ?></div>
     <?php endif ?>
 
     <?php if ($page->images()->isNotEmpty()): ?>

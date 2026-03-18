@@ -74,7 +74,7 @@ $info = page('doings');
       <?php if ($info->location()->isNotEmpty()): ?>
         <div class="table">
           <p>Headquarters ⟶</p>
-          <div><?= $info->location() ?></div>
+          <div><?= $info->location()->value() ?></div>
         </div>
       <?php endif; ?>
 
