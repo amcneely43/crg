@@ -457,8 +457,8 @@
       /* ── Links (spokes from centre) ─────────────────────────────────── */
       const link = g.append('g')
         .selectAll('line').data(links).join('line')
-        .attr('stroke',       d => d.target.derived ? 'rgba(255,255,255,0.65)' : 'rgba(255,255,255,0.25)')
-        .attr('stroke-width', d => d.target.derived ? 1.5 : 1);
+        .attr('stroke',       d => d.target.derived ? 'rgba(255,255,255,0.15)' : 'rgba(255,255,255,0)')
+        .attr('stroke-width', 1.5);
 
       /* ── Nodes ───────────────────────────────────────────────────────── */
       const node = g.append('g')
@@ -496,7 +496,7 @@
         .text(d => d.label)
         .attr('x', d => d.center ? -50 : 10)
         .attr('y', d => d.center ? -14 : 4)
-        .style('font-size',   d => d.center ? '0.95rem' : '0.8rem')
+        .style('font-size',   d => d.center ? '0.8rem' : '0.65rem')
         .style('font-family', '"triptych-roman", Georgia, serif')
         .attr('text-anchor',  d => d.center ? 'middle' : 'start')
         .attr('fill',         d => d.center ? 'rgba(255,255,255,0.65)' : d.derived ? 'rgba(214,44,255,0.9)' : MAGENTA)
