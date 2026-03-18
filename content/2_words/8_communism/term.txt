@@ -1,0 +1,29 @@
+Title: Communism
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: true
+
+----
+
+Valence: 0.1
+
+----
+
+Cohesion: 0.85
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: From Latin <em>communalis</em>, from <em>communis</em> (common, shared). The adjectival form — that which belongs to or is organized by the commons. Names the structural or institutional expression of shared life: communal land, communal governance, communal obligation.

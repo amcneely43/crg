@@ -779,7 +779,7 @@
 
       const fifthPoleR = 6;
       const triOffsets = [0, 2 * Math.PI / 3, 4 * Math.PI / 3];
-      const triIds     = ['community', 'commons', 'communal'];
+      const triIds     = ['community', 'commons', 'communism'];
 
       function triXY(i) {
         const angle = fifthPoleAngle + triOffsets[i];
