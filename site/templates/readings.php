@@ -24,7 +24,7 @@
 
   <?php /* ── Legend panel (bottom-left, HTML so it moves with the map like the doxa panel) ── */ ?>
   <div id="legendPanel">
-    <p class="legend-title">Poles of Being in Common</p>
+    <p class="legend-title">Poles of Being-in-Common</p>
     <div class="legend-cols">
       <div class="legend-col">
         <div class="legend-item">
