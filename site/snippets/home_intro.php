@@ -6,6 +6,6 @@
 ?>
 <div class="home-intro">
   <h1>
-    <?= $site->welcome()->value() ?>
+    <?= $site->welcome()->kirbytextInline() ?>
   </h1>
 </div>

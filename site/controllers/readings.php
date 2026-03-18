@@ -77,7 +77,7 @@ return function ($page, $site) {
       'author'       => $rdg->author()->value(),
       'contributor'  => $isWorkshop ? $rdg->contributor()->value() : '',
       'location'     => $isWorkshop ? $rdg->location()->value() : '',
-      'customTime'   => $isWorkshop ? $rdg->customTime()->value() : '',
+      'customTime'   => $isWorkshop ? $rdg->custom_time()->value() : '',
       'terms'        => $termSlugs,
       'note'         => (string) $rdg->note()->kirbytext(),
       'blurb'        => (string) $rdg->blurb()->kirbytext(),

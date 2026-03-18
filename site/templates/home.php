@@ -70,8 +70,10 @@ $currently_readings = $reading_list ? $reading_list->currentlyReading() : null;
     </h1>
 
     <h1>
-      <?= $site->meetingInfo()->value() ?>
-      To learn more, sign up to our <u><a href="mailto:<?= $site->newsletterEmail()->value() ?>">newsletter</a></u>.
+      <?= $site->meeting_info()->kirbytextInline() ?>
+      <?php if ($site->newsletter_email()->isNotEmpty()): ?>
+      To learn more, sign up to our <u><a href="mailto:<?= $site->newsletter_email()->value() ?>">newsletter</a></u>.
+      <?php endif ?>
     </h1>
   </div>
 

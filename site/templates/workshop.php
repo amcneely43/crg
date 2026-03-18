@@ -42,7 +42,7 @@
     <?php if ($page->date()->isNotEmpty()): ?>
       <?php
         $meta = $page->date()->toDate('F j, Y');
-        if ($page->customTime()->isNotEmpty()) $meta .= ' · ' . $page->customTime()->html();
+        if ($page->custom_time()->isNotEmpty()) $meta .= ' · ' . $page->custom_time()->html();
         if ($page->location()->isNotEmpty())   $meta .= ' · ' . $page->location()->html();
       ?>
       <p class="detail-meta"><?= $meta ?></p>
