@@ -42,6 +42,8 @@
   const doxaCache       = new Map();
   let hasBloomedOnce    = false; // bloom only on first load, not on resize
   let satelliteExploded = false; // persists across redraws
+  let mapNode           = null;  // D3 node selection, updated by draw()
+  let mapG              = null;  // root SVG <g>, updated by draw()
 
   /* ── HTML-escape helper (plain-text fields rendered via innerHTML) ────────── */
   function esc(str) {
@@ -190,6 +192,49 @@
       item.addEventListener('click', () => {
         const book = BOOKS.find(b => String(b.id) === item.dataset.id);
         if (book) showDetail(book);
+      });
+
+      item.addEventListener('mouseenter', () => {
+        const book = BOOKS.find(b => String(b.id) === item.dataset.id);
+        if (!book || !book.terms || !book.terms.length || !mapNode) return;
+        const termSet = new Set(book.terms);
+
+        /* Dim all nodes, highlight matched ones */
+        mapNode.select('circle')
+          .attr('opacity', d => termSet.has(d.id) ? 1 : 0.15);
+        mapNode.filter(d => termSet.has(d.id)).select('circle')
+          .attr('fill', MAGENTA)
+          .attr('r', d => d.derived ? 8 : 5);
+
+        /* Draw triangulation lines between matched nodes */
+        if (mapG) {
+          const matched = [];
+          mapNode.each(d => { if (termSet.has(d.id)) matched.push(d); });
+          if (matched.length > 1) {
+            const triG = mapG.append('g').attr('class', 'book-tri');
+            for (let a = 0; a < matched.length; a++) {
+              for (let b = a + 1; b < matched.length; b++) {
+                triG.append('line')
+                  .attr('x1', matched[a].x).attr('y1', matched[a].y)
+                  .attr('x2', matched[b].x).attr('y2', matched[b].y)
+                  .attr('stroke', MAGENTA)
+                  .attr('stroke-width', 0.8)
+                  .attr('stroke-dasharray', '3 3')
+                  .attr('opacity', 0.6)
+                  .style('pointer-events', 'none');
+              }
+            }
+          }
+        }
+      });
+
+      item.addEventListener('mouseleave', () => {
+        if (!mapNode) return;
+        mapNode.select('circle')
+          .attr('opacity', 1)
+          .attr('fill', d => nodeBaseFill(d))
+          .attr('r', d => d.center ? 10 : d.derived ? 6 : 3);
+        if (mapG) mapG.selectAll('.book-tri').remove();
       });
     });
   }
@@ -455,6 +500,7 @@
 
       /* Root group (receives d3.zoom transform) */
       const g = svg.append('g');
+      mapG = g;
 
       g.append('circle')
         .attr('cx', W / 2).attr('cy', H / 2).attr('r', 420)
@@ -542,6 +588,7 @@
       const node = g.append('g')
         .selectAll('g').data(nodes).join('g')
         .style('cursor', 'pointer');
+      mapNode = node;
 
       /* Main circle */
       node.append('circle')
