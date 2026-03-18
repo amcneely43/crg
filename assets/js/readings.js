@@ -196,7 +196,12 @@
 
       item.addEventListener('mouseenter', () => {
         const book = BOOKS.find(b => String(b.id) === item.dataset.id);
-        if (!book || !book.terms || !book.terms.length || !mapNode) return;
+        if (!mapNode) return;
+
+        /* Clear any stale lines from a previous hover */
+        if (mapG) mapG.selectAll('.book-tri').remove();
+
+        if (!book || !book.terms || !book.terms.length) return;
         const termSet = new Set(book.terms);
 
         /* Dim all nodes, highlight matched ones */
@@ -206,7 +211,7 @@
           .attr('fill', MAGENTA)
           .attr('r', d => d.derived ? 8 : 5);
 
-        /* Draw triangulation lines between matched nodes */
+        /* Draw constellation lines between matched nodes */
         if (mapG) {
           const matched = [];
           mapNode.each(d => { if (termSet.has(d.id)) matched.push(d); });
@@ -217,10 +222,10 @@
                 triG.append('line')
                   .attr('x1', matched[a].x).attr('y1', matched[a].y)
                   .attr('x2', matched[b].x).attr('y2', matched[b].y)
-                  .attr('stroke', MAGENTA)
-                  .attr('stroke-width', 1.5)
-                  .attr('stroke-dasharray', '4 4')
-                  .attr('opacity', 0.85)
+                  .attr('stroke', YELLOW)
+                  .attr('stroke-width', 0.75)
+                  .attr('stroke-dasharray', '3 3')
+                  .attr('opacity', 0.7)
                   .style('pointer-events', 'none');
               }
             }
