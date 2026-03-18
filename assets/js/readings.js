@@ -574,6 +574,17 @@
         });
       });
 
+      /* Legend title */
+      legGroup.append('text')
+        .attr('x', W - 125)
+        .attr('y', legBotY - legRowH - 26)
+        .attr('text-anchor', 'middle')
+        .style('font-size',   '0.65rem')
+        .style('font-family', '"triptych-roman", Georgia, serif')
+        .style('letter-spacing', '0.12em')
+        .attr('fill', 'rgba(255,255,255,0.45)')
+        .text('POLES OF BEING IN COMMON');
+
       /* ══════════════════════════════════════════════════════════════════
          COMPASS ROTATION
       ══════════════════════════════════════════════════════════════════ */
