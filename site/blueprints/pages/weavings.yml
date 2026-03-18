@@ -28,11 +28,11 @@ columns:
     width: 2/3
     sections: 
       drafts:
-        extends: sections/reviews 
+        extends: sections/weavings
         headline: Drafts
         status: draft
       listed:
-        extends: sections/reviews 
+        extends: sections/weavings
         headline: Live
         status: listed
 
@@ -44,5 +44,5 @@ columns:
         headline: Other
         status: unlisted
         layout: list
-        parent: site.find("reviews")
+        parent: site.find("weavings")
         template: mast

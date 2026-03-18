@@ -1,6 +1,6 @@
 <?php snippet('nav') ?>
 <main class="mast triptych">
-  <?php snippet('review_header', ['review' => $page->parent(), 'mast' => true]) ?>
+  <?php snippet('weaving_header', ['weaving' => $page->parent(), 'mast' => true]) ?>
   <div class="content"> 
       <h4 class="uppercase">About</h4></br>
       <?= $page -> mission() -> markdown() ?>

@@ -201,7 +201,7 @@ tabs:
         parent: site
         status: all
         templates:
-          - reviews
+          - weavings
         create: false
 
   bookmarks:

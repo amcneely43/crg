@@ -38,7 +38,7 @@
                         <div class="triptych uppercase" id='info'><?=$item->title()?></div>
                     <?php else: ?>
                         <div class="triptych uppercase">
-              <?php $prefix = $item->slug() === 'reviews' ? '& ' : '' ?>
+              <?php $prefix = $item->slug() === 'weavings' ? '& ' : '' ?>
               <a <?php e($item->isOpen(), 'class="active"') ?> href="<?= $item->url() ?>"><?= $prefix . $item->title()->html() ?></a>
             </div>
                     <?php endif ?>

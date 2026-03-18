@@ -2,7 +2,7 @@ type: pages
 headline: Article
 layout: list
 text: "{{ page.title }} — {{ page.author }}"
-parent: site.find("reviews")
-template: review
+parent: site.find("weavings")
+template: weaving
 empty: No readings yet
 sortBy: date desc
