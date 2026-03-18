@@ -218,9 +218,9 @@
                   .attr('x1', matched[a].x).attr('y1', matched[a].y)
                   .attr('x2', matched[b].x).attr('y2', matched[b].y)
                   .attr('stroke', MAGENTA)
-                  .attr('stroke-width', 0.8)
-                  .attr('stroke-dasharray', '3 3')
-                  .attr('opacity', 0.6)
+                  .attr('stroke-width', 1.5)
+                  .attr('stroke-dasharray', '4 4')
+                  .attr('opacity', 0.85)
                   .style('pointer-events', 'none');
               }
             }
@@ -659,7 +659,10 @@
           .attrTween('y1', d => d3.interpolateNumber(H / 2, d.source.finalY))
           .attrTween('x2', d => d3.interpolateNumber(W / 2, d.target.finalX))
           .attrTween('y2', d => d3.interpolateNumber(H / 2, d.target.finalY));
-        setTimeout(() => { hasBloomedOnce = true; }, BLOOM_DUR + 200);
+        setTimeout(() => {
+          hasBloomedOnce = true;
+          nodes.forEach(d => { d.x = d.finalX; d.y = d.finalY; });
+        }, BLOOM_DUR + 200);
       } else {
         /* Resize: jump straight to settled positions, no animation */
         nodes.forEach(d => { d.x = d.finalX; d.y = d.finalY; });
