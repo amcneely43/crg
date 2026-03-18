@@ -1,0 +1,33 @@
+Title: Ecstasy
+
+----
+
+Category: instinctual
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Doxa: true
+
+----
+
+Valence: 0.7
+
+----
+
+Cohesion: 0.9
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: From Greek <em>ekstasis</em> (displacement, trance), from <em>existanai</em> (to displace, to drive out of one's senses). In Bataille and Blanchot, ecstasy names the dissolution of the self at the limit of experience — the moment of sovereign expenditure in which individual boundaries collapse into the common. For Weil, it is the self-emptying (<em>décréation</em>) that makes genuine Attention possible. The most utopian coordinate on the map: maximum cohesion, strongly positive valence — the affective horizon of Communism as it may never arrive.

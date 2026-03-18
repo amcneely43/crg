@@ -1,0 +1,33 @@
+Title: Fear
+
+----
+
+Category: instinctual
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Doxa: true
+
+----
+
+Valence: -0.8
+
+----
+
+Cohesion: -0.7
+
+----
+
+Temporal: centrifugal
+
+----
+
+Etymology: From Old English <em>fær</em> (calamity, sudden danger). In Hobbes, fear is the originary political affect — the war of all against all that makes community necessary. For Esposito, fear is not the opposite of community but its negative foundation: the munus begins where bare life fears its own annihilation. Doxa renders fear as threat to be escaped; CRG locates it as the ground from which the political emerges.

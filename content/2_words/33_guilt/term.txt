@@ -1,0 +1,33 @@
+Title: Guilt
+
+----
+
+Category: social
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Doxa: true
+
+----
+
+Valence: -0.4
+
+----
+
+Cohesion: 0.6
+
+----
+
+Temporal: centripetal
+
+----
+
+Etymology: From Old English <em>gylt</em> (crime, sin, fault). Guilt is the interior register of the munus — the felt sense of an obligation that cannot be discharged. Where Debt is external and quantifiable, Guilt is the binding force experienced from within. In Esposito, guilt names the condition of being indebted to a community that preceded you and will survive you; it is what ties the subject to the common without consent.

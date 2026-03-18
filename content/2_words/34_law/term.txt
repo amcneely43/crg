@@ -1,0 +1,33 @@
+Title: Law
+
+----
+
+Category: structural
+
+----
+
+Center: false
+
+----
+
+Derived: false
+
+----
+
+Doxa: true
+
+----
+
+Valence: 0.2
+
+----
+
+Cohesion: -0.3
+
+----
+
+Temporal: centrifugal
+
+----
+
+Etymology: From Old English <em>lagu</em> (that which is laid down or fixed). In Kant, law is the form through which community becomes universal — the nomos that binds without particularizing. For Esposito, law is the immunitary apparatus: the structure that protects community by separating individuals from one another. Distinct from Rights (entitlement) and from Tradition (custom) — Law is the structure itself, the ordering that simultaneously constitutes and limits the common.
