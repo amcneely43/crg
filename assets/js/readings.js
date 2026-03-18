@@ -597,7 +597,6 @@
 
       if (!hasBloomedOnce) {
         /* First load: reset to centre, bloom out */
-        hasBloomedOnce = true;
         nodes.forEach(d => { d.x = W / 2; d.y = H / 2; });
         applyPositions();
 
@@ -613,6 +612,7 @@
           .attrTween('y1', d => d3.interpolateNumber(H / 2, d.source.finalY))
           .attrTween('x2', d => d3.interpolateNumber(W / 2, d.target.finalX))
           .attrTween('y2', d => d3.interpolateNumber(H / 2, d.target.finalY));
+        setTimeout(() => { hasBloomedOnce = true; }, BLOOM_DUR + 200);
       } else {
         /* Resize: jump straight to settled positions, no animation */
         nodes.forEach(d => { d.x = d.finalX; d.y = d.finalY; });
@@ -641,28 +641,16 @@
           event.stopPropagation();
           satelliteExploded = true;
 
-          // Capture current rendered position BEFORE removing the animation
-          const textRect = satText.node().getBoundingClientRect();
-          const svgRect  = svgEl.getBoundingClientRect();
-          const cx = textRect.left + textRect.width  / 2 - svgRect.left;
-          const cy = textRect.top  + textRect.height / 2 - svgRect.top;
-
-          // Stop orbit and hide original
+          // Freeze the CSS animation at its current position before removing the class
+          const frozenTransform = getComputedStyle(satSpin.node()).transform;
+          satSpin.style('transform', frozenTransform);
           satSpin.classed('satellite-spin', false);
-          satText.style('display', 'none');
 
-          // Place 💥 at the captured position in the root SVG group
-          const boom = g.append('text')
-            .attr('x', cx).attr('y', cy)
-            .attr('dominant-baseline', 'middle')
-            .attr('text-anchor', 'middle')
-            .style('font-size', '1.2rem')
-            .style('pointer-events', 'none')
-            .text('💥');
-
+          // Explode in place — no coordinate conversion needed
+          satText.text('💥');
           setTimeout(() => {
-            boom.transition().duration(400).style('opacity', 0)
-              .on('end', () => { boom.remove(); satGroup.remove(); });
+            satText.transition().duration(400).style('opacity', 0)
+              .on('end', () => satGroup.remove());
           }, 200);
         });
       }
