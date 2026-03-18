@@ -2,7 +2,7 @@ Title: Violence
 
 ----
 
-Category: instinctual
+Category: social
 
 ----
 
@@ -15,9 +15,10 @@ Derived: false
 ----
 
 Doxa: true
+
 ----
 
-Valence: -0.2
+Valence: 0.0
 
 ----
 
@@ -29,4 +30,4 @@ Temporal: centrifugal
 
 ----
 
-Etymology: 
+Etymology: From Latin <em>violentia</em>, from <em>vis</em> (force, power). Neither simply negative nor positive — violence is the contested medium through which power is enacted, contested, and transformed. In Fanon, violence is the generative force by which the colonized reclaim subjecthood; in its doxa form, it is pure negation and elimination. Its position at neutral valence names this irresolvable tension.
