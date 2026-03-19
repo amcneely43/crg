@@ -3,6 +3,7 @@
 return [
   'panel' =>[
     'install' => true
-  ], 
-  'debug'  => true
+  ],
+  'debug'       => true,
+  'smartypants' => true,
 ];

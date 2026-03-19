@@ -190,6 +190,17 @@ tabs:
                   url:
                     type: url
                     label: URL
+              toolkitInspiration:
+                type: structure
+                label: Sources of Inspiration
+                fields:
+                  name:
+                    type: text
+                    label: Name
+                    required: true
+                  url:
+                    type: url
+                    label: URL
 
   weavings:
     label: Weavings

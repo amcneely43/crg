@@ -2,7 +2,7 @@ Title: Community Reading Group
 
 ----
 
-Welcome: Welcome to CRG, a *tertulia* for folks dedicated to becoming more thoughtful about the vital terms that animate appeals to community.
+Welcome: Welcome to CRG, a gathering place for folks dedicated to becoming more thoughtful about the vital terms that animate appeals to community.
 
 ----
 
@@ -164,3 +164,13 @@ Toolkitjournals:
   name: 'Rhetorica: A Journal of the History of Rhetoric'
   url: >
     https://www.press.jhu.edu/journals/rhetorica
+
+----
+
+Toolkitinspiration:
+
+- 
+  name: >
+    Inter Chicago Circle for Experimental
+    Critical Theory (InterCcECT)
+  url: https://interccect.com/

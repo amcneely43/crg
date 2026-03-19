@@ -36,7 +36,8 @@
         ['field' => 'toolkitDatabases',  'label' => 'Useful Databases & Ontologies'],
         ['field' => 'toolkitArchives',   'label' => 'Archives & Libraries'],
         ['field' => 'toolkitIndexes',    'label' => 'Indexes, Bibliographies & Textbooks'],
-        ['field' => 'toolkitJournals',   'label' => 'Salient Journals'],
+        ['field' => 'toolkitJournals',     'label' => 'Salient Journals'],
+        ['field' => 'toolkitInspiration', 'label' => 'Sources of Inspiration'],
       ];
       foreach ($sections as $s):
         $items = $site->{$s['field']}()->toStructure();
