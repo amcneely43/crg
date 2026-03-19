@@ -254,7 +254,12 @@
   if (closeBtn) {
     closeBtn.addEventListener('click', () => {
       detailEl.classList.remove('slid-open');
-      setTimeout(() => { detailEl.scrollTop = 0; }, 820);
+      setTimeout(() => {
+        detailEl.scrollTop = 0;
+        // Restore legend panel when returning to the map
+        const legendEl = document.getElementById('legendPanel');
+        if (legendEl) legendEl.hidden = false;
+      }, 820);
     });
   }
 
@@ -353,6 +358,11 @@
       ${interlocutorsBlock}
       ${bottomBlock}
     `;
+
+    // Hide legend + doxa panels while detail is open
+    const legendEl = document.getElementById('legendPanel');
+    if (legendEl) legendEl.hidden = true;
+    closeDoxaPanel();
 
     detailEl.scrollTop = 0;
     detailEl.classList.add('slid-open');
