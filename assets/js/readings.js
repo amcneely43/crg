@@ -609,16 +609,16 @@
       /* Event horizon rings — center node only */
       const centerG = node.filter(d => d.center);
       [
-        { r: 13, opacity: 0.38, width: 1    },
-        { r: 16, opacity: 0.30, width: 0.9  },
-        { r: 19, opacity: 0.23, width: 0.85 },
-        { r: 22, opacity: 0.17, width: 0.75 },
-        { r: 25, opacity: 0.13, width: 0.7  },
-        { r: 28, opacity: 0.09, width: 0.6  },
-        { r: 31, opacity: 0.06, width: 0.55 },
-        { r: 34, opacity: 0.04, width: 0.45 },
-        { r: 37, opacity: 0.03, width: 0.35 },
-        { r: 40, opacity: 0.01, width: 0.25 },
+        { r: 12, opacity: 0.38, width: 1    },
+        { r: 14, opacity: 0.30, width: 0.9  },
+        { r: 16, opacity: 0.23, width: 0.85 },
+        { r: 18, opacity: 0.17, width: 0.75 },
+        { r: 20, opacity: 0.13, width: 0.7  },
+        { r: 22, opacity: 0.09, width: 0.6  },
+        { r: 24, opacity: 0.06, width: 0.55 },
+        { r: 26, opacity: 0.04, width: 0.45 },
+        { r: 28, opacity: 0.02, width: 0.35 },
+        { r: 30, opacity: 0.01, width: 0.25 },
       ].forEach(ring => {
         centerG.append('circle')
           .attr('r', ring.r)
