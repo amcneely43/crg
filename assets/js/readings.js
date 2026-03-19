@@ -365,7 +365,7 @@
     const svg = d3.select(svgEl);
 
     /* ── Node fill + stroke — driven by core field and node type ────────── */
-    const NODE_R = 7;
+    const NODE_R = 3;
     function nodeFill(d) {
       if (d.center)  return '#000000';
       return d.core === 'filled' ? '#ffffff' : 'none';
@@ -599,9 +599,9 @@
         .style('cursor', 'pointer');
       mapNode = node;
 
-      /* Main circle — uniform size, fill/stroke driven by node type + core */
+      /* Main circle — center node larger; all others uniform */
       node.append('circle')
-        .attr('r',            NODE_R)
+        .attr('r',            d => d.center ? 12 : NODE_R)
         .attr('fill',         d => nodeFill(d))
         .attr('stroke',       d => nodeStroke(d))
         .attr('stroke-width', 1.5);
