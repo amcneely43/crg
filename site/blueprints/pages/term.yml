@@ -35,7 +35,7 @@ fields:
     label: Triangle Vertex
     type: toggle
     width: 1/3
-    help: One of the three limit-case positions (Community / Commons / Communal)
+    help: One of the three limit-case positions (Community / Commons / Communism)
     text:
       - "no"
       - "yes"
@@ -48,6 +48,15 @@ fields:
     text:
       - "no"
       - "yes"
+
+  core:
+    label: Node Core
+    type: select
+    width: 1/3
+    default: filled
+    options:
+      filled: Filled (white)
+      empty: Empty (colorless)
 
   line-a:
     type: line

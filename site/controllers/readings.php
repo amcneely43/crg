@@ -31,6 +31,7 @@ return function ($page, $site) {
         'temporal'  => $term->temporal()->value(),
         'valence'   => (float) ($term->valence()->or(0)->value()),
         'cohesion'  => (float) ($term->cohesion()->or(0)->value()),
+        'core'      => $term->core()->value() ?: 'filled',
         'etymology' => $term->etymology()->value(),
       ];
     }

@@ -33,6 +33,7 @@
   /* ── Colours ─────────────────────────────────────────────────────────────── */
   const MAGENTA = '#D62CFF';
   const YELLOW  = '#FFAF00';
+  const BLUE    = '#5B8FD4';
   const MAP_BG  = '#0d0018';
 
   /* ── State ───────────────────────────────────────────────────────────────── */
@@ -209,7 +210,7 @@
           .attr('opacity', d => termSet.has(d.id) ? 1 : 0.15);
         mapNode.filter(d => termSet.has(d.id)).select('circle')
           .attr('fill', MAGENTA)
-          .attr('r', d => d.derived ? 8 : 5);
+          .attr('r', NODE_R);
 
         /* Draw constellation lines between matched nodes */
         if (mapG) {
@@ -237,8 +238,8 @@
         if (!mapNode) return;
         mapNode.select('circle')
           .attr('opacity', 1)
-          .attr('fill', d => nodeBaseFill(d))
-          .attr('r', d => d.center ? 10 : d.derived ? 6 : 3);
+          .attr('fill', d => nodeFill(d))
+          .attr('r', NODE_R);
         if (mapG) mapG.selectAll('.book-tri').remove();
       });
     });
@@ -363,13 +364,16 @@
 
     const svg = d3.select(svgEl);
 
-    /* ── Node base fill — driven by temporal class ───────────────────────── */
-    function nodeBaseFill(d) {
-      if (d.center)                       return 'rgba(255,255,255,0.12)';
-      if (d.temporal === 'centrifugal')   return 'rgba(255,255,255,0.9)';
-      if (d.temporal === 'centripetal')   return 'none';
-      if (d.temporal === 'neutral')       return 'rgba(255,210,0,1)';
-      return 'rgba(255,255,255,0.5)';
+    /* ── Node fill + stroke — driven by core field and node type ────────── */
+    const NODE_R = 7;
+    function nodeFill(d) {
+      if (d.center)  return '#000000';
+      return d.core === 'filled' ? '#ffffff' : 'none';
+    }
+    function nodeStroke(d) {
+      if (d.center)  return 'rgba(255,255,255,0.35)';
+      if (d.derived) return BLUE;
+      return MAGENTA;
     }
 
     /* ══════════════════════════════════════════════════════════════════════
@@ -595,27 +599,17 @@
         .style('cursor', 'pointer');
       mapNode = node;
 
-      /* Main circle */
+      /* Main circle — uniform size, fill/stroke driven by node type + core */
       node.append('circle')
-        .attr('r',            d => d.center ? 10 : d.derived ? 6 : 3)
-        .attr('fill',         d => nodeBaseFill(d))
-        .attr('stroke',       d => d.center ? 'rgba(255,255,255,0.3)' : d.derived ? 'rgba(255,255,255,0.6)' : MAGENTA)
-        .attr('stroke-width', d => d.center ? 1 : d.derived ? 2 : 1.5);
+        .attr('r',            NODE_R)
+        .attr('fill',         d => nodeFill(d))
+        .attr('stroke',       d => nodeStroke(d))
+        .attr('stroke-width', 1.5);
 
-      /* Dashed halo — derived nodes only */
-      node.filter(d => d.derived)
-        .append('circle')
-        .attr('r', 10)
-        .attr('fill', 'none')
-        .attr('stroke', 'rgba(255,255,255,0.4)')
-        .attr('stroke-width', 1)
-        .attr('stroke-dasharray', '2,2')
-        .attr('opacity', 0.5);
-
-      /* Outer ring — doxa (Type 1) nodes */
+      /* Amber halo — doxa nodes (including Commons if doxa=true) */
       node.filter(d => d.doxa && !d.center)
         .append('circle')
-        .attr('r', 9)
+        .attr('r', NODE_R + 5)
         .attr('fill', 'none')
         .attr('stroke', YELLOW)
         .attr('stroke-width', 1.5)
@@ -629,7 +623,7 @@
         .style('font-size',   d => d.center ? '0.8rem' : '0.65rem')
         .style('font-family', '"triptych-roman", Georgia, serif')
         .attr('text-anchor',  d => d.center ? 'middle' : 'start')
-        .attr('fill',         d => d.center ? 'rgba(255,255,255,0.65)' : d.derived ? 'rgba(214,44,255,0.9)' : MAGENTA)
+        .attr('fill',         d => d.center ? 'rgba(255,255,255,0.65)' : d.derived ? 'rgba(91,143,212,0.9)' : MAGENTA)
         .style('letter-spacing', '0.03em')
         .style('pointer-events', 'none');
 
@@ -861,14 +855,14 @@
           renderBookList(d.id);
           d3.select(this).select('circle')
             .attr('fill', MAGENTA)
-            .attr('r', d.derived ? 7 : 4);
+            .attr('r', NODE_R);
         })
         .on('mouseleave', function (event, d) {
           if (d.center) return;
           renderBookList(null);
           d3.select(this).select('circle')
-            .attr('fill', nodeBaseFill(d))
-            .attr('r', d.derived ? 6 : 3);
+            .attr('fill', nodeFill(d))
+            .attr('r', NODE_R);
         });
 
       /* ── Doxa node click → ConceptNet panel ─────────────────────────── */
