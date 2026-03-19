@@ -55,7 +55,7 @@
       </div>
       <div class="detail-note">
         <?php if ($page->note()->isNotEmpty()): ?>
-          <?= $page->note()->kirbytext() ?>
+          <?= $page->note()->value() ?>
         <?php endif ?>
       </div>
     </div>
@@ -63,7 +63,7 @@
     <?php if ($page->blurb()->isNotEmpty()): ?>
       <hr class="dotted-divider">
       <p class="detail-section-label">Opening Remarks</p>
-      <div class="detail-blurb"><?= $page->blurb()->kirbytext() ?></div>
+      <div class="detail-blurb"><?= $page->blurb()->value() ?></div>
       <?php if ($page->nominatedBy()->isNotEmpty()): ?>
         <p class="detail-section-credit">— <?= $page->nominatedBy()->html() ?></p>
       <?php endif ?>

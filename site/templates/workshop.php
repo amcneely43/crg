@@ -58,14 +58,14 @@
         </div>
       <?php endif ?>
       <?php if ($page->note()->isNotEmpty()): ?>
-        <div class="detail-note"><?= $page->note()->kirbytext() ?></div>
+        <div class="detail-note"><?= $page->note()->value() ?></div>
       <?php endif ?>
     </div>
 
     <?php if ($page->blurb()->isNotEmpty()): ?>
       <hr class="dotted-divider">
       <p class="detail-section-label">About Our Guest(s)</p>
-      <div class="detail-blurb"><?= $page->blurb()->kirbytext() ?></div>
+      <div class="detail-blurb"><?= $page->blurb()->value() ?></div>
     <?php endif ?>
 
     <?php $hasAnnotations = $page->download_reading()->isNotEmpty() || $page->attachments()->toFiles()->count() > 0 ?>

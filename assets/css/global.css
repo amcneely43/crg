@@ -1258,6 +1258,7 @@ main.readings {
   margin-bottom: 1.5rem;
 }
 
+.detail-note p,
 .detail-blurb p {
   margin-bottom: 1em;
 }
