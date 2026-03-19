@@ -601,7 +601,7 @@
 
       /* Main circle — center node larger; all others uniform */
       node.append('circle')
-        .attr('r',            d => d.center ? 12 : NODE_R)
+        .attr('r',            d => d.center ? 9 : NODE_R)
         .attr('fill',         d => nodeFill(d))
         .attr('stroke',       d => nodeStroke(d))
         .attr('stroke-width', 1.5);
