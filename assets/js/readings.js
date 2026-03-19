@@ -35,6 +35,7 @@
   const YELLOW  = '#FFAF00';
   const BLUE    = '#5B8FD4';
   const MAP_BG  = '#0d0018';
+  const NODE_R  = 3;
 
   /* ── State ───────────────────────────────────────────────────────────────── */
   let activeTab         = 'readings';
@@ -215,7 +216,10 @@
         /* Draw constellation lines between matched nodes */
         if (mapG) {
           const matched = [];
-          mapNode.each(d => { if (termSet.has(d.id)) matched.push(d); });
+          document.querySelectorAll('#wordMap g[transform]').forEach(g => {
+            if (g.__data__ && termSet.has(g.__data__.id)) matched.push(g.__data__);
+          });
+          console.log('[CRG] matched:', matched.map(d => ({id: d.id, x: d.x, y: d.y})));
           if (matched.length > 1) {
             const triG = mapG.append('g').attr('class', 'book-tri');
             for (let a = 0; a < matched.length; a++) {
@@ -365,7 +369,7 @@
     const svg = d3.select(svgEl);
 
     /* ── Node fill + stroke — driven by core field and node type ────────── */
-    const NODE_R = 3;
+    /* NODE_R defined at module scope */
     function nodeFill(d) {
       if (d.center)  return '#000000';
       return d.core === 'filled' ? '#ffffff' : 'none';
