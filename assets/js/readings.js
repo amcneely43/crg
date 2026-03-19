@@ -919,10 +919,10 @@
           if (d.derived) {
             d3.select(this).select('.node-label')
               .transition().duration(700).ease(d3.easeCubicOut)
-              .attr('opacity', 0.55);
+              .attr('opacity', 0);
             d3.select(this).select('.derived-shadow')
               .transition().duration(700).ease(d3.easeCubicOut)
-              .attr('opacity', 0.28);
+              .attr('opacity', 0.9);
           }
         })
         .on('mouseleave', function (event, d) {
