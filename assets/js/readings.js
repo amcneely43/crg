@@ -682,7 +682,7 @@
         .style('font-size', '0.65rem')
         .style('font-family', '"triptych-roman", Georgia, serif')
         .attr('text-anchor', 'start')
-        .attr('fill', BLUE)
+        .attr('fill', '#999999')
         .attr('opacity', 0.12)
         .style('letter-spacing', '0.03em')
         .style('pointer-events', 'none');
