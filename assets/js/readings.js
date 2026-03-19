@@ -606,6 +606,22 @@
         .attr('stroke',       d => nodeStroke(d))
         .attr('stroke-width', 1.5);
 
+      /* Event horizon rings — center node only */
+      const centerG = node.filter(d => d.center);
+      [
+        { r: 14, opacity: 0.28, width: 1   },
+        { r: 20, opacity: 0.14, width: 0.75 },
+        { r: 28, opacity: 0.06, width: 0.5  },
+      ].forEach(ring => {
+        centerG.append('circle')
+          .attr('r', ring.r)
+          .attr('fill', 'none')
+          .attr('stroke', 'white')
+          .attr('stroke-width', ring.width)
+          .attr('opacity', ring.opacity)
+          .style('pointer-events', 'none');
+      });
+
       /* Amber halo — doxa nodes (including Commons if doxa=true) */
       node.filter(d => d.doxa && !d.center)
         .append('circle')
