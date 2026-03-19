@@ -2,7 +2,11 @@ Title: Violence
 
 ----
 
-Category: social
+Category: primary
+
+----
+
+Temporal: centrifugal
 
 ----
 
@@ -18,15 +22,15 @@ Doxa: true
 
 ----
 
-Valence: 0.0
+Core: 
+
+----
+
+Valence: 0
 
 ----
 
 Cohesion: 0.2
-
-----
-
-Temporal: centrifugal
 
 ----
 

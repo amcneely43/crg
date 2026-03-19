@@ -6,6 +6,10 @@ Category: social
 
 ----
 
+Temporal: neutral
+
+----
+
 Center: false
 
 ----
@@ -14,15 +18,19 @@ Derived: false
 
 ----
 
+Doxa: false
+
+----
+
+Core: empty
+
+----
+
 Valence: 0.4
 
 ----
 
 Cohesion: 0.7
-
-----
-
-Temporal: centrifugal
 
 ----
 

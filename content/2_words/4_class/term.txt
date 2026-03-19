@@ -6,6 +6,10 @@ Category: structural
 
 ----
 
+Temporal: centripetal
+
+----
+
 Center: false
 
 ----
@@ -14,15 +18,19 @@ Derived: false
 
 ----
 
+Doxa: false
+
+----
+
+Core: empty
+
+----
+
 Valence: -0.5
 
 ----
 
 Cohesion: -0.5
-
-----
-
-Temporal: centripetal
 
 ----
 

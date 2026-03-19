@@ -6,6 +6,10 @@ Category: instinctual
 
 ----
 
+Temporal: centrifugal
+
+----
+
 Center: false
 
 ----
@@ -18,15 +22,15 @@ Doxa: true
 
 ----
 
+Core: filled
+
+----
+
 Valence: -0.8
 
 ----
 
 Cohesion: -0.7
-
-----
-
-Temporal: centrifugal
 
 ----
 

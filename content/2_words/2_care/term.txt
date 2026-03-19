@@ -2,7 +2,11 @@ Title: Care
 
 ----
 
-Category: structural
+Category: instinctual
+
+----
+
+Temporal: centrifugal
 
 ----
 
@@ -14,15 +18,19 @@ Derived: false
 
 ----
 
+Doxa: false
+
+----
+
+Core: filled
+
+----
+
 Valence: 0.9
 
 ----
 
 Cohesion: 0.9
-
-----
-
-Temporal: centrifugal
 
 ----
 
