@@ -39,9 +39,9 @@
 
   /* ── Shadow terms — derived nodes only ──────────────────────────────────── */
   const SHADOW_TERMS = {
-    commons:   'Fallenness',
-    community: 'Fulness',
-    communism: 'Emptiness',
+    commons:   'Lapsus',
+    community: 'Pleroma',
+    communism: 'Kenosis',
   };
 
   /* ── State ───────────────────────────────────────────────────────────────── */
