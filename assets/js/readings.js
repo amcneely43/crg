@@ -37,6 +37,13 @@
   const MAP_BG  = '#0d0018';
   const NODE_R  = 3;
 
+  /* ── Shadow terms — derived nodes only ──────────────────────────────────── */
+  const SHADOW_TERMS = {
+    commons:   'Fallenness',
+    community: 'Fullness',
+    communism: 'Emptiness',
+  };
+
   /* ── State ───────────────────────────────────────────────────────────────── */
   let activeTab         = 'readings';
   let activeTermId      = null;
@@ -654,6 +661,7 @@
 
       /* Labels */
       node.append('text')
+        .attr('class', 'node-label')
         .text(d => d.label)
         .attr('x', d => d.center ? -50 : 10)
         .attr('y', d => d.center ? -14 : 4)
@@ -661,6 +669,21 @@
         .style('font-family', '"triptych-roman", Georgia, serif')
         .attr('text-anchor',  d => d.center ? 'middle' : 'start')
         .attr('fill',         d => d.center ? 'rgba(255,255,255,0.65)' : d.derived ? 'rgba(91,143,212,0.9)' : MAGENTA)
+        .style('letter-spacing', '0.03em')
+        .style('pointer-events', 'none');
+
+      /* Shadow labels — derived nodes only; revealed on hover */
+      node.filter(d => d.derived)
+        .append('text')
+        .attr('class', 'derived-shadow')
+        .text(d => SHADOW_TERMS[d.id] || '')
+        .attr('x', 10)
+        .attr('y', 4)
+        .style('font-size', '0.65rem')
+        .style('font-family', '"triptych-roman", Georgia, serif')
+        .attr('text-anchor', 'start')
+        .attr('fill', BLUE)
+        .attr('opacity', 0.12)
         .style('letter-spacing', '0.03em')
         .style('pointer-events', 'none');
 
@@ -885,7 +908,7 @@
           });
       });
 
-      /* ── Node hover: filter book list ───────────────────────────────── */
+      /* ── Node hover: filter book list + shadow term reveal ──────────── */
       node
         .on('mouseenter', function (event, d) {
           if (d.center) return;
@@ -893,6 +916,14 @@
           d3.select(this).select('circle')
             .attr('fill', MAGENTA)
             .attr('r', NODE_R);
+          if (d.derived) {
+            d3.select(this).select('.node-label')
+              .transition().duration(700).ease(d3.easeCubicOut)
+              .attr('opacity', 0.55);
+            d3.select(this).select('.derived-shadow')
+              .transition().duration(700).ease(d3.easeCubicOut)
+              .attr('opacity', 0.28);
+          }
         })
         .on('mouseleave', function (event, d) {
           if (d.center) return;
@@ -900,6 +931,14 @@
           d3.select(this).select('circle')
             .attr('fill', nodeFill(d))
             .attr('r', NODE_R);
+          if (d.derived) {
+            d3.select(this).select('.node-label')
+              .transition().duration(700).ease(d3.easeCubicOut)
+              .attr('opacity', 1);
+            d3.select(this).select('.derived-shadow')
+              .transition().duration(700).ease(d3.easeCubicOut)
+              .attr('opacity', 0.12);
+          }
         });
 
       /* ── Doxa node click → ConceptNet panel ─────────────────────────── */
