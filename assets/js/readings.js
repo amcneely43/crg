@@ -40,7 +40,7 @@
   /* ── Shadow terms — derived nodes only ──────────────────────────────────── */
   const SHADOW_TERMS = {
     commons:   'Fallenness',
-    community: 'Fullness',
+    community: 'Fulness',
     communism: 'Emptiness',
   };
 
@@ -922,7 +922,7 @@
               .attr('opacity', 0);
             d3.select(this).select('.derived-shadow')
               .transition().duration(700).ease(d3.easeCubicOut)
-              .attr('opacity', 0.9);
+              .attr('opacity', 0.5);
           }
         })
         .on('mouseleave', function (event, d) {
