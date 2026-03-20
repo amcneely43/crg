@@ -375,6 +375,17 @@
     detailEl.classList.add('slid-open');
   }
 
+  /* ── Node fill + stroke — driven by core field and node type ────────── */
+  function nodeFill(d) {
+    if (d.center)  return '#000000';
+    return d.core === 'filled' ? '#ffffff' : 'none';
+  }
+  function nodeStroke(d) {
+    if (d.center)  return 'rgba(255,255,255,0.35)';
+    if (d.derived) return BLUE;
+    return MAGENTA;
+  }
+
   /* ══════════════════════════════════════════════════════════════════════════
      SEMANTIC NETWORK MAP
   ══════════════════════════════════════════════════════════════════════════ */
@@ -384,18 +395,6 @@
     if (!svgEl) return;
 
     const svg = d3.select(svgEl);
-
-    /* ── Node fill + stroke — driven by core field and node type ────────── */
-    /* NODE_R defined at module scope */
-    function nodeFill(d) {
-      if (d.center)  return '#000000';
-      return d.core === 'filled' ? '#ffffff' : 'none';
-    }
-    function nodeStroke(d) {
-      if (d.center)  return 'rgba(255,255,255,0.35)';
-      if (d.derived) return BLUE;
-      return MAGENTA;
-    }
 
     /* ══════════════════════════════════════════════════════════════════════
        DRAW  — called once on init; rebuilds completely on resize
