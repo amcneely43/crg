@@ -970,6 +970,6 @@
 
   /* ── Init ────────────────────────────────────────────────────────────────── */
   renderBookList(null);
-  if (window.innerWidth > 440) buildMap(); // skip D3 on mobile
+  if (window.innerWidth > 480) buildMap(); // skip D3 on mobile
 
 })();

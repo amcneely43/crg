@@ -532,7 +532,7 @@ img.slide-close {
 }
 
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 480px) {
   .info {
     border-right: none;
   }
@@ -705,7 +705,7 @@ ul.calendar header, .weavings .post header {
   background-color: var(--main-color);
 }
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 480px) {
   .upcoming .label, .reading .header .label {
     margin-left: 1rem;
   }
@@ -817,7 +817,7 @@ ul.gallery {
   flex-flow: column;
 }
 
-@media screen and (min-width: 440px) {
+@media screen and (min-width: 480px) {
   .weavings .post.issue {
     padding-right: 10rem;
   }
