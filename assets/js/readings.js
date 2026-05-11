@@ -97,7 +97,7 @@
       edges = doxaCache.get(term);
     } else {
       try {
-        const res  = await fetch('/conceptnet-proxy.php?term=' + encodeURIComponent(term));
+        const res  = await fetch('/conceptnet-proxy?term=' + encodeURIComponent(term));
         const data = await res.json();
         const allowed  = new Set(['RelatedTo', 'IsA', 'HasProperty']);
         const termUri  = '/c/en/' + term;
