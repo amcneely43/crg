@@ -72,7 +72,7 @@ $currently_readings = $reading_list ? $reading_list->currentlyReading() : null;
     <h1>
       <?= $site->meeting_info()->kirbytextInline() ?>
       <?php if ($site->newsletter_email()->isNotEmpty()): ?>
-      To learn more, sign up to our <u><a href="mailto:<?= $site->newsletter_email()->value() ?>">newsletter</a></u>.
+      To learn more, sign up to our <u><a href="mailto:<?= $site->newsletter_email()->value() ?>">newsletter</a></u> or write to <u><a href="mailto:communityreadinggroup@gmail.com">communityreadinggroup@gmail.com</a></u>.
       <?php endif ?>
     </h1>
   </div>
