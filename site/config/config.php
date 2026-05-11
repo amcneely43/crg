@@ -8,21 +8,20 @@ return [
   'smartypants' => true,
   'routes' => [
     [
-      'pattern' => 'conceptnet-proxy',
+      'pattern' => 'api/concepts',
       'action'  => function () {
         $term = trim(get('term', ''));
 
-        header('Content-Type: application/json');
-        header('Access-Control-Allow-Origin: *');
-
         if (!$term || !preg_match('/^[a-zA-Z0-9\- ]+$/', $term)) {
-          http_response_code(400);
-          die(json_encode(['error' => 'Invalid term']));
+          return new \Kirby\Http\Response(
+            json_encode(['error' => 'Invalid term']), 'application/json', 400
+          );
         }
 
         if (!function_exists('curl_init')) {
-          http_response_code(500);
-          die(json_encode(['error' => 'curl not available']));
+          return new \Kirby\Http\Response(
+            json_encode(['error' => 'curl not available']), 'application/json', 500
+          );
         }
 
         $url = 'https://api.conceptnet.io/c/en/' . urlencode(strtolower($term));
@@ -41,12 +40,13 @@ return [
         curl_close($ch);
 
         if ($body === false || $error) {
-          http_response_code(502);
-          die(json_encode(['error' => 'Could not reach ConceptNet', 'detail' => $error]));
+          return new \Kirby\Http\Response(
+            json_encode(['error' => 'Could not reach ConceptNet', 'detail' => $error]),
+            'application/json', 502
+          );
         }
 
-        http_response_code($status ?: 502);
-        die($body);
+        return new \Kirby\Http\Response($body, 'application/json', $status ?: 502);
       }
     ]
   ],
