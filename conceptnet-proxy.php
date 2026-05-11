@@ -1,6 +1,7 @@
 <?php
 /**
  * ConceptNet proxy — routes browser requests through the server to avoid CORS.
+ * Uses curl to avoid allow_url_fopen restrictions on shared hosting.
  * Usage: /conceptnet-proxy.php?term=freedom
  */
 
@@ -15,31 +16,33 @@ if (!$term || !preg_match('/^[a-zA-Z0-9\- ]+$/', $term)) {
     exit;
 }
 
-$url = 'https://api.conceptnet.io/c/en/' . urlencode(strtolower($term));
-
-$ctx = stream_context_create([
-    'http' => [
-        'timeout'        => 8,
-        'ignore_errors'  => true,
-        'header'         => "Accept: application/json\r\n",
-    ]
-]);
-
-$body = @file_get_contents($url, false, $ctx);
-
-if ($body === false) {
-    http_response_code(502);
-    echo json_encode(['error' => 'Could not reach ConceptNet']);
+if (!function_exists('curl_init')) {
+    http_response_code(500);
+    echo json_encode(['error' => 'curl not available on this server']);
     exit;
 }
 
-// Pass through ConceptNet's status code
-$status = 200;
-foreach ($http_response_header as $h) {
-    if (preg_match('/^HTTP\/\d\.\d (\d{3})/', $h, $m)) {
-        $status = (int) $m[1];
-    }
+$url = 'https://api.conceptnet.io/c/en/' . urlencode(strtolower($term));
+
+$ch = curl_init($url);
+curl_setopt_array($ch, [
+    CURLOPT_RETURNTRANSFER => true,
+    CURLOPT_TIMEOUT        => 8,
+    CURLOPT_HTTPHEADER     => ['Accept: application/json'],
+    CURLOPT_FOLLOWLOCATION => true,
+    CURLOPT_SSL_VERIFYPEER => true,
+]);
+
+$body   = curl_exec($ch);
+$status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+$error  = curl_error($ch);
+curl_close($ch);
+
+if ($body === false || $error) {
+    http_response_code(502);
+    echo json_encode(['error' => 'Could not reach ConceptNet', 'detail' => $error]);
+    exit;
 }
 
-http_response_code($status);
+http_response_code($status ?: 502);
 echo $body;
