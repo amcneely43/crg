@@ -39,14 +39,14 @@ return [
         $error  = curl_error($ch);
         curl_close($ch);
 
-        if ($body === false || $error) {
+        if ($body === false || $error || $status !== 200) {
           return new \Kirby\Http\Response(
-            json_encode(['error' => 'Could not reach ConceptNet', 'detail' => $error]),
-            'application/json', 502
+            json_encode(['error' => 'Could not reach ConceptNet']),
+            'application/json', 200
           );
         }
 
-        return new \Kirby\Http\Response($body, 'application/json', $status ?: 502);
+        return new \Kirby\Http\Response($body, 'application/json', 200);
       }
     ]
   ],
