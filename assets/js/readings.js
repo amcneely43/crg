@@ -44,6 +44,220 @@
     communism: 'Kenosis',
   };
 
+  /* ── Doxa fallback — shown when ConceptNet is unavailable ───────────────── */
+  const DOXA_FALLBACK = {
+    attention: [
+      { rel: 'RelatedTo',   label: 'presence' },
+      { rel: 'RelatedTo',   label: 'witness' },
+      { rel: 'RelatedTo',   label: 'care' },
+      { rel: 'RelatedTo',   label: 'vigilance' },
+      { rel: 'IsA',         label: 'ethical practice' },
+      { rel: 'IsA',         label: 'form of regard' },
+      { rel: 'HasProperty', label: 'selective' },
+      { rel: 'HasProperty', label: 'cultivated' },
+    ],
+    care: [
+      { rel: 'RelatedTo',   label: 'labor' },
+      { rel: 'RelatedTo',   label: 'vulnerability' },
+      { rel: 'RelatedTo',   label: 'maintenance' },
+      { rel: 'RelatedTo',   label: 'reproduction' },
+      { rel: 'IsA',         label: 'form of work' },
+      { rel: 'IsA',         label: 'ethical orientation' },
+      { rel: 'HasProperty', label: 'relational' },
+      { rel: 'HasProperty', label: 'often unwaged' },
+    ],
+    citizen: [
+      { rel: 'RelatedTo',   label: 'membership' },
+      { rel: 'RelatedTo',   label: 'rights' },
+      { rel: 'RelatedTo',   label: 'exclusion' },
+      { rel: 'RelatedTo',   label: 'state' },
+      { rel: 'IsA',         label: 'legal subject' },
+      { rel: 'IsA',         label: 'political identity' },
+      { rel: 'HasProperty', label: 'bounded' },
+      { rel: 'HasProperty', label: 'conditional' },
+    ],
+    class: [
+      { rel: 'RelatedTo',   label: 'labor' },
+      { rel: 'RelatedTo',   label: 'property' },
+      { rel: 'RelatedTo',   label: 'solidarity' },
+      { rel: 'RelatedTo',   label: 'struggle' },
+      { rel: 'IsA',         label: 'relation of production' },
+      { rel: 'IsA',         label: 'social position' },
+      { rel: 'HasProperty', label: 'structural' },
+      { rel: 'HasProperty', label: 'inherited' },
+    ],
+    debt: [
+      { rel: 'RelatedTo',   label: 'obligation' },
+      { rel: 'RelatedTo',   label: 'guilt' },
+      { rel: 'RelatedTo',   label: 'credit' },
+      { rel: 'RelatedTo',   label: 'bondage' },
+      { rel: 'IsA',         label: 'social relation' },
+      { rel: 'IsA',         label: 'form of power' },
+      { rel: 'HasProperty', label: 'extractive' },
+      { rel: 'HasProperty', label: 'moral' },
+    ],
+    dignity: [
+      { rel: 'RelatedTo',   label: 'recognition' },
+      { rel: 'RelatedTo',   label: 'respect' },
+      { rel: 'RelatedTo',   label: 'personhood' },
+      { rel: 'RelatedTo',   label: 'shame' },
+      { rel: 'IsA',         label: 'inherent worth' },
+      { rel: 'IsA',         label: 'claim on others' },
+      { rel: 'HasProperty', label: 'inalienable' },
+      { rel: 'HasProperty', label: 'fragile' },
+    ],
+    ecstasy: [
+      { rel: 'RelatedTo',   label: 'dissolution' },
+      { rel: 'RelatedTo',   label: 'transcendence' },
+      { rel: 'RelatedTo',   label: 'the sacred' },
+      { rel: 'RelatedTo',   label: 'excess' },
+      { rel: 'IsA',         label: 'state of being outside oneself' },
+      { rel: 'IsA',         label: 'form of communal intensity' },
+      { rel: 'HasProperty', label: 'temporary' },
+      { rel: 'HasProperty', label: 'collective' },
+    ],
+    exposure: [
+      { rel: 'RelatedTo',   label: 'vulnerability' },
+      { rel: 'RelatedTo',   label: 'precarity' },
+      { rel: 'RelatedTo',   label: 'the other' },
+      { rel: 'RelatedTo',   label: 'skin' },
+      { rel: 'IsA',         label: 'condition of being-with' },
+      { rel: 'IsA',         label: 'shared risk' },
+      { rel: 'HasProperty', label: 'unavoidable' },
+      { rel: 'HasProperty', label: 'constitutive' },
+    ],
+    family: [
+      { rel: 'RelatedTo',   label: 'kinship' },
+      { rel: 'RelatedTo',   label: 'reproduction' },
+      { rel: 'RelatedTo',   label: 'inheritance' },
+      { rel: 'RelatedTo',   label: 'property' },
+      { rel: 'IsA',         label: 'unit of social reproduction' },
+      { rel: 'IsA',         label: 'site of care' },
+      { rel: 'HasProperty', label: 'naturalized' },
+      { rel: 'HasProperty', label: 'privatized' },
+    ],
+    fear: [
+      { rel: 'RelatedTo',   label: 'the neighbor' },
+      { rel: 'RelatedTo',   label: 'security' },
+      { rel: 'RelatedTo',   label: 'sovereignty' },
+      { rel: 'RelatedTo',   label: 'the stranger' },
+      { rel: 'IsA',         label: 'political emotion' },
+      { rel: 'IsA',         label: 'affective bond' },
+      { rel: 'HasProperty', label: 'contagious' },
+      { rel: 'HasProperty', label: 'manipulable' },
+    ],
+    freedom: [
+      { rel: 'RelatedTo',   label: 'autonomy' },
+      { rel: 'RelatedTo',   label: 'liberation' },
+      { rel: 'RelatedTo',   label: 'responsibility' },
+      { rel: 'RelatedTo',   label: 'constraint' },
+      { rel: 'IsA',         label: 'contested political ideal' },
+      { rel: 'IsA',         label: 'negative and positive capacity' },
+      { rel: 'HasProperty', label: 'formal and substantive' },
+      { rel: 'HasProperty', label: 'unevenly distributed' },
+    ],
+    guilt: [
+      { rel: 'RelatedTo',   label: 'debt' },
+      { rel: 'RelatedTo',   label: 'responsibility' },
+      { rel: 'RelatedTo',   label: 'shame' },
+      { rel: 'RelatedTo',   label: 'forgiveness' },
+      { rel: 'IsA',         label: 'moral burden' },
+      { rel: 'IsA',         label: 'affective register' },
+      { rel: 'HasProperty', label: 'binding' },
+      { rel: 'HasProperty', label: 'transferable' },
+    ],
+    law: [
+      { rel: 'RelatedTo',   label: 'sovereignty' },
+      { rel: 'RelatedTo',   label: 'exception' },
+      { rel: 'RelatedTo',   label: 'enforcement' },
+      { rel: 'RelatedTo',   label: 'justice' },
+      { rel: 'IsA',         label: 'codified power' },
+      { rel: 'IsA',         label: 'form of social ordering' },
+      { rel: 'HasProperty', label: 'coercive' },
+      { rel: 'HasProperty', label: 'selective' },
+    ],
+    neighbor: [
+      { rel: 'RelatedTo',   label: 'proximity' },
+      { rel: 'RelatedTo',   label: 'the stranger' },
+      { rel: 'RelatedTo',   label: 'love' },
+      { rel: 'RelatedTo',   label: 'fear' },
+      { rel: 'IsA',         label: 'figure of ethical obligation' },
+      { rel: 'IsA',         label: 'unchosen relation' },
+      { rel: 'HasProperty', label: 'proximate' },
+      { rel: 'HasProperty', label: 'demanding' },
+    ],
+    people: [
+      { rel: 'RelatedTo',   label: 'sovereignty' },
+      { rel: 'RelatedTo',   label: 'multitude' },
+      { rel: 'RelatedTo',   label: 'nation' },
+      { rel: 'RelatedTo',   label: 'demos' },
+      { rel: 'IsA',         label: 'political subject' },
+      { rel: 'IsA',         label: 'collective claim' },
+      { rel: 'HasProperty', label: 'constituted' },
+      { rel: 'HasProperty', label: 'contested' },
+    ],
+    property: [
+      { rel: 'RelatedTo',   label: 'exclusion' },
+      { rel: 'RelatedTo',   label: 'enclosure' },
+      { rel: 'RelatedTo',   label: 'commons' },
+      { rel: 'RelatedTo',   label: 'class' },
+      { rel: 'IsA',         label: 'legal claim' },
+      { rel: 'IsA',         label: 'social relation' },
+      { rel: 'HasProperty', label: 'exclusive' },
+      { rel: 'HasProperty', label: 'alienable' },
+    ],
+    recognition: [
+      { rel: 'RelatedTo',   label: 'dignity' },
+      { rel: 'RelatedTo',   label: 'identity' },
+      { rel: 'RelatedTo',   label: 'misrecognition' },
+      { rel: 'RelatedTo',   label: 'struggle' },
+      { rel: 'IsA',         label: 'intersubjective act' },
+      { rel: 'IsA',         label: 'political demand' },
+      { rel: 'HasProperty', label: 'reciprocal' },
+      { rel: 'HasProperty', label: 'withholdable' },
+    ],
+    rights: [
+      { rel: 'RelatedTo',   label: 'citizenship' },
+      { rel: 'RelatedTo',   label: 'protection' },
+      { rel: 'RelatedTo',   label: 'struggle' },
+      { rel: 'RelatedTo',   label: 'dignity' },
+      { rel: 'IsA',         label: 'formal entitlement' },
+      { rel: 'IsA',         label: 'political claim' },
+      { rel: 'HasProperty', label: 'inalienable' },
+      { rel: 'HasProperty', label: 'unevenly distributed' },
+    ],
+    sacred: [
+      { rel: 'RelatedTo',   label: 'taboo' },
+      { rel: 'RelatedTo',   label: 'sacrifice' },
+      { rel: 'RelatedTo',   label: 'ritual' },
+      { rel: 'RelatedTo',   label: 'the common' },
+      { rel: 'IsA',         label: 'that which is set apart' },
+      { rel: 'IsA',         label: 'form of shared value' },
+      { rel: 'HasProperty', label: 'inviolable' },
+      { rel: 'HasProperty', label: 'communally maintained' },
+    ],
+    tradition: [
+      { rel: 'RelatedTo',   label: 'memory' },
+      { rel: 'RelatedTo',   label: 'inheritance' },
+      { rel: 'RelatedTo',   label: 'authority' },
+      { rel: 'RelatedTo',   label: 'practice' },
+      { rel: 'IsA',         label: 'living transmission' },
+      { rel: 'IsA',         label: 'form of collective memory' },
+      { rel: 'HasProperty', label: 'selective' },
+      { rel: 'HasProperty', label: 'binding' },
+    ],
+    violence: [
+      { rel: 'RelatedTo',   label: 'sovereignty' },
+      { rel: 'RelatedTo',   label: 'law' },
+      { rel: 'RelatedTo',   label: 'resistance' },
+      { rel: 'RelatedTo',   label: 'the body' },
+      { rel: 'IsA',         label: 'constitutive force' },
+      { rel: 'IsA',         label: 'form of relation' },
+      { rel: 'HasProperty', label: 'productive' },
+      { rel: 'HasProperty', label: 'asymmetric' },
+    ],
+  };
+
   /* ── State ───────────────────────────────────────────────────────────────── */
   let activeTab         = 'readings';
   let activeTermId      = null;
@@ -99,28 +313,40 @@
       try {
         const res  = await fetch('/concepts?term=' + encodeURIComponent(term));
         const data = await res.json();
-        const allowed  = new Set(['RelatedTo', 'IsA', 'HasProperty']);
-        const termUri  = '/c/en/' + term;
-        edges = (data.edges || [])
-          .filter(e =>
-            allowed.has(e.rel.label) &&
-            e.start.language === 'en' &&
-            e.end.language   === 'en'
-          )
-          .map(e => {
-            const other = e.start['@id'].startsWith(termUri) ? e.end : e.start;
-            return {
-              rel:   e.rel.label,
-              label: other.label || other['@id'].replace(/.*\//, ''),
-            };
-          })
-          .filter(e => e.label.toLowerCase() !== term.replace(/_/g, ' '));
+
+        if (data.error || !data.edges) {
+          // ConceptNet unavailable — use curated fallback
+          edges = DOXA_FALLBACK[term.replace(/_/g, '')] ||
+                  DOXA_FALLBACK[term.replace(/_/g, ' ')] ||
+                  DOXA_FALLBACK[term] || [];
+        } else {
+          const allowed = new Set(['RelatedTo', 'IsA', 'HasProperty']);
+          const termUri = '/c/en/' + term;
+          edges = (data.edges || [])
+            .filter(e =>
+              allowed.has(e.rel.label) &&
+              e.start.language === 'en' &&
+              e.end.language   === 'en'
+            )
+            .map(e => {
+              const other = e.start['@id'].startsWith(termUri) ? e.end : e.start;
+              return {
+                rel:   e.rel.label,
+                label: other.label || other['@id'].replace(/.*\//, ''),
+              };
+            })
+            .filter(e => e.label.toLowerCase() !== term.replace(/_/g, ' '));
+        }
         doxaCache.set(term, edges);
       } catch (_) {
-        if (activeDoxaId === d.id) {
-          doxaBodyEl.innerHTML = '<p class="doxa-panel-error">Could not load data.</p>';
+        edges = DOXA_FALLBACK[term] || [];
+        if (!edges.length) {
+          if (activeDoxaId === d.id) {
+            doxaBodyEl.innerHTML = '<p class="doxa-panel-error">Could not load data.</p>';
+          }
+          return;
         }
-        return;
+        doxaCache.set(term, edges);
       }
     }
 
