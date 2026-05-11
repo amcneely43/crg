@@ -8,7 +8,7 @@ return [
   'smartypants' => true,
   'routes' => [
     [
-      'pattern' => 'api/concepts',
+      'pattern' => 'concepts',
       'action'  => function () {
         $term = trim(get('term', ''));
 
